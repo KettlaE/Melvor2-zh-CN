@@ -1,4 +1,4 @@
-﻿# PE/PCK Locale/en_GB.po patch helpers. No Python required.
+# PE/PCK Locale/en_GB.po patch helpers. No Python required.
 
 Set-StrictMode -Version Latest
 
@@ -466,7 +466,7 @@ function Get-MaskedPrefixHash {
 
 function Test-PckPatch {
 
-    param([string]$Original, [string]$Patched, [byte[]]$Payload)
+    param([string]$Original, [string]$Patched, [byte[]]$Payload, [hashtable]$ExtraResources)
 
     $a = Get-PckLayout -Path $Original
 
@@ -498,40 +498,48 @@ function Test-PckPatch {
 
     }
 
-    if ($changed.Count -ne 1 -or $changed[0] -ne 'Locale/en_GB.po') {
-
+    $expected = New-Object System.Collections.Generic.List[string]
+    [void]$expected.Add('Locale/en_GB.po')
+    if ($ExtraResources) {
+        foreach ($k in @($ExtraResources.Keys)) {
+            if ($expected -notcontains $k) { [void]$expected.Add([string]$k) }
+        }
+    }
+    $expectedSorted = @($expected | Sort-Object)
+    $changedSorted = @($changed | Sort-Object)
+    if ($expectedSorted.Count -ne $changedSorted.Count) {
         throw ('Unexpected resource modifications: ' + ($changed -join ','))
-
+    }
+    for ($i = 0; $i -lt $expectedSorted.Count; $i++) {
+        if ($expectedSorted[$i] -ne $changedSorted[$i]) {
+            throw ('Unexpected resource modifications: ' + ($changed -join ','))
+        }
     }
 
-    $target = $null
-
-    foreach ($e in $b.Entries) { if ($e.Path -eq 'Locale/en_GB.po') { $target = $e; break } }
+    $payloads = @{}
+    $payloads['Locale/en_GB.po'] = $Payload
+    if ($ExtraResources) {
+        foreach ($k in @($ExtraResources.Keys)) { $payloads[[string]$k] = $ExtraResources[$k] }
+    }
 
     $fs = [System.IO.File]::Open($Patched, [System.IO.FileMode]::Open, [System.IO.FileAccess]::Read, [System.IO.FileShare]::Read)
-
     try {
-
-        $null = $fs.Seek($b.Data + $target.Offset, [System.IO.SeekOrigin]::Begin)
-
-        $got = New-Object byte[] ([int]$target.Size)
-
-        $read = 0
-
-        while ($read -lt $got.Length) {
-
-            $r = $fs.Read($got, $read, $got.Length - $read)
-
-            if ($r -le 0) { throw 'PO payload differs' }
-
-            $read += $r
-
+        foreach ($path in @($payloads.Keys)) {
+            $target = $null
+            foreach ($e in $b.Entries) { if ($e.Path -eq $path) { $target = $e; break } }
+            if ($null -eq $target) { throw ('Missing patched resource: ' + $path) }
+            $want = $payloads[$path]
+            $null = $fs.Seek($b.Data + $target.Offset, [System.IO.SeekOrigin]::Begin)
+            $got = New-Object byte[] ([int]$target.Size)
+            $read = 0
+            while ($read -lt $got.Length) {
+                $r = $fs.Read($got, $read, $got.Length - $read)
+                if ($r -le 0) { throw ('Payload differs: ' + $path) }
+                $read += $r
+            }
+            if ($got.Length -ne $want.Length) { throw ('Payload differs: ' + $path) }
+            for ($i = 0; $i -lt $got.Length; $i++) { if ($got[$i] -ne $want[$i]) { throw ('Payload differs: ' + $path) } }
         }
-
-        if ($got.Length -ne $Payload.Length) { throw 'PO payload differs' }
-
-        for ($i = 0; $i -lt $got.Length; $i++) { if ($got[$i] -ne $Payload[$i]) { throw 'PO payload differs' } }
-
     } finally { $fs.Dispose() }
 
     $excluded = @(
@@ -585,7 +593,7 @@ function Test-PckPatch {
 
     return [pscustomobject]@{
 
-        changed_resources = @('Locale/en_GB.po')
+        changed_resources = @($expectedSorted)
 
         verified_resources = $b.Entries.Count
 
@@ -673,7 +681,9 @@ function Build-PckPatch {
 
         [Parameter(Mandatory)][string]$Output,
 
-        [Parameter(Mandatory)][byte[]]$Payload
+        [Parameter(Mandatory)][byte[]]$Payload,
+
+        [hashtable]$ExtraResources
 
     )
 
@@ -708,13 +718,30 @@ function Build-PckPatch {
 
         Copy-BytesStream -Source $src -Target $dst -Count $a.Directory
 
-        $offset = $dst.Position - $a.Data
+        $replacements = @{}
+        $replacements['Locale/en_GB.po'] = $Payload
+        if ($ExtraResources) {
+            foreach ($k in @($ExtraResources.Keys)) { $replacements[[string]$k] = $ExtraResources[$k] }
+        }
+        foreach ($path in @($replacements.Keys)) {
+            $found = $false
+            foreach ($e0 in $a.Entries) { if ($e0.Path -eq $path) { $found = $true; break } }
+            if (-not $found) { throw ('Missing original resource: ' + $path) }
+        }
 
-        $dst.Write($Payload, 0, $Payload.Length)
-
-        $pad = [int]((16 - (($dst.Position - $a.Base) % 16)) % 16)
-
-        if ($pad -gt 0) { $dst.Write((New-Object byte[] $pad), 0, $pad) }
+        $newMeta = @{}
+        foreach ($path in @($replacements.Keys)) {
+            $bytes = $replacements[$path]
+            $offset = $dst.Position - $a.Data
+            $dst.Write($bytes, 0, $bytes.Length)
+            $pad = [int]((16 - (($dst.Position - $a.Base) % 16)) % 16)
+            if ($pad -gt 0) { $dst.Write((New-Object byte[] $pad), 0, $pad) }
+            $newMeta[$path] = @{
+                Offset = [uint64]$offset
+                Size = [uint64]$bytes.Length
+                Md5 = Get-Md5Bytes -Data $bytes
+            }
+        }
 
         $directory = $dst.Position
 
@@ -723,8 +750,6 @@ function Build-PckPatch {
         if (-not [BitConverter]::IsLittleEndian) { [Array]::Reverse($countBytes) }
 
         $dst.Write($countBytes, 0, 4)
-
-        $payloadMd5 = Get-Md5Bytes -Data $Payload
 
         foreach ($e in $a.Entries) {
 
@@ -738,17 +763,19 @@ function Build-PckPatch {
 
             $dst.Write($name, 0, $name.Length)
 
-            if ($e.Path -eq 'Locale/en_GB.po') {
+            if ($newMeta.ContainsKey($e.Path)) {
 
-                $offB = [BitConverter]::GetBytes([uint64]$offset)
+                $meta = $newMeta[$e.Path]
 
-                $szB = [BitConverter]::GetBytes([uint64]$Payload.Length)
+                $offB = [BitConverter]::GetBytes([uint64]$meta.Offset)
+
+                $szB = [BitConverter]::GetBytes([uint64]$meta.Size)
 
                 if (-not [BitConverter]::IsLittleEndian) { [Array]::Reverse($offB); [Array]::Reverse($szB) }
 
                 $dst.Write($offB, 0, 8); $dst.Write($szB, 0, 8)
 
-                $dst.Write($payloadMd5, 0, 16)
+                $dst.Write($meta.Md5, 0, 16)
 
                 $zero = [BitConverter]::GetBytes([uint32]0)
 
@@ -826,7 +853,7 @@ function Build-PckPatch {
     }
 
     Write-Host '    - verifying patch...' -ForegroundColor DarkYellow
-    return Test-PckPatch -Original $Original -Patched $Output -Payload $Payload
+    return Test-PckPatch -Original $Original -Patched $Output -Payload $Payload -ExtraResources $ExtraResources
 
 }
 

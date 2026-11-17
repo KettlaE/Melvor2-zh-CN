@@ -98,7 +98,12 @@ function Invoke-PatchAction {
         $manifest = Get-Content -LiteralPath $manifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
         if ($manifest.buildid -notmatch '^\d+$' -or $manifest.appid -ne '3218350') { throw 'Invalid build/app identity' }
         $changed = @($manifest.changed_resource_paths)
-        if ($changed.Count -ne 1 -or $changed[0] -ne 'Locale/en_GB.po') { throw 'Unexpected patch targets' }
+        $allowedFixed = @('Locale/en_GB.po', 'Data/Packages/MelvorBase.json')
+        if ($changed -notcontains 'Locale/en_GB.po') { throw 'Unexpected patch targets' }
+        foreach ($c in $changed) {
+            if ($allowedFixed -contains $c) { continue }
+            if ($c -notmatch '^\.godot/exported/\d+/export-[0-9a-f]{32}-.+\.scn$') { throw 'Unexpected patch targets' }
+        }
 
         $required = @{}
         foreach ($r in $manifest.required_game_files) { $required[$r.path] = $r }
@@ -142,6 +147,42 @@ function Invoke-PatchAction {
         try { $payloadHash = ([System.BitConverter]::ToString($shaTmp.ComputeHash($payload)) -replace '-','').ToLowerInvariant() } finally { $shaTmp.Dispose() }
         if ($payloadHash -ne $manifest.resource_sha256.'Locale/en_GB.po') { throw 'Translation payload checksum mismatch' }
 
+        $extraResources = @{}
+        $jsonHash = $null
+        $extrasHash = $null
+        $protoRoot = Split-Path -Parent $manifestPath
+        $extraHashParts = New-Object System.Collections.Generic.List[string]
+        foreach ($c in $changed) {
+            if ($c -eq 'Locale/en_GB.po') { continue }
+            $filePath = Join-Path $protoRoot ($c -replace '/','\')
+            if (-not (Test-ContainedPath $filePath $protoRoot)) { throw 'Translation payload path escaped workspace' }
+            $fileBytes = [System.IO.File]::ReadAllBytes($filePath)
+            $shaTmp = [System.Security.Cryptography.SHA256]::Create()
+            try { $fileHash = ([System.BitConverter]::ToString($shaTmp.ComputeHash($fileBytes)) -replace '-','').ToLowerInvariant() } finally { $shaTmp.Dispose() }
+            $expectedHash = $null
+            $hashProp = $manifest.resource_sha256.PSObject.Properties[$c]
+            if ($hashProp) { $expectedHash = [string]$hashProp.Value }
+            if ($fileHash -ne $expectedHash) { throw 'Translation payload checksum mismatch' }
+            $extraResources[$c] = $fileBytes
+            if ($c -eq 'Data/Packages/MelvorBase.json') { $jsonHash = $fileHash }
+            [void]$extraHashParts.Add($c + ':' + $fileHash)
+        }
+        if ($extraHashParts.Count -gt 0) {
+            $joined = ((@($extraHashParts) | Sort-Object) -join '|')
+            $shaTmp = [System.Security.Cryptography.SHA256]::Create()
+            try { $extrasHash = ([System.BitConverter]::ToString($shaTmp.ComputeHash([System.Text.Encoding]::UTF8.GetBytes($joined))) -replace '-','').ToLowerInvariant() } finally { $shaTmp.Dispose() }
+        }
+        if ($already -and $jsonHash) {
+            $stateJson = $null
+            if ($state -and $state.PSObject.Properties.Name -contains 'payload_json_sha256') { $stateJson = [string]$state.payload_json_sha256 }
+            if ($stateJson -ne $jsonHash) { $already = $false }
+        }
+        if ($already -and $extrasHash) {
+            $stateExtras = $null
+            if ($state -and $state.PSObject.Properties.Name -contains 'payload_extras_sha256') { $stateExtras = [string]$state.payload_extras_sha256 }
+            if ($stateExtras -ne $extrasHash) { $already = $false }
+        }
+
         if (($knownPatched -contains $current) -and ($current -ne $original)) {
             $expectedPatched = if ($manifest.PSObject.Properties.Name -contains 'patched_sha256' -and $manifest.patched_sha256) { [string]$manifest.patched_sha256 } else { $current }
             $backupDir = Join-Path $W ('backups\' + $manifest.buildid + '-' + $original.Substring(0,16))
@@ -151,6 +192,16 @@ function Invoke-PatchAction {
             foreach ($h in $knownPatched) { if ($recognized -notcontains $h) { [void]$recognized.Add($h) } }
             if ($recognized -notcontains $current) { [void]$recognized.Add($current) }
             $alreadyThisPayload = ($state -and ([string]$state.payload_sha256 -eq $payloadHash) -and ([string]$state.patched_sha256 -eq $current))
+            if ($alreadyThisPayload -and $jsonHash) {
+                $stateJson = $null
+                if ($state.PSObject.Properties.Name -contains 'payload_json_sha256') { $stateJson = [string]$state.payload_json_sha256 }
+                if ($stateJson -ne $jsonHash) { $alreadyThisPayload = $false }
+            }
+            if ($alreadyThisPayload -and $extrasHash) {
+                $stateExtras = $null
+                if ($state.PSObject.Properties.Name -contains 'payload_extras_sha256') { $stateExtras = [string]$state.payload_extras_sha256 }
+                if ($stateExtras -ne $extrasHash) { $alreadyThisPayload = $false }
+            }
             $newState = [ordered]@{
                 game_dir = $game
                 buildid = [string]$manifest.buildid
@@ -159,6 +210,8 @@ function Invoke-PatchAction {
                 patched_sha256 = $current
                 recognized_patched_hashes = @($recognized | Sort-Object)
                 payload_sha256 = $payloadHash
+                payload_json_sha256 = $jsonHash
+                payload_extras_sha256 = $extrasHash
                 stage = 'installed'
                 proof = $null
                 note = 'State recreated from known_patched_sha256; original backup may be absent'
@@ -196,7 +249,7 @@ function Invoke-PatchAction {
         $tmp = Join-Path $work ('patch-' + [guid]::NewGuid().ToString('N') + '.exe')
         try {
             Write-Host '  [1/3] 正在生成补丁（最耗时，约 2 分钟）...' -ForegroundColor Yellow
-            $proof = Build-PckPatch -Original $backup -Output $tmp -Payload $payload
+            $proof = Build-PckPatch -Original $backup -Output $tmp -Payload $payload -ExtraResources $extraResources
             Write-Host '  [2/3] 补丁已生成，正在校验并替换 Melvor2.exe...' -ForegroundColor Yellow
             $patched = Get-Sha256Hex -Path $tmp
             $recognized = New-Object System.Collections.Generic.List[string]
@@ -212,6 +265,8 @@ function Invoke-PatchAction {
                 patched_sha256 = $patched
                 recognized_patched_hashes = @($recognized | Sort-Object)
                 payload_sha256 = $payloadHash
+                payload_json_sha256 = $jsonHash
+                payload_extras_sha256 = $extrasHash
                 stage = 'prepared'
                 proof = $proof
             }
