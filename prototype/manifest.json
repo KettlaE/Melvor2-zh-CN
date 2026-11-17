@@ -1,0 +1,42 @@
+{
+    "status":  "INSTALLED_STATICALLY_VERIFIED",
+    "runtime_verified":  false,
+    "includes_draft_translations":  true,
+    "appid":  "3218350",
+    "buildid":  "26724394",
+    "locale_transport":  "en_GB",
+    "required_game_files":  [
+                                {
+                                    "path":  "data_GamesByMalcs.Melvor2_windows_x86_64/GamesByMalcs.Melvor2.dll",
+                                    "size":  11732368,
+                                    "sha256":  "0a5a9fff320aaaff781816dee0eee938d61d14982ba7f4523dd8ca31d95f27a9"
+                                },
+                                {
+                                    "path":  "Melvor2.exe",
+                                    "size":  629991152,
+                                    "sha256":  "770b22a1c5bf37ab4e3bee0ba8b396a8008ecaa8d970270c3e9ed6d07ceffd3b"
+                                }
+                            ],
+    "records":  13052,
+    "plural_entries":  1952,
+    "changed_resource_paths":  [
+                                   "Locale/en_GB.po"
+                               ],
+    "resource_sha256":  {
+                            "Locale/en_GB.po":  "d4a4fcaf9a2b3156ede2d0f136569fee77ad75575f0c2a638aae944f57bf6e29"
+                        },
+    "pack_sha256":  "d4a4fcaf9a2b3156ede2d0f136569fee77ad75575f0c2a638aae944f57bf6e29",
+    "pack_bytes":  2759308,
+    "catalog_sha256":  "d4a4fcaf9a2b3156ede2d0f136569fee77ad75575f0c2a638aae944f57bf6e29",
+    "loading_status":  "EXTERNAL_PACK_LOADER_UNAVAILABLE",
+    "embedded_installer":  "tools/Patch-Game.ps1",
+    "installation_method":  "ONE_EXE_EMBEDDED_PO_REPLACEMENT",
+    "cli_main_pack_supported":  false,
+    "adapted_from":  "Demo catalog + official EA zh_CN.po",
+    "notes":  "Overgrowth display name unified to 过度生长; apply-stack wording uses 一层. Payload sha d4a4fcaf.... Installed from official backup, not stacked.",
+    "patched_sha256":  "623ef3dc4cbc2d3bbb8489beaa198ccce9d3d8bc42bcdc181fd161a98f227c25",
+    "known_patched_sha256":  [
+                                 "623ef3dc4cbc2d3bbb8489beaa198ccce9d3d8bc42bcdc181fd161a98f227c25",
+                                 "b4107149b615a2f7b2e060f33dd89bee023cf49a115de3ffb7f600222ccbdd77"
+                             ]
+}

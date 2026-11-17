@@ -1,0 +1,7 @@
+backups/
+work/
+*.exe
+*.exe.original
+*.bak*
+.DS_Store
+Thumbs.db
