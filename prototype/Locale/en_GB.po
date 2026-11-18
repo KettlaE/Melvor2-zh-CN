@@ -1203,12 +1203,12 @@ msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}砍倒�
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
 msgid "{Value:+0.##%;-#.##%} Output Doubling chance in {LocalContext.Component.Entity.DisplayName}"
-msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输出翻倍几率"
+msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的产出翻倍几率"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
 msgid "{Value:+0.##%;-#.##%} Output Doubling chance for {LocalContext.Recipe.DisplayName} only in {LocalContext.Component.Entity.DisplayName}"
-msgstr "{Value:+0.##%;-#.##%} {LocalContext.Recipe.DisplayName}的输出翻倍几率（仅限 {LocalContext.Component.Entity.DisplayName}）"
+msgstr "{Value:+0.##%;-#.##%} {LocalContext.Recipe.DisplayName}的产出翻倍几率（仅限 {LocalContext.Component.Entity.DisplayName}）"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
@@ -1233,7 +1233,7 @@ msgstr "{Value:cond:<0?Decreased|>=0?Increased} {Value:0%} {LocalContext.Compone
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
 msgid "{Value:+0.##%;-#.##%} Input Preservation chance in {LocalContext.Component.Entity.DisplayName}"
-msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输入留存几率"
+msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的投入留存几率"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
@@ -1698,7 +1698,7 @@ msgstr "死亡时不会丢失物品"
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
 msgid "{Value:+0.##%;-#.##%} Input Preservation chance for Category: {LocalContext.Category.DisplayName} in {LocalContext.Component.Entity.DisplayName}"
-msgstr "{Value:+0.##%;-#.##%}类别：{LocalContext.Category.DisplayName}在 {LocalContext.Component.Entity.DisplayName}时的输入留存几率"
+msgstr "{Value:+0.##%;-#.##%}类别：{LocalContext.Category.DisplayName}在 {LocalContext.Component.Entity.DisplayName}时的投入留存几率"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
@@ -1713,7 +1713,7 @@ msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时的�
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
 msgid "{Value:+0.##%;-#.##%} Output Doubling chance for Category: {LocalContext.Category.DisplayName} in {LocalContext.Component.Entity.DisplayName}"
-msgstr "{Value:+0.##%;-#.##%}类别：{LocalContext.Category.DisplayName}在 {LocalContext.Component.Entity.DisplayName}时的输出翻倍几率"
+msgstr "{Value:+0.##%;-#.##%}类别：{LocalContext.Category.DisplayName}在 {LocalContext.Component.Entity.DisplayName}时的产出翻倍几率"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
@@ -1768,7 +1768,7 @@ msgstr "{Value:+0.##%;-#.##%}最小{LocalContext.Component.Entity.DisplayName}�
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
 msgid "{Value:+0.##%;-#.##%} Input Preservation chance for {LocalContext.Subcategory.DisplayName} in {LocalContext.Component.Entity.DisplayName}"
-msgstr "{LocalContext.Component.Entity.DisplayName}时，{Value:+0.##%;-#.##%} {LocalContext.Subcategory.DisplayName}的输入留存几率"
+msgstr "{LocalContext.Component.Entity.DisplayName}时，{Value:+0.##%;-#.##%} {LocalContext.Subcategory.DisplayName}的投入留存几率"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
@@ -1983,7 +1983,7 @@ msgstr "{Value:+0.##%;-#.##%}免受{LocalContext.Category.DisplayName}击晕的�
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
 msgid "{Value:+0.##%;-#.##%} Output Doubling chance in {LocalContext.Category.DisplayName}"
-msgstr "{Value:+0.##%;-#.##%} {LocalContext.Category.DisplayName}输出翻倍几率"
+msgstr "{Value:+0.##%;-#.##%} {LocalContext.Category.DisplayName}产出翻倍几率"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
@@ -2133,7 +2133,7 @@ msgstr "{Value:+0.##%;-#.##%}狩猎中陷阱布置的间隔"
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
 msgid "{Value:+0.##%;-#.##%} Output Doubling chance in {LocalContext.Component.Entity.DisplayName} for {LocalContext.Subcategory.DisplayName} only"
-msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时输出翻倍的几率（仅限{LocalContext.Subcategory.DisplayName}）"
+msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时产出翻倍的几率（仅限{LocalContext.Subcategory.DisplayName}）"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
@@ -2148,7 +2148,7 @@ msgstr "{Value:cond:<0?Decreased|>=0?Increased}{Value:0%}扒窃时获得常规�
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
 msgid "{Value:0%} {Value:cond:<0?Decreased|>=0?Increased} Output chance in {LocalContext.Component.Entity.DisplayName}"
-msgstr "{Value:cond:<0?Decreased|>=0?Increased} {Value:0%}{LocalContext.Component.Entity.DisplayName}时的输出几率"
+msgstr "{Value:cond:<0?Decreased|>=0?Increased} {Value:0%}{LocalContext.Component.Entity.DisplayName}时的产出几率"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
@@ -2158,7 +2158,7 @@ msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时的{
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
 msgid "{Value:+0.##%;-#.##%} Output Doubling chance in {LocalContext.Component.Entity.DisplayName} for {LocalContext.Location.DisplayName} only"
-msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时的输出翻倍几率（仅限{LocalContext.Location.DisplayName}）"
+msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时的产出翻倍几率（仅限{LocalContext.Location.DisplayName}）"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
@@ -2218,12 +2218,12 @@ msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时针�
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
 msgid "{Value:+0.##%;-#.##%} input cost in {LocalContext.Component.Entity.DisplayName} (Cannot go below 1)"
-msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时的输入消耗（不可低于1）"
+msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时的投入消耗（不可低于1）"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
 msgid "{Value:+0.##%;-#.##%} input cost for {LocalContext.Category.DisplayName} in {LocalContext.Component.Entity.DisplayName} (Cannot go below 1)"
-msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时针对{LocalContext.Category.DisplayName}的输入消耗（不可低于1）"
+msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时针对{LocalContext.Category.DisplayName}的投入消耗（不可低于1）"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
@@ -2338,7 +2338,7 @@ msgstr "{Value:+0.##%;-#.##%}防护值"
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
 msgid "{Value:+0.##%;-#.##%} Input Preservation chance on failure in {LocalContext.Component.Entity.DisplayName}"
-msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}失败时的输入留存几率"
+msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}失败时的投入留存几率"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
@@ -2368,7 +2368,7 @@ msgstr "{LocalContext.Component.Entity.DisplayName}时，{Value:+0;-#} 从{Local
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
 msgid "{Value:+0.##%;-#.##%} double Ward damage chance"
-msgstr "{Value:+0.##%;-#.##%}守卫伤害翻倍几率"
+msgstr "{Value:+0.##%;-#.##%}结界伤害翻倍几率"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
@@ -2458,7 +2458,7 @@ msgstr "{Value:+0;-#}烹饪难度（仅限{LocalContext.Category.DisplayName}）
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
 msgid "{Value:+0.##%;-#.##%} flat Output chance in {LocalContext.Component.Entity.DisplayName}"
-msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时的固定输出几率"
+msgstr "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时的固定产出几率"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
@@ -7094,7 +7094,7 @@ msgstr "星蚀"
 #. TRANSLATORS: TurnCountingEffect.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Armour Dent"
-msgstr "盔甲受损"
+msgstr "护甲受损"
 
 #. TRANSLATORS: TurnCountingEffect.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -7590,13 +7590,13 @@ msgstr "专注防御加成"
 #. TRANSLATORS: CombatStat.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Maximum Ward"
-msgstr "最大守护值"
+msgstr "最大结界值"
 
 #. TRANSLATORS: CombatStat.DisplayName
 #. RecipeSubcategory.DisplayName
 #: Data/Packages/MelvorBase.json Tooltips/character_armour_tooltip.tscn
 msgid "Armour"
-msgstr "盔甲"
+msgstr "护甲"
 
 #. TRANSLATORS: CombatStat.DisplayName
 #: Data/Packages/MelvorBase.json Tooltips/character_lifesteal_tooltip.tscn
@@ -8580,7 +8580,9 @@ msgstr "钓鱼等级4"
 msgid ""
 "Unlocks the [color=#FFD16D]Priority Fishing[/color] mechanic.\n"
 "Coming Soon - Unlocks the Secret Cove Fishing Location"
-msgstr "解锁[color=#FFD16D]钓鱼优先级[/color]机制。即将推出 - 解锁神秘钓鱼地点"
+msgstr ""
+"解锁[color=#FFD16D]钓鱼优先级[/color]机制。\n"
+"即将推出 - 解锁神秘钓鱼地点"
 
 #. TRANSLATORS: MasteryGuildBonus.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -10148,27 +10150,27 @@ msgstr "力量新手"
 #. TRANSLATORS: MasteryGuildRank.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Apprentice Warrior"
-msgstr "武士学徒"
+msgstr "勇士学徒"
 
 #. TRANSLATORS: MasteryGuildRank.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Journeyman Warrior"
-msgstr "出师武士"
+msgstr "出师勇士"
 
 #. TRANSLATORS: MasteryGuildRank.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Skilled Warrior"
-msgstr "熟练武士"
+msgstr "熟练勇士"
 
 #. TRANSLATORS: MasteryGuildRank.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Veteran Warrior"
-msgstr "武士老手"
+msgstr "勇士老手"
 
 #. TRANSLATORS: MasteryGuildRank.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Prime Warrior"
-msgstr "首席武士"
+msgstr "首席勇士"
 
 #. TRANSLATORS: MasteryGuildRank.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -10588,7 +10590,7 @@ msgstr "迅捷"
 #. TRANSLATORS: Prayer.DisplayName
 #: Data/Packages/MelvorBase.json Tooltips/character_ward_tooltip.tscn
 msgid "Ward"
-msgstr "看守"
+msgstr "结界"
 
 #. TRANSLATORS: Prayer.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -25361,8 +25363,8 @@ msgstr[1] "精炼陨石标枪"
 msgctxt "PluralName"
 msgid "Ward Breaker Potion P1-A"
 msgid_plural "Ward Breaker Potion P1-A"
-msgstr[0] "破除守卫药水P1-A"
-msgstr[1] "破除守卫药水P1-A"
+msgstr[0] "破除结界药水P1-A"
+msgstr[1] "破除结界药水P1-A"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -25377,40 +25379,40 @@ msgstr[1] "星斩太刀"
 msgctxt "PluralName"
 msgid "Ward Breaker Potion P2-A"
 msgid_plural "Ward Breaker Potion P2-A"
-msgstr[0] "破除守卫药水P2-A"
-msgstr[1] "破除守卫药水P2-A"
+msgstr[0] "破除结界药水P2-A"
+msgstr[1] "破除结界药水P2-A"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Ward Breaker Potion P2-B"
 msgid_plural "Ward Breaker Potion P2-B"
-msgstr[0] "破除守卫药水P2-B"
-msgstr[1] "破除守卫药水P2-B"
+msgstr[0] "破除结界药水P2-B"
+msgstr[1] "破除结界药水P2-B"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Super Ward Breaker Potion P1-A"
 msgid_plural "Super Ward Breaker Potion P1-A"
-msgstr[0] "超级破除守卫药水P1-A"
-msgstr[1] "超级破除守卫药水P1-A"
+msgstr[0] "超级破除结界药水P1-A"
+msgstr[1] "超级破除结界药水P1-A"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Super Ward Breaker Potion P2-A"
 msgid_plural "Super Ward Breaker Potion P2-B"
-msgstr[0] "超级破除守卫药水P2-A"
-msgstr[1] "超级破除守卫药水P2-A"
+msgstr[0] "超级破除结界药水P2-A"
+msgstr[1] "超级破除结界药水P2-A"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Super Ward Breaker Potion P2-B"
 msgid_plural "Super Ward Breaker Potion P2-B"
-msgstr[0] "超级破除守卫药水P2-B"
-msgstr[1] "超级破除守卫药水P2-B"
+msgstr[0] "超级破除结界药水P2-B"
+msgstr[1] "超级破除结界药水P2-B"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -27503,13 +27505,13 @@ msgstr "毒鱼药水"
 #. HerblorePotionGroup.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Ward Breaker Potion"
-msgstr "破除守卫药水"
+msgstr "破除结界药水"
 
 #. TRANSLATORS: RecipeSubcategory.DisplayName
 #. HerblorePotionGroup.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Super Ward Breaker Potion"
-msgstr "超级破除守卫药水"
+msgstr "超级破除结界药水"
 
 #. TRANSLATORS: RecipeSubcategory.DisplayName
 #. HerblorePotionGroup.DisplayName
@@ -29979,7 +29981,7 @@ msgstr "解锁锻造中的[color=#FFD16D]献祭砧台[/color]，让你可以献�
 #. TRANSLATORS: AstrologyNode.Description
 #: Data/Packages/MelvorBase.json
 msgid "Unlocks the [color=#FFD16D]Smelting -> Star Forge[/color] in Smithing, allowing to you create Alloy Bars such as Ironsteel or Dragonrune"
-msgstr "解锁锻造中的[color=#FFD16D]熔炼 -> 星辰熔炉[/color]，可用于制作铁钢、龙符文等合金锭"
+msgstr "解锁锻造中的[color=#FFD16D]熔炼 -> 星辰熔炉[/color]，可用于制作钢铁、龙符文等合金锭"
 
 #. TRANSLATORS: AstrologyNode.Description
 #: Data/Packages/MelvorBase.json
@@ -30251,8 +30253,8 @@ msgstr "[color=green]此次观测解锁了月光丘陵狩猎地点。[/color]"
 msgctxt "PluralName"
 msgid "Crescent Lake of Iridan"
 msgid_plural "Crescent Lake of Iridan"
-msgstr[0] "艾丽丹的新月湖"
-msgstr[1] "艾丽丹的新月湖"
+msgstr[0] "艾丽丹的月牙湖"
+msgstr[1] "艾丽丹的月牙湖"
 
 #. TRANSLATORS: AstrologyObservationEvent.Observation
 #: Data/Packages/MelvorBase.json
@@ -30262,7 +30264,7 @@ msgstr "星座指向一片宁静的湖泊，弯弯的湖岸宛如一轮新月。
 #. TRANSLATORS: AstrologyObservationEvent.UnlockText
 #: Data/Packages/MelvorBase.json
 msgid "[color=green]This observation grants you with access to the Crescent Lake Combat Area.[/color]"
-msgstr "[color=green]此次观测解锁了新月湖战斗区域。[/color]"
+msgstr "[color=green]此次观测解锁了月牙湖战斗区域。[/color]"
 
 #. TRANSLATORS: AstrologyObservationEvent.DisplayName
 #. AstrologyTableEvent.DisplayName
@@ -34600,32 +34602,32 @@ msgstr "毒鱼药水P1-A"
 #. TRANSLATORS: HerbloreRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Ward Breaker Potion P1-A"
-msgstr "破除守卫药水P1-A"
+msgstr "破除结界药水P1-A"
 
 #. TRANSLATORS: HerbloreRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Ward Breaker Potion P2A"
-msgstr "破除守卫药水P2A"
+msgstr "破除结界药水P2A"
 
 #. TRANSLATORS: HerbloreRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Ward Breaker Potion P2-B"
-msgstr "破除守卫药水P2-B"
+msgstr "破除结界药水P2-B"
 
 #. TRANSLATORS: HerbloreRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Super Ward Breaker Potion P1-A"
-msgstr "超级破除守卫药水P1-A"
+msgstr "超级破除结界药水P1-A"
 
 #. TRANSLATORS: HerbloreRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Super Ward Breaker Potion P2-A"
-msgstr "超级破除守卫药水P2-A"
+msgstr "超级破除结界药水P2-A"
 
 #. TRANSLATORS: HerbloreRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Super Ward Breaker Potion P2-B"
-msgstr "超级破除守卫药水P2-B"
+msgstr "超级破除结界药水P2-B"
 
 #. TRANSLATORS: HerbloreRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -35677,7 +35679,9 @@ msgstr "这些看起来不错，希望能够她撑一段时间。"
 msgid ""
 "As you walk into the warm tavern, a middle-aged woman rushes by you in a blur, carrying a half dozen tankards of ale, then quickly setting them in front of two excited looking patrons.\n"
 "The whole place is buzzing with rowdy energy, but it remains light and warm. Despite all people clamoring for her attention, they quickly fall to silence as Lira holds up her hand. She gives you a warm embrace, then pinches your cheek shortly afterward."
-msgstr "当你走进温暖的酒馆时，一位中间女子从你身边匆匆掠过。她手里端着六大杯麦芽酒，将酒快速放到两位兴奋的顾客面前。酒馆内十分热闹，温暖又明亮。周围的人都在叫利拉，但她一抬手，大家立刻安静了下来。她热情地拥抱你，然后轻轻捏了捏你的脸。"
+msgstr ""
+"当你走进温暖的酒馆时，一位中间女子从你身边匆匆掠过。她手里端着六大杯麦芽酒，将酒快速放到两位兴奋的顾客面前。\n"
+"酒馆内十分热闹，温暖又明亮。周围的人都在叫利拉，但她一抬手，大家立刻安静了下来。她热情地拥抱你，然后轻轻捏了捏你的脸。"
 
 #. TRANSLATORS: Quest.Steps.Dialogue.DialogueText
 #: Data/Packages/MelvorBase.json
@@ -36214,7 +36218,10 @@ msgid ""
 "Morlin flicks his hands, and a leaf of paper floats out of his pack and hangs in the air. You can see something already written on it... \"Blindfold, velvet rope, three wheels of cheese...\" But Morlin flicks his hands again and another-blank this time-leaf is produced, while the other immediately combusts. \n"
 "\n"
 "Words form from nothing, and then the paper floats into your hands. You want to ask about the other list, but decide against it."
-msgstr "莫林挥了挥手，一张纸从他的包裹里飞出来，飘在空中。你可以看到纸上写着……“蒙眼布、天鹅绒绳、三块奶酪……”但莫林又挥了挥手，那张纸瞬间烧成灰经，出现了另一张空白的纸。纸上的字慢慢浮现，然后飘落到你手里。你想问问那份清单，但最后还是算了。"
+msgstr ""
+"莫林挥了挥手，一张纸从他的包裹里飞出来，飘在空中。你可以看到纸上写着……“蒙眼布、天鹅绒绳、三块奶酪……”但莫林又挥了挥手，那张纸瞬间烧成灰烬，出现了另一张空白的纸。\n"
+"\n"
+"纸上的字慢慢浮现，然后飘落到你手里。你想问问那份清单，但最后还是算了。"
 
 #. TRANSLATORS: Quest.CompletionDialogue.DialogueText
 #: Data/Packages/MelvorBase.json
@@ -37723,7 +37730,8 @@ msgid ""
 msgstr ""
 "忙完花草的活儿，你闻到了佩塔做饭的香气，于是自己进了屋。虽然这里还不像家，但跟之前的破败相比，已经好多了。相信她们会完成最后的修整工作。\n"
 "\n"
-"克洛夫在摆放餐具。看你想帮忙，她挥手让你休息。你转头看着佩塔。佩塔从你身边经过，一只手端着三只热气腾腾的鸟，另一只手提着一壶……不知道什么东西。佩塔用她采的草药给肉调味，味道特别好。克洛夫拿出她在狩猎时采集的果子。这些果子和那壶……喝的很搭。佩塔向你保证，那喝的绝对安全。它的味道甜得腻人。每喝一口都会让你产生一种坠入冰湖的感觉（尽管这种感觉的时间很短），所以也还算美味。\n"
+"克洛夫在摆放餐具。看你想帮忙，她挥手让你休息。你转头看着佩塔。佩塔从你身边经过，一只手端着三只热气腾腾的鸟，另一只手提着一壶……不知道什么东西。\n"
+"佩塔用她采的草药给肉调味，味道特别好。克洛夫拿出她在狩猎时采集的果子。这些果子和那壶……喝的很搭。佩塔向你保证，那喝的绝对安全。它的味道甜得腻人。每喝一口都会让你产生一种坠入冰湖的感觉（尽管这种感觉的时间很短），所以也还算美味。\n"
 "\n"
 "佩塔时不时地将你的椅子往克洛夫那边挪动。克洛夫的脸慢慢红了，但仍然装作没事的样子。吃完后，佩塔记下你喝那壶饮品的感受。她们感谢你的帮助，欢迎你在开店后再来。"
 
@@ -38773,6 +38781,7 @@ msgid ""
 "Much like last time he tried to make a list, the first page is cryptic, detailing something about an excitable lizard housekeeper and her many cleaning adventures, but he burns it before you can get more than a glance as to its contents. He hands the veritable laundry list of jewelry to you, and assures you that your efforts will be reflected in your cut of... whatever may lie inside."
 msgstr ""
 "莫林掀开长袍，露出琳琅满目的珠宝。他身上挂了几十条项链、手链和戒指。这些珠宝在昏暗中闪闪发光。如果洞里再亮一点，恐怕你的眼睛都要瞎了。他说，大多数人都太朴素了，每次最多只戴几件附魔珠宝。而像他这样的大巫师，没有这种限制。伍德格拉斯问能不能用一下他身上的珠宝，他轻蔑地笑了。他扫视了那些雕像，掏出了一张清单。\n"
+"\n"
 "\n"
 "跟他上次尝试列清单一样，第一页模糊不清，大概是讲一位兴奋的蜥蜴管家以及她的种种清洁冒险。但还没等你看清上面的内容，他就烧了。他把那张长长的珠宝清单递给你，保证你的付出会有一份……至于具体是什么，就不知道了。"
 
@@ -39849,7 +39858,10 @@ msgid ""
 "With you and [Companion Name]'s help, you manage to break up the debris in short order, and Hapren directs much of the salvageable materials to be stored for reconstruction efforts, and the wood that is too mangled to be used to be left in the square to be used for the bonfire.\n"
 "\n"
 "Just as you set your tools down, a few tired looking folks make their way into the center of town, fishing gear in hand."
-msgstr "有你和[Companion Name]帮忙，垃圾很快就清理了。哈普伦下令将还能用的材料收起来，日后重建可以用。至于那些不能用的坏木材，就留在广场上生篝火。就在你们放下工具时，几个人走进了镇中心。他们看起来很累，手里拿着钓鱼工具。"
+msgstr ""
+"有你和[Companion Name]帮忙，垃圾很快就清理了。哈普伦下令将还能用的材料收起来，日后重建可以用。至于那些不能用的坏木材，就留在广场上生篝火。\n"
+"\n"
+"就在你们放下工具时，几个人走进了镇中心。他们看起来很累，手里拿着钓鱼工具。"
 
 #. TRANSLATORS: Quest.Steps.Dialogue.DialogueText
 #: Data/Packages/MelvorBase.json
@@ -40993,7 +41005,9 @@ msgstr ""
 "\n"
 "你看着[Companion Name]，他们脸上的情绪复杂，但最明显的是轻松了。他们抱了你一下，然后走向奄奄一息的幕后头目。你走过去，那野兽发出一声嘶哑的怪笑，然后又剧烈地咳嗽。你问了它两个问题。它要把那些囚犯运到哪里去？它是为谁做事？\n"
 "\n"
-"它坐在那里，幸灾乐祸地笑。堡垒的火焰在它的眼睛里跳动。“他们很快就会回来的。”"
+"它坐在那里，幸灾乐祸地笑。堡垒的火焰在它的眼睛里跳动。\n"
+"\n"
+"“他们很快就会回来的。”"
 
 #. TRANSLATORS: Quest.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -41025,7 +41039,8 @@ msgid ""
 "\n"
 "Yesterday's events weren't enough to keep you or [Companion Name] down for long, though. The two of you set off back to the fort at first light, searching for tracks of the caravan you saw leave the fort on your first scouting mission. The set of buildings behind their thick wall still smouldered from the night before, reminding you both of the battle."
 msgstr ""
-"在你们攻击幕后头目堡垒的第二天，大家的心情很复杂，有喜悦，有轻松，有悲伤，还有……迷茫。虽然这次袭击成功了，但还是有几十个人受伤或死亡。小镇的人本来就不多，这些伤亡是很大的打击。\n"
+"在你们攻击幕后头目堡垒的第二天，大家的心情很复杂，有喜悦，有轻松，有悲伤，还有……迷茫。\n"
+"虽然这次袭击成功了，但还是有几十个人受伤或死亡。小镇的人本来就不多，这些伤亡是很大的打击。\n"
 "\n"
 "但是，现在难民来来往往，当地人口数量的变化很难追踪。战争很残酷，但你庆幸的是，你认识的人都还活着。在你和[Companion Name]用马车运回来的尸体里，有几个是民兵队伍的新兵。\n"
 "\n"
@@ -41764,7 +41779,9 @@ msgid ""
 msgstr ""
 "你跟着人群走了一会儿，这时一名穿着华贵的男子用通行证打了一个孩子的鼻子，那孩子的眼睛瞪得很大。然后，那名男子就走了。孩子的母亲在后面大声喊。看见孩子受欺负，围观人群的愤怒彻底爆发。一些醉醺醺的贵族害怕了，担心自己的行为会造成什么后果。还有一些贵族煽动情绪，显然很享受被关注的感觉。守卫努力维持秩序，但从他们愤怒的眼睛来看，显然他们烦透了这些‘社会精英’。\n"
 "\n"
-"趁着混乱，你撞上一名贵族，把手伸进他的外套，掏出了一张天蓝色的访客通行证。这张通行证原来的主人在你后面大喊，骂你摸他，但他的声音很快就被愤怒的人群淹没了。你没有回头，继续走。[Companion Name]溜到你旁边，手里也拿着通行证。你们俩打开通行证，发现上面不需要任何身份信息。单凭这张通行证，你们就可以进城。就这样，都城的大门没能拦住你。你甚至没觉得不好。"
+"趁着混乱，你撞上一名贵族，把手伸进他的外套，掏出了一张天蓝色的访客通行证。这张通行证原来的主人在你后面大喊，骂你摸他，但他的声音很快就被愤怒的人群淹没了。你没有回头，继续走。[Companion Name]溜到你旁边，手里也拿着通行证。你们俩打开通行证，发现上面不需要任何身份信息。单凭这张通行证，你们就可以进城。\n"
+"\n"
+"就这样，都城的大门没能拦住你。你甚至没觉得不好。"
 
 #. TRANSLATORS: Quest.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -43876,7 +43893,9 @@ msgstr ""
 "\n"
 "你穿着一件深灰色长袍。只要目光稍稍移开，袍子的布料便会疯狂地翻涌、旋动。你站在无数躺倒的人中间，一眼望不到尽头。望着他们，你无声地抽泣，胸口阵阵痉挛。他们脸上安详的笑容丝毫不能让你好受一些。你从他们之间走过，来到国王身边，从他冰冷的额上取下那顶珍珠般洁白的骨冠。\n"
 "\n"
-"骨冠的分量，远不及你肩上仍未卸下的重担。还有太多事等着你去做。你猛然惊醒，身上暖暖的……这次却没有那种令人不适的感觉。裹着你的床单滑软得不可思议，床铺柔软得让你整个人都陷了进去。你甚至担心，这副疲惫不堪的身体还能不能爬起来。艾拉站在房间另一头的角落，正在拨弄壁炉里的火。壁炉由光滑的黑石砌成。\n"
+"骨冠的分量，远不及你肩上仍未卸下的重担。还有太多事等着你去做。\n"
+"\n"
+"你猛然惊醒，身上暖暖的……这次却没有那种令人不适的感觉。裹着你的床单滑软得不可思议，床铺柔软得让你整个人都陷了进去。你甚至担心，这副疲惫不堪的身体还能不能爬起来。艾拉站在房间另一头的角落，正在拨弄壁炉里的火。壁炉由光滑的黑石砌成。\n"
 "\n"
 "你试着动了动，浑身上下却无一处不疼。你呻吟了一声，引起了她的注意。她望向你，眼神里透着……关切。要不是她和丈夫刚刚还想杀了你，你几乎会相信那是真心的。她放下怀里的木柴，快步赶到床边。你不由自主地打了个寒战。她几次欲言又止，最后叹了口气，轻轻笑了一声。"
 
@@ -44253,7 +44272,9 @@ msgstr ""
 "\n"
 "你非弄清楚不可。\n"
 "\n"
-"你离开房间，留下[Companion Name]独自待着。她似乎仍沉浸在自己的思绪中。走廊两侧满是壁画，描绘着世间的种种景象，可你几乎无心去看，只一心想找他问个明白。不知不觉，你已走到了外面。你要找的那个怪物坐在远处的灰色草地里，面前是两朵白花。\n"
+"你离开房间，留下[Companion Name]独自待着。她似乎仍沉浸在自己的思绪中。\n"
+"\n"
+"走廊两侧满是壁画，描绘着世间的种种景象，可你几乎无心去看，只一心想找他问个明白。不知不觉，你已走到了外面。你要找的那个怪物坐在远处的灰色草地里，面前是两朵白花。\n"
 "\n"
 "草间的小径已被踩得平整，显然有人在这里走过无数次。"
 
@@ -44992,7 +45013,10 @@ msgid ""
 "Seeing you prepared for it, the beast diverts its charge and instead runs past you, and darting back into the woods, outside of the light of your campfire.\n"
 "\n"
 "Just outside of the clearing you can see the firelight reflect off of eyes. Lots of eyes."
-msgstr "见你已有防备，那野兽猛地转向，从你身边掠过，又窜回篝火照不到的树林里。空地边缘，一双双眼睛映着火光。多得惊人。"
+msgstr ""
+"见你已有防备，那野兽猛地转向，从你身边掠过，又窜回篝火照不到的树林里。\n"
+"\n"
+"空地边缘，一双双眼睛映着火光。多得惊人。"
 
 #. TRANSLATORS: Quest.Steps.Description
 #: Data/Packages/MelvorBase.json
@@ -45537,7 +45561,11 @@ msgid ""
 msgstr ""
 "你刚要说出那个词，典藏官便瞪大双眼，打了个响指。你嘴唇还在动，却发不出任何声音。他轻笑一声，向守卫告辞，又打了个响指。转眼间，你们已站在一座宏伟的王座前。那王座气势十足，也浮夸得毫不含糊。王座上坐着一名看起来正值中年的矮人。他深色的胡须间缀满宝石与金属饰扣，与头上的王冠颇为相配。\n"
 "\n"
-"你们似乎被直接带进了一场盛大的宴会。王座大厅里，一桌桌珍馐美食令人垂涎，衣着考究的矮人宾客满堂皆是。对于你们的突然出现，宾客们显得既好奇又兴奋。你觉得，这总比猜疑和恐惧要好。典藏官飘到国王身旁，在他耳边低语了几句。国王的眼神由好奇转为震惊，接着又变成了……兴奋。他拍了一下手，站起身，向满厅宾客宣布：助兴的节目来了。\n"
+"\n"
+"\n"
+"你们似乎被直接带进了一场盛大的宴会。王座大厅里，一桌桌珍馐美食令人垂涎，衣着考究的矮人宾客满堂皆是。\n"
+"\n"
+"对于你们的突然出现，宾客们显得既好奇又兴奋。你觉得，这总比猜疑和恐惧要好。典藏官飘到国王身旁，在他耳边低语了几句。国王的眼神由好奇转为震惊，接着又变成了……兴奋。他拍了一下手，站起身，向满厅宾客宣布：助兴的节目来了。\n"
 "\n"
 "你们被领到大厅中央。随后，几位长相粗犷的贵族带着各自的护卫，陆续围了上来。\n"
 "\n"
@@ -46443,7 +46471,9 @@ msgstr ""
 "\n"
 "在隧道里，这些怪物杀死了几十个矮人，可它们也没有选择。你自己召唤过生物，清楚这一点。你要它们做什么，它们就会照办。\n"
 "\n"
-"你会尽量给它们一个痛快。你移开视线，找到了辛塔克王子的躯体。他仍被那把黑色金属利刃钉在蛞蝓怪物身上。[Companion Name]挪近了些，在你耳边低声问道。"
+"你会尽量给它们一个痛快。\n"
+"\n"
+"你移开视线，找到了辛塔克王子的躯体。他仍被那把黑色金属利刃钉在蛞蝓怪物身上。[Companion Name]挪近了些，在你耳边低声问道。"
 
 #. TRANSLATORS: Quest.Steps.Dialogue.DialogueText
 #: Data/Packages/MelvorBase.json
@@ -48877,7 +48907,7 @@ msgstr "灰烬围栏支架"
 #. TRANSLATORS: RanchingEnclosureUpgrade.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Ironsteel Enclosure Support"
-msgstr "铁钢围栏支架"
+msgstr "钢铁围栏支架"
 
 #. TRANSLATORS: RanchingEnclosureUpgrade.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -51641,17 +51671,17 @@ msgstr "坚固鱼线"
 #. TRANSLATORS: ShopPurchase.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Ironsteel Axe Head Coating"
-msgstr "斧头铁钢镀层"
+msgstr "斧头钢铁镀层"
 
 #. TRANSLATORS: ShopPurchase.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Ironsteel Pickaxe Head Coating"
-msgstr "镐头铁钢镀层"
+msgstr "镐头钢铁镀层"
 
 #. TRANSLATORS: ShopPurchase.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Ironsteel Reel Coating"
-msgstr "渔轮铁钢镀层"
+msgstr "渔轮钢铁镀层"
 
 #. TRANSLATORS: ShopPurchase.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -52495,7 +52525,7 @@ msgstr "夜晚"
 #: Components/CombatLootHistory/enemy_history_panel.tscn
 #: Components/ThievingLootHistory/thieving_history_panel.tscn
 msgid "Clear"
-msgstr "晴天"
+msgstr "清空"
 
 #. TRANSLATORS: WeatherType.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -52960,7 +52990,10 @@ msgid ""
 "Perform a catch attempt. If you catch the Priority Fish, continue as normal.\n"
 "If not, immediately perform another standard catch attempt.\n"
 "Special Item rolls only occur once during this whole process."
-msgstr "尝试捕鱼。若捕获优先级鱼类，则按正常流程继续。否则，立即再进行一次常规捕鱼尝试。整个过程中，特殊物品的获取判定只进行一次。"
+msgstr ""
+"尝试捕鱼。若捕获优先级鱼类，则按正常流程继续。\n"
+"否则，立即再进行一次常规捕鱼尝试。\n"
+"整个过程中，特殊物品的获取判定只进行一次。"
 
 #: InfoLabels/healing_item_info.tscn
 #: Entities/Farming/farming_selected_recipe_view.tscn
@@ -53069,21 +53102,21 @@ msgstr "显示汇总"
 
 #: InfoLabels/additional_quantity_stat_label.tscn
 msgid "Additional Output Quantity"
-msgstr "额外输出数量"
+msgstr "额外产出数量"
 
 #: InfoLabels/cost_reduction_stat_label.tscn
 msgid "Input Cost Reduction"
-msgstr "输入消耗降低"
+msgstr "投入消耗降低"
 
 #: InfoLabels/doubling_stat_label.tscn InfoIcons/DoublingIcon.cs.uid
 #: InfoLabels/ModifierStatView.cs.uid
 msgid "Output Doubling Chance"
-msgstr "输出翻倍几率"
+msgstr "产出翻倍几率"
 
 #: InfoLabels/preservation_stat_label.tscn InfoIcons/PreservationIcon.cs.uid
 #: InfoLabels/ModifierStatView.cs.uid
 msgid "Input Preservation Chance"
-msgstr "输入留存几率"
+msgstr "投入留存几率"
 
 #: InfoTables/grants_skill_xp_row.tscn
 msgid "[b][color=green]+{0:N0}[/color] Skill XP[/b]"
@@ -53098,12 +53131,12 @@ msgstr "提供"
 #: InfoTables/inputs_container.tscn InfoTables/required_items_table.tscn
 #: InfoTables/inputs_container2.tscn
 msgid "Input"
-msgstr "输入"
+msgstr "投入"
 
 #: InfoTables/outputs_container.tscn InfoTables/produces_table.tscn
 #: InfoTables/outputs_container2.tscn
 msgid "Output"
-msgstr "输出"
+msgstr "产出"
 
 #: InfoTables/produces_table.tscn InfoTables/required_items_table.tscn
 msgid "Qty"
@@ -53867,7 +53900,11 @@ msgid ""
 "[ul] Locate/obtain Pets\n"
 " Complete Quests\n"
 " Find rare/hidden items[/ul]"
-msgstr "[b]更多任务类型即将推出：[/b][ul]寻找/获得宠物完成任务寻找稀有/隐藏物品[/ul]"
+msgstr ""
+"[b]更多任务类型即将推出：[/b]\n"
+"[ul]寻找/获得宠物\n"
+"完成任务\n"
+"寻找稀有/隐藏物品[/ul]"
 
 #: Components/Milestones/milestones_view.tscn
 msgid "View All Milestones"
@@ -53889,31 +53926,41 @@ msgstr "仅显示当前项？"
 msgid ""
 "[color=#FFD16D]Ctrl + A[/color]\n"
 "[color=#E9DFC1]Select all Items in Tab[/color]"
-msgstr "[color=#FFD16D]Ctrl + A[/color] [color=#E9DFC1]选择面板中的所有物品[/color]"
+msgstr ""
+"[color=#FFD16D]Ctrl + A[/color]\n"
+"[color=#E9DFC1]选择面板中的所有物品[/color]"
 
 #: Entities/Bank/bank_active_view.tscn
 msgid ""
 "[color=#FFD16D]Shift + Left Click[/color]\n"
 "[color=#E9DFC1]Select bulk Items[/color]"
-msgstr "[color=#FFD16D]Shift + 鼠标左键[/color] [color=#E9DFC1]批量选择物品[/color]"
+msgstr ""
+"[color=#FFD16D]Shift + 鼠标左键[/color]\n"
+"[color=#E9DFC1]批量选择物品[/color]"
 
 #: Entities/Bank/bank_active_view.tscn
 msgid ""
 "[color=#FFD16D]Ctrl + Left Click[/color]\n"
 "[color=#E9DFC1]Select additional Item[/color]"
-msgstr "[color=#FFD16D]Ctrl + 鼠标左键[/color] [color=#E9DFC1]追加选择物品[/color]"
+msgstr ""
+"[color=#FFD16D]Ctrl + 鼠标左键[/color]\n"
+"[color=#E9DFC1]追加选择物品[/color]"
 
 #: Entities/Bank/bank_active_view.tscn
 msgid ""
 "[color=#FFD16D]Middle Mouse Click[/color] [color=light_gray]on Bank Tab[/color]\n"
 "[color=#E9DFC1]Delete Bank Tab[color=light_gray]"
-msgstr "[color=#FFD16D]鼠标中键点击[/color] [color=light_gray]仓库面板[/color] [color=#E9DFC1]删除仓库面板[color=light_gray]"
+msgstr ""
+"[color=#FFD16D]鼠标中键点击[/color] [color=light_gray]仓库面板[/color]\n"
+"[color=#E9DFC1]删除仓库面板[color=light_gray]"
 
 #: Entities/Bank/bank_active_view.tscn
 msgid ""
 "[color=#FFD16D]Double Click[/color] [color=light_gray]on Bank Tab[/color]\n"
 "[color=#E9DFC1]Edit Bank Tab Label"
-msgstr "[color=#FFD16D]双击[/color] [color=light_gray]仓库面板[/color] [color=#E9DFC1]编辑仓库面板名称"
+msgstr ""
+"[color=#FFD16D]双击[/color] [color=light_gray]仓库面板[/color]\n"
+"[color=#E9DFC1]编辑仓库面板名称"
 
 #: Entities/Bank/bank_active_view.tscn
 msgid "Selected Item"
@@ -54193,7 +54240,10 @@ msgid ""
 "Your Pest Protection / Product's Pest Attraction.\n"
 "- Reduces final product quantity if not maintained.\n"
 "- This can be maintained while the product is growing."
-msgstr "你的害虫防治值/产品的害虫吸引值。- 防治不足会降低最终产品数量。- 可在产品生长期间进行防治。"
+msgstr ""
+"你的害虫防治值/产品的害虫吸引值。\n"
+"- 防治不足会降低最终产品数量。\n"
+"- 可在产品生长期间进行防治。"
 
 #: Entities/Farming/farming_plot_protections_view.tscn
 msgid "Disease Maintenance"
@@ -54204,7 +54254,10 @@ msgid ""
 "Your Disease Protection / Product's Disease Attraction.\n"
 "- Reduces final product quantity if not maintained.\n"
 "- This can be maintained while the product is growing."
-msgstr "你的疾病防治值/产品的疾病吸引值。- 防治不足会降低最终产品数量。- 可在产品生长期间进行防治。"
+msgstr ""
+"你的疾病防治值/产品的疾病吸引值。\n"
+"- 防治不足会降低最终产品数量。\n"
+"- 可在产品生长期间进行防治。"
 
 #: Entities/Farming/farming_plot_protections_view.tscn
 msgid "Product Quantity Adjustment"
@@ -54215,7 +54268,9 @@ msgid ""
 "The final adjustment to your product quantity based on\n"
 "Pests & Disease Maintenance.\n"
 "Only applied when product is [b]fully grown[/b], after all other bonuses."
-msgstr "最终产品数量的调整取决于害虫和疾病的防治状况。仅在产品[b]完全成熟[/b]时生效，并在所有其他加成结算后计算。"
+msgstr ""
+"最终产品数量的调整取决于害虫和疾病的防治状况。\n"
+"仅在产品[b]完全成熟[/b]时生效，并在所有其他加成结算后计算。"
 
 #: Entities/Farming/farming_plot_purchase_container.tscn
 msgid "Purchase to Unlock"
@@ -54245,7 +54300,9 @@ msgstr "长按清空"
 msgid ""
 "Clears this Plot by removing the Planted Product and Compost.\n"
 "This action will [b]not[/b] refund any Items."
-msgstr "移除已种植的产品和肥料，清空这块田地。此操作[b]不会[/b]返还任何物品。"
+msgstr ""
+"移除已种植的产品和肥料，清空这块田地。\n"
+"此操作[b]不会[/b]返还任何物品。"
 
 #: Entities/Farming/farming_plot_view.tscn
 msgid "Auto Plant must be disabled to use."
@@ -55010,7 +55067,8 @@ msgid ""
 "\n"
 "[b]This cannot be undone.[/b]"
 msgstr ""
-"[b][color=orange_red][font_size=20]警告！[/font_size][/color][/b]此围栏内还有动物。\n"
+"[b][color=orange_red][font_size=20]警告！[/font_size][/color][/b]\n"
+"此围栏内还有动物。\n"
 "\n"
 "更换围栏将[b][color=orange_red]移除[/color][/b]这些动物。\n"
 "\n"
@@ -55028,7 +55086,9 @@ msgstr "长按确认"
 msgid ""
 "[b]First Pet[/b]\n"
 "[img=88]res://Assets/Icons/SkillIcon.png[/img] [color=green]+10 XP[/color]"
-msgstr "[b]第一只宠物[/b] [img=88]res://Assets/Icons/SkillIcon.png[/img] [color=green]+10经验[/color]"
+msgstr ""
+"[b]第一只宠物[/b]\n"
+"[img=88]res://Assets/Icons/SkillIcon.png[/img] [color=green]+10经验[/color]"
 
 #: Entities/Ranching/moving_animal.tscn
 msgid "Look after these stats."
@@ -55212,8 +55272,10 @@ msgid ""
 "[i]Happiness = Hunger * 0.3 + Comfort * 0.3 + Satisfaction * 0.4[/i]\n"
 "Note: [b]Comfort[/b] is [color=green]1[/color] if >= [color=orange]75%[/color]"
 msgstr ""
-"动物开心，牧场舒心。[ul]根据另外三项属性计算。\n"
-"[b]技能经验[/b]和[b]产出[/b]均乘以动物的[b]幸福度[/b]。最低为[color=orange]0%[/color]。[/ul]\n"
+"动物开心，牧场舒心。\n"
+"[ul]根据另外三项属性计算。\n"
+"[b]技能经验[/b]和[b]产出[/b]均乘以动物的[b]幸福度[/b]。\n"
+"最低为[color=orange]0%[/color]。[/ul]\n"
 "\n"
 "[i]幸福度 = 饱食度 * 0.3 + 舒适度 * 0.3 + 满足度 * 0.4[/i]\n"
 "注意：[b]舒适度[/b] >= [color=orange]75%[/color]时，按[color=green]1[/color]计算"
@@ -55232,7 +55294,8 @@ msgid ""
 "Your animal won't die at [color=orange]0%[/color] [b]Hunger[/b], but my goodness it will be STARVING.[/ul]"
 msgstr ""
 "[ul]记得每小时喂一次动物。\n"
-"每有一小时没喂食，就降低[color=orange]10%[/color] :(b喂食后恢复至[color=orange]100%[/color] :D\n"
+"每有一小时没喂食，就降低[color=orange]10%[/color] :(\n"
+"喂食后恢复至[color=orange]100%[/color] :D\n"
 "有些动物不需要喂食，比如绵羊和奶牛。\n"
 "[b]饱食度[/b]降到[color=orange]0%[/color]时，动物不会死，可怜的小家伙却要饿得前胸贴后背了。[/ul]"
 
@@ -55718,7 +55781,9 @@ msgid ""
 "\n"
 "- [i][color=light_gray]Malcs, Coolrox, Prat, Tapi & Ash[/color][/i]"
 msgstr ""
-"[color=#E9DFC1]感谢你体验我们的试玩版！《梅尔沃放置2》仍在开发中，你即将体验的版本仅展示了[color=FFD16D]游戏早期的一部分内容[/color]。为了迎接抢先体验版的推出，我们还在持续开发和完善各项系统、功能、画面及平衡性。\n"
+"[color=#E9DFC1]感谢你体验我们的试玩版！\n"
+"\n"
+"《梅尔沃放置2》仍在开发中，你即将体验的版本仅展示了[color=FFD16D]游戏早期的一部分内容[/color]。为了迎接抢先体验版的推出，我们还在持续开发和完善各项系统、功能、画面及平衡性。\n"
 "\n"
 "本试玩版的等级上限为[color=FFD16D]60级[/color]，仅开放部分技能和内容供你体验。抢先体验版将带来丰富得多的内容！\n"
 "\n"
@@ -55920,7 +55985,9 @@ msgstr "标准伐木药水P2-B"
 msgid ""
 "+4% chance to deal double damage in Woodcutting\n"
 "+0.13% Bird/Eagle Nest chance in Woodcutting"
-msgstr "伐木时造成双倍伤害的几率+4% 伐木时获得鸟巢/鹰巢的几率+0.13%"
+msgstr ""
+"伐木时造成双倍伤害的几率+4%\n"
+"伐木时获得鸟巢/鹰巢的几率+0.13%"
 
 #: Roadmap/potions.tscn
 msgid "Standard Woodcutting Potion"
@@ -55934,13 +56001,17 @@ msgstr "集合上一阶各分支的最佳加成"
 msgid ""
 "+8% chance to deal double damage in Woodcutting\n"
 "+0.13% Bird/Eagle Nest chance in Woodcutting"
-msgstr "伐木时造成双倍伤害的几率+8% 伐木时获得鸟巢/鹰巢的几率+0.13%"
+msgstr ""
+"伐木时造成双倍伤害的几率+8%\n"
+"伐木时获得鸟巢/鹰巢的几率+0.13%"
 
 #: Roadmap/potions.tscn
 msgid ""
 "+15% chance to deal double damage in Woodcutting\n"
 "+0.13% Bird/Eagle Nest chance in Woodcutting"
-msgstr "伐木时造成双倍伤害的几率+15% 伐木时获得鸟巢/鹰巢的几率+0.13%"
+msgstr ""
+"伐木时造成双倍伤害的几率+15%\n"
+"伐木时获得鸟巢/鹰巢的几率+0.13%"
 
 #: Roadmap/potions.tscn
 msgid "Super Woodcutting Potion P2-B"
@@ -55951,7 +56022,10 @@ msgid ""
 "+8% chance to deal double damage in Woodcutting\n"
 "+0.13% Bird/Eagle Nest chance in Woodcutting\n"
 "+0.1% \"On Cut\" Item chance in Woodcutting"
-msgstr "伐木时造成双倍伤害的几率+8% 伐木时获得鸟巢/鹰巢的几率+0.13% 伐木时获得“每次砍伐”物品的几率+0.1%"
+msgstr ""
+"伐木时造成双倍伤害的几率+8%\n"
+"伐木时获得鸟巢/鹰巢的几率+0.13%\n"
+"伐木时获得“每次砍伐”物品的几率+0.1%"
 
 #: Roadmap/potions.tscn
 msgid "Elite Woodcutting Potion P1-A"
@@ -56269,7 +56343,10 @@ msgstr "云存档加载失败"
 
 #: Tooltips/character_lifesteal_tooltip.tscn
 msgid "[color=#E9DFC1][color=#FFD16D]All[/color] damage dealt grants healing equal to [color=#FFD16D]Damage dealt * Lifesteal %[/color].[/color]"
-msgstr "[color=#E9DFC1]造成的[color=#FFD16D]所有[/color]伤害均可恢复生命值，恢复量等于[color=#FFD16D]造成的伤害 * 吸血效果百分比[/color]。[/color]"
+msgstr ""
+"[color=#E9DFC1]造成的[color=#FFD16D]所有[/color]伤害均可恢复生命值，\n"
+"恢复量等于\n"
+"[color=#FFD16D]造成的伤害 * 吸血效果百分比[/color]。[/color]"
 
 #: Tutorials/beastcrafting_tutorial.tscn Tutorials/combat_tutorial.tscn
 #: Tutorials/cooking_tutorial.tscn Tutorials/crafting_tutorial.tscn
@@ -56393,7 +56470,9 @@ msgstr ""
 "战斗风格分为三种：[color=#FFD16D]近战、远程[/color]和[color=#FFD16D]魔法[/color]。\n"
 "你使用哪种风格，取决于所装备的[color=#FFD16D]武器[/color]。\n"
 "\n"
-"[color=#FFD16D]近战[/color]克制[color=#FFD16D]远程[/color][color=#FFD16D]远程[/color]克制[color=#FFD16D]魔法[/color][color=#FFD16D]魔法[/color]克制[color=#FFD16D]近战[/color]\n"
+"[color=#FFD16D]近战[/color]克制[color=#FFD16D]远程[/color]\n"
+"[color=#FFD16D]远程[/color]克制[color=#FFD16D]魔法[/color]\n"
+"[color=#FFD16D]魔法[/color]克制[color=#FFD16D]近战[/color]\n"
 "\n"
 "克制敌人的战斗风格时，你的[color=green]最大伤害提高10%[/color]；被克制时则[color=orange_red]降低10%[/color]。此效果仅对你生效，不对敌人生效。"
 
@@ -56461,7 +56540,10 @@ msgid ""
 "Your [color=#FFD16D]chance to hit[/color] depends on your [color=#FFD16D]Stance's Accuracy[/color] compared to the [color=#FFD16D]Enemy's Evasion[/color] against that same [color=#FFD16D]Stance[/color].\n"
 "\n"
 "When fighting an Enemy, aim to have a higher [color=#FFD16D]Accuracy Rating[/color] than their [color=#FFD16D]Evasion Rating[/color]."
-msgstr "你的[color=#FFD16D]命中几率[/color]取决于当前[color=#FFD16D]姿态的精准值[/color]，以及[color=#FFD16D]敌人[/color]针对该[color=#FFD16D]姿态[/color]的[color=#FFD16D]躲避值[/color]。与敌人战斗时，尽量让你的[color=#FFD16D]精准值[/color]高于对方的[color=#FFD16D]躲避值[/color]。"
+msgstr ""
+"你的[color=#FFD16D]命中几率[/color]取决于当前[color=#FFD16D]姿态的精准值[/color]，以及[color=#FFD16D]敌人[/color]针对该[color=#FFD16D]姿态[/color]的[color=#FFD16D]躲避值[/color]。\n"
+"\n"
+"与敌人战斗时，尽量让你的[color=#FFD16D]精准值[/color]高于对方的[color=#FFD16D]躲避值[/color]。"
 
 #: Tutorials/combat_tutorial.tscn
 msgid "Power & Protection"
@@ -56478,8 +56560,11 @@ msgid ""
 "\n"
 "You can reduce an Enemy's damage dealt to you by increasing your [color=#FFD16D]Protection[/color]."
 msgstr ""
-"攻击伤害会按一定比例减免，减免幅度取决于[color=#FFD16D]战力[/color]和[color=#FFD16D]防护[/color]。你的[color=#FFD16D]战力[/color]和[color=#FFD16D]敌人防护[/color]的对比，决定你造成的伤害会被减免多少。提高[color=#FFD16D]战力[/color]有助于突破敌人的[color=#FFD16D]防护[/color]。[color=#FFD16D]战力[/color]主要来自[color=#FFD16D]武器[/color]。\n"
+"攻击伤害会按一定比例减免，减免幅度取决于[color=#FFD16D]战力[/color]和[color=#FFD16D]防护[/color]。\n"
 "\n"
+"你的[color=#FFD16D]战力[/color]和[color=#FFD16D]敌人防护[/color]的对比，决定你造成的伤害会被减免多少。提高[color=#FFD16D]战力[/color]有助于突破敌人的[color=#FFD16D]防护[/color]。\n"
+"\n"
+"[color=#FFD16D]战力[/color]主要来自[color=#FFD16D]武器[/color]。\n"
 "[color=#FFD16D]防护[/color]主要来自其他装备。\n"
 "\n"
 "提高[color=#FFD16D]防护[/color]可以减少敌人对你造成的伤害。"
@@ -56807,7 +56892,10 @@ msgid ""
 "Hunting is automatic and involves three stages: Surveying an area, Tracking an animal, and attempting to Trap it.\n"
 "\n"
 "If trapping fails, the animal flees and must be tracked again."
-msgstr "狩猎会自动进行，分为三个阶段：调查区域、追踪动物，以及布置陷阱尝试捕捉。若捕捉失败，动物就会逃走，需要重新追踪。"
+msgstr ""
+"狩猎会自动进行，分为三个阶段：调查区域、追踪动物，以及布置陷阱尝试捕捉。\n"
+"\n"
+"若捕捉失败，动物就会逃走，需要重新追踪。"
 
 #: Tutorials/hunting_tutorial.tscn
 msgid "Animal Levels"
@@ -57299,11 +57387,11 @@ msgstr "2 x"
 
 #: Components/CombatAreas/enemy_options_panel.tscn
 msgid "Ward:"
-msgstr "守卫："
+msgstr "结界："
 
 #: Components/CombatAreas/enemy_options_panel.tscn
 msgid "Armour:"
-msgstr "盔甲："
+msgstr "护甲："
 
 #: Components/CombatAreas/enemy_options_panel.tscn
 msgid "Lifesteal:"
@@ -58133,7 +58221,9 @@ msgstr "生成仓库配置"
 msgid ""
 "Generates a base64 string based on your current Bank Configuration, which can be shared or uploaded to the Cloud.\n"
 "Bank Configurations include all Bank tabs & custom labels, Bank tab affinities, default Item tab & placement order, and Item locked & placeholder status."
-msgstr "根据当前仓库配置生成base64字符串，可供分享或上传至云端。仓库配置包含所有仓库面板及其自定义名称、面板自动归类规则、物品的默认所属面板和摆放顺序，以及物品的锁定和占位状态。"
+msgstr ""
+"根据当前仓库配置生成base64字符串，可供分享或上传至云端。\n"
+"仓库配置包含所有仓库面板及其自定义名称、面板自动归类规则、物品的默认所属面板和摆放顺序，以及物品的锁定和占位状态。"
 
 #: Entities/Bank/bank_configuration_view.tscn
 msgid "Name your config..."
@@ -58199,7 +58289,9 @@ msgstr "锁定仓库配置"
 msgid ""
 "Locking your Bank Configuration will remove the ability to manually rearrange Items, manage Bank tabs, and manage affinities.\n"
 "This is useful if you create or import a specific Bank Configuration and don't want to edit it."
-msgstr "锁定仓库配置后，将无法手动调整物品位置、管理仓库面板或修改自动归类规则。如果你想保留创建或导入的仓库配置，不再修改，可开启此功能。"
+msgstr ""
+"锁定仓库配置后，将无法手动调整物品位置、管理仓库面板或修改自动归类规则。\n"
+"如果你想保留创建或导入的仓库配置，不再修改，可开启此功能。"
 
 #: Entities/Bank/bank_settings_view.tscn
 msgid "Bank Configuration is locked. Some settings are disabled."
@@ -58516,7 +58608,9 @@ msgstr "光明"
 msgid ""
 "Luck was on your side today.\n"
 "Despite your defeat, all your items remain safe."
-msgstr "今天运气站在你这边。虽然战败了，但你的物品一件也没丢。"
+msgstr ""
+"今天运气站在你这边。\n"
+"虽然战败了，但你的物品一件也没丢。"
 
 #: Entities/Combat/player_death_panel.tscn
 msgid "Your defeat came at a cost:"
@@ -59742,35 +59836,35 @@ msgstr "敌人拥有[img height=1.25em]res://Assets/Icons/Defence_64.png[/img] [
 
 #: Components/Characters/Conditions/HasWardCondition.cs.uid
 msgid "Have [color=#FFD16D]{MinWardValue}-{MaxWardValue} maximum [img height=1.25em]res://Assets/Items/WardingShield.png[/img] Ward[/color]"
-msgstr "[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]守卫值为{MinWardValue}-{MaxWardValue}[/color]"
+msgstr "[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]结界值为{MinWardValue}-{MaxWardValue}[/color]"
 
 #: Components/Characters/Conditions/HasWardCondition.cs.uid
 msgid "Have [color=#FFD16D]{MinWardValue} or higher maximum [img height=1.25em]res://Assets/Items/WardingShield.png[/img] Ward[/color]"
-msgstr "[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]守卫值为{MinWardValue}或以上[/color]"
+msgstr "[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]结界值为{MinWardValue}或以上[/color]"
 
 #: Components/Characters/Conditions/HasWardCondition.cs.uid
 msgid "Have [color=#FFD16D]{MaxWardValue} or lower maximum [img height=1.25em]res://Assets/Items/WardingShield.png[/img] Ward[/color]"
-msgstr "[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]守卫值为{MaxWardValue}或以下[/color]"
+msgstr "[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]结界值为{MaxWardValue}或以下[/color]"
 
 #: Components/Characters/Conditions/HasWardCondition.cs.uid
 msgid "Have [img height=1.25em]res://Assets/Items/WardingShield.png[/img] [color=#FFD16D]Ward[/color]"
-msgstr "拥有[img height=1.25em]res://Assets/Items/WardingShield.png[/img] [color=#FFD16D]守卫值[/color]"
+msgstr "拥有[img height=1.25em]res://Assets/Items/WardingShield.png[/img] [color=#FFD16D]结界值[/color]"
 
 #: Components/Characters/Conditions/HasWardCondition.cs.uid
 msgid "Enemy has [color=#FFD16D]{MinWardValue}-{MaxWardValue} maximum [img height=1.25em]res://Assets/Items/WardingShield.png[/img] Ward[/color]"
-msgstr "敌人的[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]守卫值为{MinWardValue}-{MaxWardValue}[/color]"
+msgstr "敌人的[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]结界值为{MinWardValue}-{MaxWardValue}[/color]"
 
 #: Components/Characters/Conditions/HasWardCondition.cs.uid
 msgid "Enemy has [color=#FFD16D]{MinWardValue} or higher maximum [img height=1.25em]res://Assets/Items/WardingShield.png[/img] Ward[/color]"
-msgstr "敌人的[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]守卫值为{MinWardValue}或以上[/color]"
+msgstr "敌人的[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]结界值为{MinWardValue}或以上[/color]"
 
 #: Components/Characters/Conditions/HasWardCondition.cs.uid
 msgid "Enemy has [color=#FFD16D]{MaxWardValue} or lower maximum [img height=1.25em]res://Assets/Items/WardingShield.png[/img] Ward[/color]"
-msgstr "敌人的[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]守卫值为{MaxWardValue}或以下[/color]"
+msgstr "敌人的[color=#FFD16D]最大[img height=1.25em]res://Assets/Items/WardingShield.png[/img]结界值为{MaxWardValue}或以下[/color]"
 
 #: Components/Characters/Conditions/HasWardCondition.cs.uid
 msgid "Enemy has [img height=1.25em]res://Assets/Items/WardingShield.png[/img] [color=#FFD16D]Ward[/color]"
-msgstr "敌人拥有[img height=1.25em]res://Assets/Items/WardingShield.png[/img] [color=#FFD16D]守卫值[/color]"
+msgstr "敌人拥有[img height=1.25em]res://Assets/Items/WardingShield.png[/img] [color=#FFD16D]结界值[/color]"
 
 #: Components/Characters/Conditions/LightCondition.cs.uid
 msgid "Have [b]{Current:N0} / {Max:N0} Light[/b]"
@@ -61542,7 +61636,7 @@ msgstr "[color=#E9DFC1]地牢进度：[/color] [color=#FFD16D]{0:N0} / {1:N0}[/c
 
 #: Entities/Combat/CombatDamageDealtView.cs.uid
 msgid "Armour Broken!"
-msgstr "盔甲已破！"
+msgstr "护甲已破！"
 
 #: Entities/Combat/CombatDamageDealtView.cs.uid
 msgid "Miss"
@@ -61665,11 +61759,11 @@ msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中使敌人
 
 #: Entities/Combat/Goals/ActiveDamageNegatedByWardGoal.cs.uid
 msgid "Have [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] damage be negated by an Enemy's [img height=1em]res://Assets/Items/WardingShield.png[/img] [color=white]Ward[/color]"
-msgstr "使敌人的[img height=1em]res://Assets/Items/WardingShield.png[/img] [color=white]守卫值[/color]抵消[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]点伤害"
+msgstr "使敌人的[img height=1em]res://Assets/Items/WardingShield.png[/img] [color=white]结界值[/color]抵消[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]点伤害"
 
 #: Entities/Combat/Goals/ActiveDamageNegatedByWardGoal.cs.uid
 msgid "Have [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] damage be negated by an Enemy's [img height=1em]res://Assets/Items/WardingShield.png[/img] [color=white]Ward[/color] in [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]"
-msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中使敌人的[img height=1em]res://Assets/Items/WardingShield.png[/img] [color=white]守卫值[/color]抵消[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]点伤害"
+msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中使敌人的[img height=1em]res://Assets/Items/WardingShield.png[/img] [color=white]结界值[/color]抵消[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]点伤害"
 
 #: Entities/Combat/Goals/ActiveEvadeAttacksGoal.cs.uid
 msgid "Evade [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] attacks from Enemies"
@@ -62085,11 +62179,11 @@ msgstr "在战斗中攻击{EnemyName}，未命中 {Current:N0} / {Max:N0}次"
 
 #: Entities/Combat/Statistics/EnemyWardDamageNegatedStatistic.cs.uid
 msgid "Damage negated by Ward"
-msgstr "守卫值抵消的伤害"
+msgstr "结界值抵消的伤害"
 
 #: Entities/Combat/Statistics/EnemyWardDamageNegatedStatistic.cs.uid
 msgid "Have {EnemyName} negate {Current:N0} / {Max:N0} damage with ward in Combat"
-msgstr "在战斗中使{EnemyName}的守卫值抵消 {Current:N0} / {Max:N0}点伤害"
+msgstr "在战斗中使{EnemyName}的结界值抵消 {Current:N0} / {Max:N0}点伤害"
 
 #: Entities/Combat/Statistics/EvadedEnemyStatistic.cs.uid
 msgid "Attacks Evaded from"
@@ -62246,11 +62340,11 @@ msgstr "在战斗中使敌方盔甲抵消{0:N0} / {1:N0}点伤害"
 
 #: Entities/Combat/Statistics/TotalDamageNegatedByWardStatistic.cs.uid
 msgid "Total Damage Negated by Enemy Ward"
-msgstr "敌方守卫值抵消的伤害总量"
+msgstr "敌方结界值抵消的伤害总量"
 
 #: Entities/Combat/Statistics/TotalDamageNegatedByWardStatistic.cs.uid
 msgid "Have {0:N0} / {1:N0} damage negated by enemy ward in Combat"
-msgstr "在战斗中使敌方守卫值抵消{0:N0} / {1:N0}点伤害"
+msgstr "在战斗中使敌方结界值抵消{0:N0} / {1:N0}点伤害"
 
 #: Entities/Combat/Statistics/TotalDamageTakenStatistic.cs.uid
 #: Entities/Thieving/Statistics/ThievingTotalDamageTakenStatistic.cs.uid
@@ -62335,19 +62429,19 @@ msgstr "在战斗中被命中{0:N0} / {1:N0}次"
 
 #: Entities/Combat/Statistics/TotalWardDamageDealtStatistic.cs.uid
 msgid "Total Ward Damage Dealt"
-msgstr "对守卫值造成的伤害总量"
+msgstr "对结界值造成的伤害总量"
 
 #: Entities/Combat/Statistics/TotalWardDamageDealtStatistic.cs.uid
 msgid "Deal {0:N0} / {1:N0} damage to Ward in Combat"
-msgstr "在战斗中累计对守卫值造成{0:N0} / {1:N0}点伤害"
+msgstr "在战斗中累计对结界值造成{0:N0} / {1:N0}点伤害"
 
 #: Entities/Combat/Statistics/WardDamageDealtToEnemyStatistic.cs.uid
 msgid "Ward Damage Dealt to"
-msgstr "对目标守卫值造成的伤害"
+msgstr "对目标结界值造成的伤害"
 
 #: Entities/Combat/Statistics/WardDamageDealtToEnemyStatistic.cs.uid
 msgid "Deal {Current:N0} / {Max:N0} Ward damage to {EnemyName} in Combat"
-msgstr "在战斗中累计对{EnemyName}的守卫值造成{Current:N0} / {Max:N0}点伤害"
+msgstr "在战斗中累计对{EnemyName}的结界值造成{Current:N0} / {Max:N0}点伤害"
 
 #: Entities/Cooking/CookingActionStatsView.cs.uid
 msgid "Proficiency (Flat)"
@@ -62359,7 +62453,7 @@ msgstr "调整你的精通"
 
 #: Entities/Cooking/CookingActionStatsView.cs.uid
 msgid "Input Preservation Chance on Failure"
-msgstr "失败时的输入留存几率"
+msgstr "失败时的投入留存几率"
 
 #: Entities/Cooking/CookingActionStatsView.cs.uid
 msgid "Your chance to preserve the input when failing to cook"
@@ -64594,7 +64688,7 @@ msgstr "额外产品数量"
 
 #: InfoIcons/AdditionalProductIcon.cs.uid
 msgid "Flat amount of extra product quantity granted after doubling is applied."
-msgstr "结算输出翻倍后，额外获得的固定产品数量。"
+msgstr "结算产出翻倍后，额外获得的固定产品数量。"
 
 #: InfoIcons/CostReductionIcon.cs.uid
 msgid "Cost Reduction"
@@ -64606,7 +64700,7 @@ msgstr "降低投入消耗（最终数值向上取整）。"
 
 #: InfoIcons/DoublingIcon.cs.uid InfoLabels/ModifierStatView.cs.uid
 msgid "Your chance to double the output"
-msgstr "触发输出翻倍的几率"
+msgstr "触发产出翻倍的几率"
 
 #: InfoIcons/ItemInfoIcon.cs.uid
 msgid "{0} chance for {1:N0} {2}"
@@ -64694,7 +64788,7 @@ msgstr "产品数量（固定值）"
 
 #: InfoLabels/ModifierStatView.cs.uid
 msgid "Adjustment to the output quantity (Cannot be doubled)"
-msgstr "以固定数值调整产品数量（调整的部分不参与输出翻倍）"
+msgstr "以固定数值调整产品数量（调整的部分不参与产出翻倍）"
 
 #: InfoTables/GrantsTechniqueXpRow.cs.uid
 msgid "[b][color=green]+{0:N0}[/color] {1.DisplayName} Technique XP[/b]"
@@ -65012,7 +65106,8 @@ msgid ""
 "[color=#FFD16D]Hitpoints:[/color] [color=#26D345]{1:N0}[/color]\n"
 "[color=#FFD16D]Other:[/color] [color=#26D345]{0:N0}[/color] [color=#E9DFC1](Allocated based on your Stance)[/color]"
 msgstr ""
-"[color=#E9DFC1]受到的[color=#FFD16D]所有[/color]伤害均按固定数值减免，减免量等于[color=#FFD16D]盔甲值[/color]。[/color]\n"
+"[color=#E9DFC1]受到的[color=#FFD16D]所有[/color]伤害均按固定数值减免，\n"
+"减免量等于[color=#FFD16D]护甲值[/color]。[/color]\n"
 "\n"
 "[color=#E9DFC1]这是伤害计算的[color=#FFD16D]最后一步[/color]。[/color]\n"
 "\n"
@@ -65026,7 +65121,8 @@ msgid ""
 "\n"
 "[color=#E9DFC1]This is the [color=#FFD16D]final[/color] damage calculation step.[/color]"
 msgstr ""
-"[color=#E9DFC1]受到的[color=#FFD16D]所有[/color]伤害均按固定数值减免，减免量等于[color=#FFD16D]盔甲值[/color]。[/color]\n"
+"[color=#E9DFC1]受到的[color=#FFD16D]所有[/color]伤害均按固定数值减免，\n"
+"减免量等于[color=#FFD16D]护甲值[/color]。[/color]\n"
 "\n"
 "[color=#E9DFC1]这是伤害计算的[color=#FFD16D]最后一步[/color]。[/color]"
 
@@ -65036,9 +65132,12 @@ msgid ""
 "\n"
 "[color=#E9DFC1]Ward is reduced by 1 [color=#FFD16D]per Hit[/color] (Weapon only).[/color]"
 msgstr ""
-"[color=#E9DFC1]受到的[color=#FFD16D]所有[/color]伤害均按比例减免，减免比例为[color=#FFD16D]当前守卫值/守卫值上限[/color]。[/color]\n"
+"[color=#E9DFC1]受到的[color=#FFD16D]所有[/color]伤害均按比例减免，\n"
+"减免比例为\n"
+"[color=#FFD16D]当前结界值/结界值上限[/color]。[/color]\n"
 "\n"
-"[color=#E9DFC1]受到武器攻击时，[color=#FFD16D]每被命中一次[/color]，守卫值减少1点。[/color]"
+"[color=#E9DFC1]受到武器攻击时，[color=#FFD16D]每被命中一次[/color]，\n"
+"结界值减少1点。[/color]"
 
 #: Tooltips/CharacterWardTooltip.cs.uid
 msgid ""
@@ -65060,9 +65159,13 @@ msgid ""
 "\n"
 "[color=#E9DFC1]Ward is reduced by 1 [color=#FFD16D]per Hit[/color] (Weapon only).[/color]"
 msgstr ""
-"[color=#E9DFC1]受到的[color=#FFD16D]所有[/color]伤害均按比例减免，减免比例为[color=#FFD16D]当前守卫值/守卫值上限[/color]（[color=#26D345]{0:P2}[/color]）。[/color]\n"
+"[color=#E9DFC1]受到的[color=#FFD16D]所有[/color]伤害均按比例减免，\n"
+"减免比例为\n"
+"[color=#FFD16D]当前结界值/结界值上限[/color]\n"
+"（[color=#26D345]{0:P2}[/color]）。[/color]\n"
 "\n"
-"[color=#E9DFC1]受到武器攻击时，[color=#FFD16D]每被命中一次[/color]，守卫值减少1点。[/color]"
+"[color=#E9DFC1]受到武器攻击时，[color=#FFD16D]每被命中一次[/color]，\n"
+"结界值减少1点。[/color]"
 
 #: Tooltips/RecentlyAddedItemLabel.cs.uid
 msgid "[img height=1.25em]{0}[/img] [b]{1} [color=GREEN]x{2:customnumber:}[/color][/b] ({3:customnumber:})"
@@ -71370,7 +71473,7 @@ msgstr "星斩太刀"
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Ward Breaker Potion P2-A"
-msgstr "破除守卫药水P2-A"
+msgstr "破除结界药水P2-A"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
@@ -72190,7 +72293,7 @@ msgstr "塞迪尔的月光丘陵"
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Crescent Lake of Iridan"
-msgstr "艾丽丹的新月湖"
+msgstr "艾丽丹的月牙湖"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
@@ -72753,7 +72856,9 @@ msgstr "为此技能解锁一个额外的工具栏位"
 msgid ""
 "Unlocks the Priority Fishing mechanic.\n"
 "Coming Soon - Unlocks the Secret Cove Fishing Location"
-msgstr "解锁钓鱼优先级机制。即将推出 - 解锁神秘钓鱼地点"
+msgstr ""
+"解锁钓鱼优先级机制。\n"
+"即将推出 - 解锁神秘钓鱼地点"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -72887,7 +72992,7 @@ msgstr "解锁锻造中的献祭砧台，让你可以献祭锻造出的物品，
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Unlocks the Smelting -> Star Forge in Smithing, allowing to you create Alloy Bars such as Ironsteel or Dragonrune"
-msgstr "解锁锻造中的熔炼 -> 星辰熔炉，可用于制作铁钢、龙符文等合金锭"
+msgstr "解锁锻造中的熔炼 -> 星辰熔炉，可用于制作钢铁、龙符文等合金锭"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -72922,7 +73027,7 @@ msgstr "此次观测解锁了月光丘陵狩猎地点。"
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "This observation grants you with access to the Crescent Lake Combat Area."
-msgstr "此次观测解锁了新月湖战斗区域。"
+msgstr "此次观测解锁了月牙湖战斗区域。"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -73201,42 +73306,56 @@ msgid ""
 "[ul] Locate/obtain Pets\n"
 "Complete Quests\n"
 "Find rare/hidden items[/ul]"
-msgstr "更多任务类型即将推出：[ul]寻找/获得宠物完成任务寻找稀有/隐藏物品[/ul]"
+msgstr ""
+"更多任务类型即将推出：\n"
+"[ul]寻找/获得宠物\n"
+"完成任务\n"
+"寻找稀有/隐藏物品[/ul]"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid ""
 "Ctrl + A\n"
 "Select all Items in Tab"
-msgstr "Ctrl + A 选择面板中的所有物品"
+msgstr ""
+"Ctrl + A\n"
+"选择面板中的所有物品"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid ""
 "Shift + Left Click\n"
 "Select bulk Items"
-msgstr "Shift + 鼠标左键 批量选择物品"
+msgstr ""
+"Shift + 鼠标左键\n"
+"批量选择物品"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid ""
 "Ctrl + Left Click\n"
 "Select additional Item"
-msgstr "Ctrl + 鼠标左键 追加选择物品"
+msgstr ""
+"Ctrl + 鼠标左键\n"
+"追加选择物品"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid ""
 "Middle Mouse Click on Bank Tab\n"
 "Delete Bank Tab"
-msgstr "鼠标中键点击 仓库面板 删除仓库面板"
+msgstr ""
+"鼠标中键点击 仓库面板\n"
+"删除仓库面板"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid ""
 "Double Click on Bank Tab\n"
 "Edit Bank Tab Label"
-msgstr "双击 仓库面板 编辑仓库面板名称"
+msgstr ""
+"双击 仓库面板\n"
+"编辑仓库面板名称"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -73249,14 +73368,18 @@ msgid ""
 "The final adjustment to your product quantity based on\n"
 "Pests & Disease Maintenance.\n"
 "Only applied when product is fully grown, after all other bonuses."
-msgstr "最终产品数量的调整取决于害虫和疾病的防治状况。仅在产品完全成熟时生效，并在所有其他加成结算后计算。"
+msgstr ""
+"最终产品数量的调整取决于害虫和疾病的防治状况。\n"
+"仅在产品完全成熟时生效，并在所有其他加成结算后计算。"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid ""
 "Clears this Plot by removing the Planted Product and Compost.\n"
 "This action will not refund any Items."
-msgstr "移除已种植的产品和肥料，清空这块田地。此操作不会返还任何物品。"
+msgstr ""
+"移除已种植的产品和肥料，清空这块田地。\n"
+"此操作不会返还任何物品。"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -73325,7 +73448,8 @@ msgid ""
 "\n"
 "This cannot be undone."
 msgstr ""
-"[font_size=20]警告！[/font_size]此围栏内还有动物。\n"
+"[font_size=20]警告！[/font_size]\n"
+"此围栏内还有动物。\n"
 "\n"
 "更换围栏将移除这些动物。\n"
 "\n"
@@ -73341,7 +73465,9 @@ msgstr "将鼠标移到上方可查看重要详情。"
 msgid ""
 "First Pet\n"
 "+10 XP"
-msgstr "第一只宠物 +10经验"
+msgstr ""
+"第一只宠物\n"
+"+10经验"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -73369,8 +73495,10 @@ msgid ""
 "Happiness = Hunger * 0.3 + Comfort * 0.3 + Satisfaction * 0.4\n"
 "Note: Comfort is 1 if >= 75%"
 msgstr ""
-"动物开心，牧场舒心。[ul]根据另外三项属性计算。\n"
-"技能经验和产出均乘以动物的幸福度。最低为0%。[/ul]\n"
+"动物开心，牧场舒心。\n"
+"[ul]根据另外三项属性计算。\n"
+"技能经验和产出均乘以动物的幸福度。\n"
+"最低为0%。[/ul]\n"
 "\n"
 "幸福度 = 饱食度 * 0.3 + 舒适度 * 0.3 + 满足度 * 0.4\n"
 "注意：舒适度 >= 75%时，按1计算"
@@ -73385,7 +73513,8 @@ msgid ""
 "Your animal won't die at 0% Hunger, but my goodness it will be STARVING.[/ul]"
 msgstr ""
 "[ul]记得每小时喂一次动物。\n"
-"每有一小时没喂食，就降低10% :(b喂食后恢复至100% :D\n"
+"每有一小时没喂食，就降低10% :(\n"
+"喂食后恢复至100% :D\n"
 "有些动物不需要喂食，比如绵羊和奶牛。\n"
 "饱食度降到0%时，动物不会死，可怜的小家伙却要饿得前胸贴后背了。[/ul]"
 
@@ -73444,7 +73573,9 @@ msgid ""
 "\n"
 "- Malcs, Coolrox, Prat, Tapi & Ash"
 msgstr ""
-"感谢你体验我们的试玩版！《梅尔沃放置2》仍在开发中，你即将体验的版本仅展示了游戏早期的一部分内容。为了迎接抢先体验版的推出，我们还在持续开发和完善各项系统、功能、画面及平衡性。\n"
+"感谢你体验我们的试玩版！\n"
+"\n"
+"《梅尔沃放置2》仍在开发中，你即将体验的版本仅展示了游戏早期的一部分内容。为了迎接抢先体验版的推出，我们还在持续开发和完善各项系统、功能、画面及平衡性。\n"
 "\n"
 "本试玩版的等级上限为60级，仅开放部分技能和内容供你体验。抢先体验版将带来丰富得多的内容！\n"
 "\n"
@@ -73463,7 +73594,10 @@ msgstr ""
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "All damage dealt grants healing equal to Damage dealt * Lifesteal %."
-msgstr "造成的所有伤害均可恢复生命值，恢复量等于造成的伤害 * 吸血效果百分比。"
+msgstr ""
+"造成的所有伤害均可恢复生命值，\n"
+"恢复量等于\n"
+"造成的伤害 * 吸血效果百分比。"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -73500,7 +73634,9 @@ msgstr ""
 "战斗风格分为三种：近战、远程和魔法。\n"
 "你使用哪种风格，取决于所装备的武器。\n"
 "\n"
-"近战克制远程远程克制魔法魔法克制近战\n"
+"近战克制远程\n"
+"远程克制魔法\n"
+"魔法克制近战\n"
 "\n"
 "克制敌人的战斗风格时，你的最大伤害提高10%；被克制时则降低10%。此效果仅对你生效，不对敌人生效。"
 
@@ -73541,7 +73677,10 @@ msgid ""
 "Your chance to hit depends on your Stance's Accuracy compared to the Enemy's Evasion against that same Stance.\n"
 "\n"
 "When fighting an Enemy, aim to have a higher Accuracy Rating than their Evasion Rating."
-msgstr "你的命中几率取决于当前姿态的精准值，以及敌人针对该姿态的躲避值。与敌人战斗时，尽量让你的精准值高于对方的躲避值。"
+msgstr ""
+"你的命中几率取决于当前姿态的精准值，以及敌人针对该姿态的躲避值。\n"
+"\n"
+"与敌人战斗时，尽量让你的精准值高于对方的躲避值。"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -73555,8 +73694,11 @@ msgid ""
 "\n"
 "You can reduce an Enemy's damage dealt to you by increasing your Protection."
 msgstr ""
-"攻击伤害会按一定比例减免，减免幅度取决于战力和防护。你的战力和敌人防护的对比，决定你造成的伤害会被减免多少。提高战力有助于突破敌人的防护。战力主要来自武器。\n"
+"攻击伤害会按一定比例减免，减免幅度取决于战力和防护。\n"
 "\n"
+"你的战力和敌人防护的对比，决定你造成的伤害会被减免多少。提高战力有助于突破敌人的防护。\n"
+"\n"
+"战力主要来自武器。\n"
 "防护主要来自其他装备。\n"
 "\n"
 "提高防护可以减少敌人对你造成的伤害。"
@@ -74136,42 +74278,42 @@ msgstr "敌人拥有 盔甲"
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Have {MinWardValue}-{MaxWardValue} maximum Ward"
-msgstr "最大守卫值为{MinWardValue}-{MaxWardValue}"
+msgstr "最大结界值为{MinWardValue}-{MaxWardValue}"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Have {MinWardValue} or higher maximum Ward"
-msgstr "最大守卫值为{MinWardValue}或以上"
+msgstr "最大结界值为{MinWardValue}或以上"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Have {MaxWardValue} or lower maximum Ward"
-msgstr "最大守卫值为{MaxWardValue}或以下"
+msgstr "最大结界值为{MaxWardValue}或以下"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Have Ward"
-msgstr "拥有 守卫值"
+msgstr "拥有 结界值"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Enemy has {MinWardValue}-{MaxWardValue} maximum Ward"
-msgstr "敌人的最大守卫值为{MinWardValue}-{MaxWardValue}"
+msgstr "敌人的最大结界值为{MinWardValue}-{MaxWardValue}"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Enemy has {MinWardValue} or higher maximum Ward"
-msgstr "敌人的最大守卫值为{MinWardValue}或以上"
+msgstr "敌人的最大结界值为{MinWardValue}或以上"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Enemy has {MaxWardValue} or lower maximum Ward"
-msgstr "敌人的最大守卫值为{MaxWardValue}或以下"
+msgstr "敌人的最大结界值为{MaxWardValue}或以下"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Enemy has Ward"
-msgstr "敌人拥有 守卫值"
+msgstr "敌人拥有 结界值"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -74900,12 +75042,12 @@ msgstr "在 {EntityName}中使敌人的 盔甲抵消{Current:N0} / {Max:N0}点�
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Have {Current:N0} / {Max:N0} damage be negated by an Enemy's Ward"
-msgstr "使敌人的 守卫值抵消{Current:N0} / {Max:N0}点伤害"
+msgstr "使敌人的 结界值抵消{Current:N0} / {Max:N0}点伤害"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Have {Current:N0} / {Max:N0} damage be negated by an Enemy's Ward in {EntityName}"
-msgstr "在 {EntityName}中使敌人的 守卫值抵消{Current:N0} / {Max:N0}点伤害"
+msgstr "在 {EntityName}中使敌人的 结界值抵消{Current:N0} / {Max:N0}点伤害"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -75958,7 +76100,8 @@ msgid ""
 "Hitpoints: {1:N0}\n"
 "Other: {0:N0} (Allocated based on your Stance)"
 msgstr ""
-"受到的所有伤害均按固定数值减免，减免量等于盔甲值。\n"
+"受到的所有伤害均按固定数值减免，\n"
+"减免量等于护甲值。\n"
 "\n"
 "这是伤害计算的最后一步。\n"
 "\n"
@@ -75973,7 +76116,8 @@ msgid ""
 "\n"
 "This is the final damage calculation step."
 msgstr ""
-"受到的所有伤害均按固定数值减免，减免量等于盔甲值。\n"
+"受到的所有伤害均按固定数值减免，\n"
+"减免量等于护甲值。\n"
 "\n"
 "这是伤害计算的最后一步。"
 
@@ -75984,9 +76128,12 @@ msgid ""
 "\n"
 "Ward is reduced by 1 per Hit (Weapon only)."
 msgstr ""
-"受到的所有伤害均按比例减免，减免比例为当前守卫值/守卫值上限。\n"
+"受到的所有伤害均按比例减免，\n"
+"减免比例为\n"
+"当前结界值/结界值上限。\n"
 "\n"
-"受到武器攻击时，每被命中一次，守卫值减少1点。"
+"受到武器攻击时，每被命中一次，\n"
+"结界值减少1点。"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -76006,9 +76153,12 @@ msgid ""
 "\n"
 "Ward is reduced by 1 per Hit (Weapon only)."
 msgstr ""
-"受到的所有伤害均按比例减免，减免比例为当前守卫值/守卫值上限（{0:P2}）。\n"
+"受到的所有伤害均按比例减免，\n"
+"减免比例为\n"
+"当前结界值/结界值上限（{0:P2}）。\n"
 "\n"
-"受到武器攻击时，每被命中一次，守卫值减少1点。"
+"受到武器攻击时，每被命中一次，\n"
+"结界值减少1点。"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -76185,7 +76335,10 @@ msgid ""
 "With you and 同伴's help, you manage to break up the debris in short order, and Hapren directs much of the salvageable materials to be stored for reconstruction efforts, and the wood that is too mangled to be used to be left in the square to be used for the bonfire.\n"
 "\n"
 "Just as you set your tools down, a few tired looking folks make their way into the center of town, fishing gear in hand."
-msgstr "有你和同伴帮忙，垃圾很快就清理了。哈普伦下令将还能用的材料收起来，日后重建可以用。至于那些不能用的坏木材，就留在广场上生篝火。就在你们放下工具时，几个人走进了镇中心。他们看起来很累，手里拿着钓鱼工具。"
+msgstr ""
+"有你和同伴帮忙，垃圾很快就清理了。哈普伦下令将还能用的材料收起来，日后重建可以用。至于那些不能用的坏木材，就留在广场上生篝火。\n"
+"\n"
+"就在你们放下工具时，几个人走进了镇中心。他们看起来很累，手里拿着钓鱼工具。"
 
 #. TRANSLATORS: AutoTranslate fallback (companion name already substituted)
 #: Data/Packages/MelvorBase.json
@@ -76354,7 +76507,9 @@ msgstr ""
 "\n"
 "你看着同伴，他们脸上的情绪复杂，但最明显的是轻松了。他们抱了你一下，然后走向奄奄一息的幕后头目。你走过去，那野兽发出一声嘶哑的怪笑，然后又剧烈地咳嗽。你问了它两个问题。它要把那些囚犯运到哪里去？它是为谁做事？\n"
 "\n"
-"它坐在那里，幸灾乐祸地笑。堡垒的火焰在它的眼睛里跳动。“他们很快就会回来的。”"
+"它坐在那里，幸灾乐祸地笑。堡垒的火焰在它的眼睛里跳动。\n"
+"\n"
+"“他们很快就会回来的。”"
 
 #. TRANSLATORS: AutoTranslate fallback (companion name already substituted)
 #: Data/Packages/MelvorBase.json
@@ -76371,7 +76526,8 @@ msgid ""
 "\n"
 "Yesterday's events weren't enough to keep you or 同伴 down for long, though. The two of you set off back to the fort at first light, searching for tracks of the caravan you saw leave the fort on your first scouting mission. The set of buildings behind their thick wall still smouldered from the night before, reminding you both of the battle."
 msgstr ""
-"在你们攻击幕后头目堡垒的第二天，大家的心情很复杂，有喜悦，有轻松，有悲伤，还有……迷茫。虽然这次袭击成功了，但还是有几十个人受伤或死亡。小镇的人本来就不多，这些伤亡是很大的打击。\n"
+"在你们攻击幕后头目堡垒的第二天，大家的心情很复杂，有喜悦，有轻松，有悲伤，还有……迷茫。\n"
+"虽然这次袭击成功了，但还是有几十个人受伤或死亡。小镇的人本来就不多，这些伤亡是很大的打击。\n"
 "\n"
 "但是，现在难民来来往往，当地人口数量的变化很难追踪。战争很残酷，但你庆幸的是，你认识的人都还活着。在你和同伴用马车运回来的尸体里，有几个是民兵队伍的新兵。\n"
 "\n"
@@ -76561,7 +76717,9 @@ msgid ""
 msgstr ""
 "你跟着人群走了一会儿，这时一名穿着华贵的男子用通行证打了一个孩子的鼻子，那孩子的眼睛瞪得很大。然后，那名男子就走了。孩子的母亲在后面大声喊。看见孩子受欺负，围观人群的愤怒彻底爆发。一些醉醺醺的贵族害怕了，担心自己的行为会造成什么后果。还有一些贵族煽动情绪，显然很享受被关注的感觉。守卫努力维持秩序，但从他们愤怒的眼睛来看，显然他们烦透了这些‘社会精英’。\n"
 "\n"
-"趁着混乱，你撞上一名贵族，把手伸进他的外套，掏出了一张天蓝色的访客通行证。这张通行证原来的主人在你后面大喊，骂你摸他，但他的声音很快就被愤怒的人群淹没了。你没有回头，继续走。同伴溜到你旁边，手里也拿着通行证。你们俩打开通行证，发现上面不需要任何身份信息。单凭这张通行证，你们就可以进城。就这样，都城的大门没能拦住你。你甚至没觉得不好。"
+"趁着混乱，你撞上一名贵族，把手伸进他的外套，掏出了一张天蓝色的访客通行证。这张通行证原来的主人在你后面大喊，骂你摸他，但他的声音很快就被愤怒的人群淹没了。你没有回头，继续走。同伴溜到你旁边，手里也拿着通行证。你们俩打开通行证，发现上面不需要任何身份信息。单凭这张通行证，你们就可以进城。\n"
+"\n"
+"就这样，都城的大门没能拦住你。你甚至没觉得不好。"
 
 #. TRANSLATORS: AutoTranslate fallback (companion name already substituted)
 #: Data/Packages/MelvorBase.json
@@ -77248,7 +77406,9 @@ msgstr ""
 "\n"
 "你非弄清楚不可。\n"
 "\n"
-"你离开房间，留下同伴独自待着。她似乎仍沉浸在自己的思绪中。走廊两侧满是壁画，描绘着世间的种种景象，可你几乎无心去看，只一心想找他问个明白。不知不觉，你已走到了外面。你要找的那个怪物坐在远处的灰色草地里，面前是两朵白花。\n"
+"你离开房间，留下同伴独自待着。她似乎仍沉浸在自己的思绪中。\n"
+"\n"
+"走廊两侧满是壁画，描绘着世间的种种景象，可你几乎无心去看，只一心想找他问个明白。不知不觉，你已走到了外面。你要找的那个怪物坐在远处的灰色草地里，面前是两朵白花。\n"
 "\n"
 "草间的小径已被踩得平整，显然有人在这里走过无数次。"
 
@@ -77673,7 +77833,9 @@ msgstr ""
 "\n"
 "在隧道里，这些怪物杀死了几十个矮人，可它们也没有选择。你自己召唤过生物，清楚这一点。你要它们做什么，它们就会照办。\n"
 "\n"
-"你会尽量给它们一个痛快。你移开视线，找到了辛塔克王子的躯体。他仍被那把黑色金属利刃钉在蛞蝓怪物身上。同伴挪近了些，在你耳边低声问道。"
+"你会尽量给它们一个痛快。\n"
+"\n"
+"你移开视线，找到了辛塔克王子的躯体。他仍被那把黑色金属利刃钉在蛞蝓怪物身上。同伴挪近了些，在你耳边低声问道。"
 
 #. TRANSLATORS: AutoTranslate fallback (companion name already substituted)
 #: Data/Packages/MelvorBase.json
@@ -78112,7 +78274,8 @@ msgid ""
 "\n"
 "Yesterday's events weren't enough to keep you or [Companion Name] down for long, though. The two of you set off back to the fort at first light, searching for tracks of the caravan you saw leave the fort on your first scouting mission. The set of buildings behind their thick wall still smouldered from the night before, reminding you both of the battle."
 msgstr ""
-"在你们攻击幕后头目堡垒的第二天，大家的心情很复杂，有喜悦，有轻松，有悲伤，还有……迷茫。虽然这次袭击成功了，但还是有几十个人受伤或死亡。小镇的人本来就不多，这些伤亡是很大的打击。\n"
+"在你们攻击幕后头目堡垒的第二天，大家的心情很复杂，有喜悦，有轻松，有悲伤，还有……迷茫。\n"
+"虽然这次袭击成功了，但还是有几十个人受伤或死亡。小镇的人本来就不多，这些伤亡是很大的打击。\n"
 "\n"
 "但是，现在难民来来往往，当地人口数量的变化很难追踪。战争很残酷，但你庆幸的是，你认识的人都还活着。在你和同伴用马车运回来的尸体里，有几个是民兵队伍的新兵。\n"
 "\n"
@@ -78128,7 +78291,8 @@ msgid ""
 "\n"
 "Yesterday's events weren't enough to keep you or 同伴 down for long, though. The two of you set off back to the fort at first light, searching for tracks of the caravan you saw leave the fort on your first scouting mission. The set of buildings behind their thick wall still smouldered from the night before, reminding you both of the battle."
 msgstr ""
-"在你们攻击幕后头目堡垒的第二天，大家的心情很复杂，有喜悦，有轻松，有悲伤，还有……迷茫。虽然这次袭击成功了，但还是有几十个人受伤或死亡。小镇的人本来就不多，这些伤亡是很大的打击。\n"
+"在你们攻击幕后头目堡垒的第二天，大家的心情很复杂，有喜悦，有轻松，有悲伤，还有……迷茫。\n"
+"虽然这次袭击成功了，但还是有几十个人受伤或死亡。小镇的人本来就不多，这些伤亡是很大的打击。\n"
 "\n"
 "但是，现在难民来来往往，当地人口数量的变化很难追踪。战争很残酷，但你庆幸的是，你认识的人都还活着。在你和同伴用马车运回来的尸体里，有几个是民兵队伍的新兵。\n"
 "\n"
@@ -78422,7 +78586,9 @@ msgid ""
 msgstr ""
 "你跟着人群走了一会儿，这时一名穿着华贵的男子用通行证打了一个孩子的鼻子，那孩子的眼睛瞪得很大。然后，那名男子就走了。孩子的母亲在后面大声喊。看见孩子受欺负，围观人群的愤怒彻底爆发。一些醉醺醺的贵族害怕了，担心自己的行为会造成什么后果。还有一些贵族煽动情绪，显然很享受被关注的感觉。守卫努力维持秩序，但从他们愤怒的眼睛来看，显然他们烦透了这些‘社会精英’。\n"
 "\n"
-"趁着混乱，你撞上一名贵族，把手伸进他的外套，掏出了一张天蓝色的访客通行证。这张通行证原来的主人在你后面大喊，骂你摸他，但他的声音很快就被愤怒的人群淹没了。你没有回头，继续走。同伴溜到你旁边，手里也拿着通行证。你们俩打开通行证，发现上面不需要任何身份信息。单凭这张通行证，你们就可以进城。就这样，都城的大门没能拦住你。你甚至没觉得不好。"
+"趁着混乱，你撞上一名贵族，把手伸进他的外套，掏出了一张天蓝色的访客通行证。这张通行证原来的主人在你后面大喊，骂你摸他，但他的声音很快就被愤怒的人群淹没了。你没有回头，继续走。同伴溜到你旁边，手里也拿着通行证。你们俩打开通行证，发现上面不需要任何身份信息。单凭这张通行证，你们就可以进城。\n"
+"\n"
+"就这样，都城的大门没能拦住你。你甚至没觉得不好。"
 
 #. TRANSLATORS: AutoTranslate fallback (in-game JSON wording)
 #: Data/Packages/MelvorBase.json
@@ -78435,7 +78601,9 @@ msgid ""
 msgstr ""
 "你跟着人群走了一会儿，这时一名穿着华贵的男子用通行证打了一个孩子的鼻子，那孩子的眼睛瞪得很大。然后，那名男子就走了。孩子的母亲在后面大声喊。看见孩子受欺负，围观人群的愤怒彻底爆发。一些醉醺醺的贵族害怕了，担心自己的行为会造成什么后果。还有一些贵族煽动情绪，显然很享受被关注的感觉。守卫努力维持秩序，但从他们愤怒的眼睛来看，显然他们烦透了这些‘社会精英’。\n"
 "\n"
-"趁着混乱，你撞上一名贵族，把手伸进他的外套，掏出了一张天蓝色的访客通行证。这张通行证原来的主人在你后面大喊，骂你摸他，但他的声音很快就被愤怒的人群淹没了。你没有回头，继续走。同伴溜到你旁边，手里也拿着通行证。你们俩打开通行证，发现上面不需要任何身份信息。单凭这张通行证，你们就可以进城。就这样，都城的大门没能拦住你。你甚至没觉得不好。"
+"趁着混乱，你撞上一名贵族，把手伸进他的外套，掏出了一张天蓝色的访客通行证。这张通行证原来的主人在你后面大喊，骂你摸他，但他的声音很快就被愤怒的人群淹没了。你没有回头，继续走。同伴溜到你旁边，手里也拿着通行证。你们俩打开通行证，发现上面不需要任何身份信息。单凭这张通行证，你们就可以进城。\n"
+"\n"
+"就这样，都城的大门没能拦住你。你甚至没觉得不好。"
 
 #. TRANSLATORS: AutoTranslate fallback (in-game JSON wording)
 #: Data/Packages/MelvorBase.json
@@ -79607,7 +79775,7 @@ msgstr "剑士专家"
 #. TRANSLATORS: Live game text from official EA build 26724394
 #: Data/Packages/MelvorBase.json
 msgid "Expert Warrior"
-msgstr "武士专家"
+msgstr "勇士专家"
 
 #. TRANSLATORS: Live game text from official EA build 26724394
 #: Data/Packages/MelvorBase.json
@@ -79906,3 +80074,87 @@ msgstr[1] "已将[img height=1.25em]{ItemIcon}[/img] [b]{Current} / {Max} {ItemN
 #. TRANSLATORS: Components/Toolbelt/Conditions/ToolbeltItemNotEquippedCondition.cs
 msgid "[img height=1.25em]{ItemIcon}[/img] [b]{ItemName}[/b] is NOT equipped to {EntityName} toolbelt"
 msgstr "[img height=1.25em]{ItemIcon}[/img] [b]{ItemName}[/b]未装备到{EntityName}工具带"
+
+#. live enemy armour tooltip
+#: Tooltips/CharacterArmourTooltip.cs.uid
+msgid ""
+"[color=#E9DFC1]Reduces [color=#FFD16D]all[/color] damage taken by a flat amount equal to the [color=#FFD16D]Armour value[/color].[/color]\n"
+"\n"
+"[color=#E9DFC1]This is the [color=#FFD16D]final[/color] damage calculation step.[/color]\n"
+"\n"
+"[color=#E9DFC1][color=#FFD16D]Armour can be broken[/color] by dealing a hit [color=#FFD16D]equal to or higher[/color] than the Armour value.[/color]\n"
+"\n"
+"[color=#E9DFC1]Base Bonus XP granted per Kill:[/color]\n"
+"[color=#FFD16D]Hitpoints:[/color] [color=#26D345]{1:N0}[/color]\n"
+"[color=#FFD16D]Other:[/color] [color=#26D345]{0:N0}[/color] [color=#E9DFC1](Allocated based on your Stance)[/color]"
+msgstr ""
+"[color=#E9DFC1]受到的[color=#FFD16D]所有[/color]伤害均按固定数值减免，\n"
+"减免量等于[color=#FFD16D]护甲值[/color]。[/color]\n"
+"\n"
+"[color=#E9DFC1]这是伤害计算的[color=#FFD16D]最后一步[/color]。[/color]\n"
+"\n"
+"[color=#E9DFC1]造成[color=#FFD16D]不低于护甲值[/color]的伤害，\n"
+"即可[color=#FFD16D]破除护甲[/color]。[/color]\n"
+"\n"
+"[color=#E9DFC1]每次击杀可获得的基础额外经验：[/color]\n"
+"[color=#FFD16D]生命值：[/color] [color=#26D345]{1:N0}[/color]\n"
+"[color=#FFD16D]其他：[/color] [color=#26D345]{0:N0}[/color] [color=#E9DFC1]（根据你的姿态分配）[/color]"
+
+#. live player armour tooltip
+#: Tooltips/CharacterArmourTooltip.cs.uid
+msgid ""
+"[color=#E9DFC1]Reduces [color=#FFD16D]all[/color] damage taken by a flat amount equal to the [color=#FFD16D]Armour value[/color].[/color]\n"
+"\n"
+"[color=#E9DFC1]This is the [color=#FFD16D]final[/color] damage calculation step.[/color]\n"
+"\n"
+"[color=#E9DFC1]Your [color=#FFD16D]Armour will break[/color] if the Enemy deals a hit [color=#FFD16D]equal to or higher[/color] than your Armour value.[/color]"
+msgstr ""
+"[color=#E9DFC1]受到的[color=#FFD16D]所有[/color]伤害均按固定数值减免，\n"
+"减免量等于[color=#FFD16D]护甲值[/color]。[/color]\n"
+"\n"
+"[color=#E9DFC1]这是伤害计算的[color=#FFD16D]最后一步[/color]。[/color]\n"
+"\n"
+"[color=#E9DFC1]如果敌人造成[color=#FFD16D]不低于你护甲值[/color]的伤害，\n"
+"你的[color=#FFD16D]护甲就会被破除[/color]。[/color]"
+
+#. AutoTranslate fallback (BBCode stripped)
+#: Data/Packages/MelvorBase.json
+msgid ""
+"Reduces all damage taken by a flat amount equal to the Armour value.\n"
+"\n"
+"This is the final damage calculation step.\n"
+"\n"
+"Armour can be broken by dealing a hit equal to or higher than the Armour value.\n"
+"\n"
+"Base Bonus XP granted per Kill:\n"
+"Hitpoints: {1:N0}\n"
+"Other: {0:N0} (Allocated based on your Stance)"
+msgstr ""
+"受到的所有伤害均按固定数值减免，\n"
+"减免量等于护甲值。\n"
+"\n"
+"这是伤害计算的最后一步。\n"
+"\n"
+"造成不低于护甲值的伤害，\n"
+"即可破除护甲。\n"
+"\n"
+"每次击杀可获得的基础额外经验：\n"
+"生命值： {1:N0}\n"
+"其他：{0:N0}（根据你的姿态分配）"
+
+#. AutoTranslate fallback (BBCode stripped)
+#: Data/Packages/MelvorBase.json
+msgid ""
+"Reduces all damage taken by a flat amount equal to the Armour value.\n"
+"\n"
+"This is the final damage calculation step.\n"
+"\n"
+"Your Armour will break if the Enemy deals a hit equal to or higher than your Armour value."
+msgstr ""
+"受到的所有伤害均按固定数值减免，\n"
+"减免量等于护甲值。\n"
+"\n"
+"这是伤害计算的最后一步。\n"
+"\n"
+"如果敌人造成不低于你护甲值的伤害，\n"
+"你的护甲就会被破除。"

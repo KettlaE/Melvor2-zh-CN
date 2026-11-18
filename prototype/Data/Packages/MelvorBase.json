@@ -141,7 +141,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输出翻倍几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的产出翻倍几率"
     },
     {
       "Key": {
@@ -154,7 +154,7 @@
           "Recipe"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Recipe.DisplayName}的输出翻倍几率（仅限 {LocalContext.Component.Entity.DisplayName}）"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Recipe.DisplayName}的产出翻倍几率（仅限 {LocalContext.Component.Entity.DisplayName}）"
     },
     {
       "Key": {
@@ -166,7 +166,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输出翻倍几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的产出翻倍几率"
     },
     {
       "Key": {
@@ -190,7 +190,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输出翻倍几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的产出翻倍几率"
     },
     {
       "Key": {
@@ -240,7 +240,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输出翻倍几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的产出翻倍几率"
     },
     {
       "Key": {
@@ -252,7 +252,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输入留存几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的投入留存几率"
     },
     {
       "Key": {
@@ -264,7 +264,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输出翻倍几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的产出翻倍几率"
     },
     {
       "Key": {
@@ -276,7 +276,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输入留存几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的投入留存几率"
     },
     {
       "Key": {
@@ -288,7 +288,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输出翻倍几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的产出翻倍几率"
     },
     {
       "Key": {
@@ -611,7 +611,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输出翻倍几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的产出翻倍几率"
     },
     {
       "Key": {
@@ -623,7 +623,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输入留存几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的投入留存几率"
     },
     {
       "Key": {
@@ -1635,7 +1635,7 @@
           "Category"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%}类别：{LocalContext.Category.DisplayName}在 {LocalContext.Component.Entity.DisplayName}时的输入留存几率"
+      "TemplateString": "{Value:+0.##%;-#.##%}类别：{LocalContext.Category.DisplayName}在 {LocalContext.Component.Entity.DisplayName}时的投入留存几率"
     },
     {
       "Key": {
@@ -1647,7 +1647,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输入留存几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的投入留存几率"
     },
     {
       "Key": {
@@ -1685,7 +1685,7 @@
           "Category"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%}类别：{LocalContext.Category.DisplayName}在 {LocalContext.Component.Entity.DisplayName}时的输出翻倍几率"
+      "TemplateString": "{Value:+0.##%;-#.##%}类别：{LocalContext.Category.DisplayName}在 {LocalContext.Component.Entity.DisplayName}时的产出翻倍几率"
     },
     {
       "Key": {
@@ -1697,7 +1697,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输出翻倍几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的产出翻倍几率"
     },
     {
       "Key": {
@@ -1774,7 +1774,7 @@
           "Category"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%}类别：{LocalContext.Category.DisplayName}在 {LocalContext.Component.Entity.DisplayName}时的输出翻倍几率"
+      "TemplateString": "{Value:+0.##%;-#.##%}类别：{LocalContext.Category.DisplayName}在 {LocalContext.Component.Entity.DisplayName}时的产出翻倍几率"
     },
     {
       "Key": {
@@ -1787,7 +1787,7 @@
           "Category"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%}类别：{LocalContext.Category.DisplayName}在 {LocalContext.Component.Entity.DisplayName}时的输入留存几率"
+      "TemplateString": "{Value:+0.##%;-#.##%}类别：{LocalContext.Category.DisplayName}在 {LocalContext.Component.Entity.DisplayName}时的投入留存几率"
     },
     {
       "Key": {
@@ -1811,7 +1811,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输入留存几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的投入留存几率"
     },
     {
       "Key": {
@@ -1922,7 +1922,7 @@
           "Subcategory"
         ]
       },
-      "TemplateString": "{LocalContext.Component.Entity.DisplayName}时，{Value:+0.##%;-#.##%} {LocalContext.Subcategory.DisplayName}的输入留存几率"
+      "TemplateString": "{LocalContext.Component.Entity.DisplayName}时，{Value:+0.##%;-#.##%} {LocalContext.Subcategory.DisplayName}的投入留存几率"
     },
     {
       "Key": {
@@ -2056,7 +2056,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的输出翻倍几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}的产出翻倍几率"
     },
     {
       "Key": {
@@ -2524,7 +2524,7 @@
           "Category"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Category.DisplayName}输出翻倍几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Category.DisplayName}产出翻倍几率"
     },
     {
       "Key": {
@@ -2537,7 +2537,7 @@
           "Category"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Category.DisplayName}输出翻倍几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Category.DisplayName}产出翻倍几率"
     },
     {
       "Key": {
@@ -2945,7 +2945,7 @@
           "Subcategory"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时输出翻倍的几率（仅限{LocalContext.Subcategory.DisplayName}）"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时产出翻倍的几率（仅限{LocalContext.Subcategory.DisplayName}）"
     },
     {
       "Key": {
@@ -2994,7 +2994,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:cond:<0?Decreased|>=0?Increased} {Value:0%}{LocalContext.Component.Entity.DisplayName}时的输出几率"
+      "TemplateString": "{Value:cond:<0?Decreased|>=0?Increased} {Value:0%}{LocalContext.Component.Entity.DisplayName}时的产出几率"
     },
     {
       "Key": {
@@ -3020,7 +3020,7 @@
           "Location"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时的输出翻倍几率（仅限{LocalContext.Location.DisplayName}）"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时的产出翻倍几率（仅限{LocalContext.Location.DisplayName}）"
     },
     {
       "Key": {
@@ -3181,7 +3181,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时的输入消耗（不可低于1）"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时的投入消耗（不可低于1）"
     },
     {
       "Key": {
@@ -3194,7 +3194,7 @@
           "Category"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时针对{LocalContext.Category.DisplayName}的输入消耗（不可低于1）"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时针对{LocalContext.Category.DisplayName}的投入消耗（不可低于1）"
     },
     {
       "Key": {
@@ -3483,7 +3483,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}失败时的输入留存几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}失败时的投入留存几率"
     },
     {
       "Key": {
@@ -3826,7 +3826,7 @@
           "Component"
         ]
       },
-      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时的固定输出几率"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.Component.Entity.DisplayName}时的固定产出几率"
     },
     {
       "Key": {
@@ -137332,8 +137332,8 @@
       {
         "Id": "WardBreakerPotionP1A",
         "DisplayName": {
-          "Singular": "破除守卫药水P1-A",
-          "Plural": "破除守卫药水P1-A"
+          "Singular": "破除结界药水P1-A",
+          "Plural": "破除结界药水P1-A"
         },
         "Description": null,
         "Icon": "res://Assets/Items/WardBreakerPotionP1A.png",
@@ -137513,8 +137513,8 @@
       {
         "Id": "WardBreakerPotionP2A",
         "DisplayName": {
-          "Singular": "破除守卫药水P2-A",
-          "Plural": "破除守卫药水P2-A"
+          "Singular": "破除结界药水P2-A",
+          "Plural": "破除结界药水P2-A"
         },
         "Description": null,
         "Icon": "res://Assets/Items/WardBreakerPotionP2A.png",
@@ -137596,8 +137596,8 @@
       {
         "Id": "WardBreakerPotionP2B",
         "DisplayName": {
-          "Singular": "破除守卫药水P2-B",
-          "Plural": "破除守卫药水P2-B"
+          "Singular": "破除结界药水P2-B",
+          "Plural": "破除结界药水P2-B"
         },
         "Description": null,
         "Icon": "res://Assets/Items/WardBreakerPotionP2B.png",
@@ -137702,8 +137702,8 @@
       {
         "Id": "SuperWardBreakerPotionP1A",
         "DisplayName": {
-          "Singular": "超级破除守卫药水P1-A",
-          "Plural": "超级破除守卫药水P1-A"
+          "Singular": "超级破除结界药水P1-A",
+          "Plural": "超级破除结界药水P1-A"
         },
         "Description": null,
         "Icon": "res://Assets/Items/SuperWardBreakerPotionP1A.png",
@@ -137808,8 +137808,8 @@
       {
         "Id": "SuperWardBreakerPotionP2A",
         "DisplayName": {
-          "Singular": "超级破除守卫药水P2-A",
-          "Plural": "超级破除守卫药水P2-B"
+          "Singular": "超级破除结界药水P2-A",
+          "Plural": "超级破除结界药水P2-B"
         },
         "Description": null,
         "Icon": "res://Assets/Items/SuperWardBreakerPotionP2A.png",
@@ -137914,8 +137914,8 @@
       {
         "Id": "SuperWardBreakerPotionP2B",
         "DisplayName": {
-          "Singular": "超级破除守卫药水P2-B",
-          "Plural": "超级破除守卫药水P2-B"
+          "Singular": "超级破除结界药水P2-B",
+          "Plural": "超级破除结界药水P2-B"
         },
         "Description": null,
         "Icon": "res://Assets/Items/SuperWardBreakerPotionP2B.png",
@@ -154509,12 +154509,12 @@
       },
       {
         "Id": "WardBreakerPotion",
-        "DisplayName": "破除守卫药水",
+        "DisplayName": "破除结界药水",
         "Icon": "res://Assets/Icons/missing_artwork.png"
       },
       {
         "Id": "SuperWardBreakerPotion",
-        "DisplayName": "超级破除守卫药水",
+        "DisplayName": "超级破除结界药水",
         "Icon": "res://Assets/Icons/missing_artwork.png"
       },
       {
@@ -230756,7 +230756,7 @@
       },
       {
         "Id": "IronsteelAxeHeadCoating",
-        "DisplayName": "斧头铁钢镀层",
+        "DisplayName": "斧头钢铁镀层",
         "Icon": "res://Assets/Icons/missing_artwork.png",
         "Description": null,
         "Provides": {
@@ -230865,7 +230865,7 @@
       },
       {
         "Id": "IronsteelPickaxeHeadCoating",
-        "DisplayName": "镐头铁钢镀层",
+        "DisplayName": "镐头钢铁镀层",
         "Icon": "res://Assets/Icons/missing_artwork.png",
         "Description": null,
         "Provides": {
@@ -230990,7 +230990,7 @@
       },
       {
         "Id": "IronsteelReelCoating",
-        "DisplayName": "渔轮铁钢镀层",
+        "DisplayName": "渔轮钢铁镀层",
         "Icon": "res://Assets/Icons/missing_artwork.png",
         "Description": null,
         "Provides": {
@@ -247045,32 +247045,32 @@
       },
       {
         "Id": "ApprenticeWarrior",
-        "DisplayName": "武士学徒",
+        "DisplayName": "勇士学徒",
         "PointPercentRequired": 0.05
       },
       {
         "Id": "JourneymanWarrior",
-        "DisplayName": "出师武士",
+        "DisplayName": "出师勇士",
         "PointPercentRequired": 0.1
       },
       {
         "Id": "SkilledWarrior",
-        "DisplayName": "熟练武士",
+        "DisplayName": "熟练勇士",
         "PointPercentRequired": 0.2
       },
       {
         "Id": "VeteranWarrior",
-        "DisplayName": "武士老手",
+        "DisplayName": "勇士老手",
         "PointPercentRequired": 0.4
       },
       {
         "Id": "PrimeWarrior",
-        "DisplayName": "首席武士",
+        "DisplayName": "首席勇士",
         "PointPercentRequired": 0.65
       },
       {
         "Id": "ExpertWarrior",
-        "DisplayName": "武士专家",
+        "DisplayName": "勇士专家",
         "PointPercentRequired": 1
       },
       {
@@ -247681,7 +247681,7 @@
             }
           }
         ],
-        "CustomDescription": "解锁[color=#FFD16D]钓鱼优先级[/color]机制。即将推出 - 解锁神秘钓鱼地点",
+        "CustomDescription": "解锁[color=#FFD16D]钓鱼优先级[/color]机制。\n即将推出 - 解锁神秘钓鱼地点",
         "Rewards": {
           "Items": [],
           "Currencies": [],
@@ -376517,7 +376517,7 @@
       },
       {
         "Id": "MaximumWard",
-        "DisplayName": "最大守护值",
+        "DisplayName": "最大结界值",
         "Icon": "res://Assets/Icons/missing_artwork.png",
         "NumberFormat": "{0:N0}",
         "DisplayPriority": 2300000,
@@ -376528,7 +376528,7 @@
       },
       {
         "Id": "Armour",
-        "DisplayName": "盔甲",
+        "DisplayName": "护甲",
         "Icon": "res://Assets/Icons/missing_artwork.png",
         "NumberFormat": "{0:N0}",
         "DisplayPriority": 2400000,
@@ -424510,7 +424510,7 @@
       },
       {
         "Id": "ArmourDent",
-        "DisplayName": "盔甲受损",
+        "DisplayName": "护甲受损",
         "Icon": "res://Assets/Icons/missing_artwork.png",
         "IsPositive": false,
         "Modifiers": [
@@ -451068,7 +451068,7 @@
       },
       {
         "Id": "WardBreakerPotion",
-        "DisplayName": "破除守卫药水",
+        "DisplayName": "破除结界药水",
         "Icon": "res://Assets/Icons/missing_artwork.png",
         "Category": "MelvorBase:CombatPotions",
         "Requirements": [
@@ -451088,7 +451088,7 @@
       },
       {
         "Id": "SuperWardBreakerPotion",
-        "DisplayName": "超级破除守卫药水",
+        "DisplayName": "超级破除结界药水",
         "Icon": "res://Assets/Icons/missing_artwork.png",
         "Category": "MelvorBase:SuperCombatPotions",
         "Requirements": [
@@ -460586,7 +460586,7 @@
       },
       {
         "Id": "WardBreakerPotionP1A",
-        "DisplayName": "破除守卫药水P1-A",
+        "DisplayName": "破除结界药水P1-A",
         "Icon": "res://Assets/Items/WardBreakerPotionP1A.png",
         "Category": "MelvorBase:CombatPotions",
         "Subcategory": "MelvorBase:WardBreakerPotion",
@@ -460641,7 +460641,7 @@
       },
       {
         "Id": "WardBreakerPotionP2A",
-        "DisplayName": "破除守卫药水P2-A",
+        "DisplayName": "破除结界药水P2-A",
         "Icon": "res://Assets/Items/WardBreakerPotionP2A.png",
         "Category": "MelvorBase:CombatPotions",
         "Subcategory": "MelvorBase:WardBreakerPotion",
@@ -460709,7 +460709,7 @@
       },
       {
         "Id": "WardBreakerPotionP2B",
-        "DisplayName": "破除守卫药水P2-B",
+        "DisplayName": "破除结界药水P2-B",
         "Icon": "res://Assets/Items/WardBreakerPotionP2B.png",
         "Category": "MelvorBase:CombatPotions",
         "Subcategory": "MelvorBase:WardBreakerPotion",
@@ -460777,7 +460777,7 @@
       },
       {
         "Id": "SuperWardBreakerPotionP1A",
-        "DisplayName": "超级破除守卫药水P1-A",
+        "DisplayName": "超级破除结界药水P1-A",
         "Icon": "res://Assets/Items/SuperWardBreakerPotionP1A.png",
         "Category": "MelvorBase:SuperCombatPotions",
         "Subcategory": "MelvorBase:SuperWardBreakerPotion",
@@ -460844,7 +460844,7 @@
       },
       {
         "Id": "SuperWardBreakerPotionP2A",
-        "DisplayName": "超级破除守卫药水P2-A",
+        "DisplayName": "超级破除结界药水P2-A",
         "Icon": "res://Assets/Items/SuperWardBreakerPotionP2A.png",
         "Category": "MelvorBase:SuperCombatPotions",
         "Subcategory": "MelvorBase:SuperWardBreakerPotion",
@@ -460912,7 +460912,7 @@
       },
       {
         "Id": "SuperWardBreakerPotionP2B",
-        "DisplayName": "超级破除守卫药水P2-B",
+        "DisplayName": "超级破除结界药水P2-B",
         "Icon": "res://Assets/Items/SuperWardBreakerPotionP2B.png",
         "Category": "MelvorBase:SuperCombatPotions",
         "Subcategory": "MelvorBase:SuperWardBreakerPotion",
@@ -464457,7 +464457,7 @@
       },
       {
         "Id": "Ward",
-        "DisplayName": "看守",
+        "DisplayName": "结界",
         "Icon": "res://Assets/Skills/Prayer/Ward.png",
         "FitsInSlot": "MelvorBase:CombatPrayer",
         "Bonuses": {
@@ -467868,7 +467868,7 @@
       },
       {
         "Id": "IronsteelEnclosureSupport",
-        "DisplayName": "铁钢围栏支架",
+        "DisplayName": "钢铁围栏支架",
         "Icon": "res://Assets/Icons/missing_artwork.png",
         "Bonuses": [
           {
@@ -475587,8 +475587,8 @@
         "Id": "IridanObservation1",
         "Icon": "res://Assets/Icons/missing_artwork.png",
         "DisplayName": {
-          "Singular": "艾丽丹的新月湖",
-          "Plural": "艾丽丹的新月湖"
+          "Singular": "艾丽丹的月牙湖",
+          "Plural": "艾丽丹的月牙湖"
         },
         "EventType": "MelvorBase:Observation",
         "Chance": 1,
@@ -480385,7 +480385,7 @@
           "CombatEffect": []
         },
         "UnlockRequirements": [],
-        "Description": "解锁锻造中的[color=#FFD16D]熔炼 -> 星辰熔炉[/color]，可用于制作铁钢、龙符文等合金锭"
+        "Description": "解锁锻造中的[color=#FFD16D]熔炼 -> 星辰熔炉[/color]，可用于制作钢铁、龙符文等合金锭"
       },
       {
         "Id": "IridanMajor3",
