@@ -48960,8 +48960,8 @@
       {
         "Id": "WolfFur",
         "DisplayName": {
-          "Singular": "狼毛",
-          "Plural": "狼毛"
+          "Singular": "狼皮",
+          "Plural": "狼皮"
         },
         "Description": null,
         "Icon": "res://Assets/Items/WolfFur.png",
@@ -49793,8 +49793,8 @@
       {
         "Id": "SushiBase",
         "DisplayName": {
-          "Singular": "寿司醋饭",
-          "Plural": "寿司醋饭"
+          "Singular": "寿司底",
+          "Plural": "寿司底"
         },
         "Description": null,
         "Icon": "res://Assets/Items/SushiBase.png",
@@ -52254,8 +52254,8 @@
       {
         "Id": "RabbitFur",
         "DisplayName": {
-          "Singular": "兔毛",
-          "Plural": "兔毛"
+          "Singular": "兔皮",
+          "Plural": "兔皮"
         },
         "Description": null,
         "Icon": "res://Assets/Items/RabbitFur.png",
@@ -53485,8 +53485,8 @@
       {
         "Id": "BasicNet",
         "DisplayName": {
-          "Singular": "基础网子",
-          "Plural": "基础网子"
+          "Singular": "基础捕网",
+          "Plural": "基础捕网"
         },
         "Description": null,
         "Icon": "res://Assets/Items/BasicNet.png",
@@ -53528,8 +53528,8 @@
       {
         "Id": "ReinforcedNet",
         "DisplayName": {
-          "Singular": "加固网子",
-          "Plural": "加固网子"
+          "Singular": "加固捕网",
+          "Plural": "加固捕网"
         },
         "Description": null,
         "Icon": "res://Assets/Items/ReinforcedNet.png",
@@ -53631,8 +53631,8 @@
       {
         "Id": "FortifiedNet",
         "DisplayName": {
-          "Singular": "强化网子",
-          "Plural": "强化网子"
+          "Singular": "强化捕网",
+          "Plural": "强化捕网"
         },
         "Description": null,
         "Icon": "res://Assets/Items/FortifiedNet.png",
@@ -62159,8 +62159,8 @@
       {
         "Id": "RabbitOvenMitts",
         "DisplayName": {
-          "Singular": "兔毛隔热手套",
-          "Plural": "兔毛隔热手套"
+          "Singular": "兔皮隔热手套",
+          "Plural": "兔皮隔热手套"
         },
         "Description": null,
         "Icon": "res://Assets/Items/RabbitOvenMitts.png",
@@ -62568,8 +62568,8 @@
       {
         "Id": "DragonboneOffhandGlaive",
         "DisplayName": {
-          "Singular": "龙骨副手戟",
-          "Plural": "龙骨副手戟"
+          "Singular": "龙骨副手战刃",
+          "Plural": "龙骨副手战刃"
         },
         "Description": null,
         "Icon": "res://Assets/Items/DragonboneOffhandGlaive.png",
@@ -96925,8 +96925,8 @@
       {
         "Id": "Stinger",
         "DisplayName": {
-          "Singular": "蛰刺者",
-          "Plural": "蛰刺者"
+          "Singular": "螫针",
+          "Plural": "螫针"
         },
         "Description": null,
         "Icon": "res://Assets/Items/Stinger.png",
@@ -135442,8 +135442,8 @@
       {
         "Id": "ShadowFoxFur",
         "DisplayName": {
-          "Singular": "暗影狐毛",
-          "Plural": "暗影狐毛"
+          "Singular": "暗影狐皮",
+          "Plural": "暗影狐皮"
         },
         "Description": null,
         "Icon": "res://Assets/Items/ShadowFoxFur.png",
@@ -135973,8 +135973,8 @@
       {
         "Id": "MoonscaleNet",
         "DisplayName": {
-          "Singular": "月鳞网子",
-          "Plural": "月鳞网子"
+          "Singular": "月鳞捕网",
+          "Plural": "月鳞捕网"
         },
         "Description": null,
         "Icon": "res://Assets/Items/MoonscaleNet.png",
@@ -172092,7 +172092,7 @@
       },
       {
         "Id": "BasicNet",
-        "DisplayName": "基础网子",
+        "DisplayName": "基础捕网",
         "Category": "MelvorBase:Traps",
         "Subcategory": "MelvorBase:NetTraps",
         "BaseExperience": 10,
@@ -172142,7 +172142,7 @@
       },
       {
         "Id": "ReinforcedNet",
-        "DisplayName": "加固网子",
+        "DisplayName": "加固捕网",
         "Category": "MelvorBase:Traps",
         "Subcategory": "MelvorBase:NetTraps",
         "BaseExperience": 29,
@@ -172192,7 +172192,7 @@
       },
       {
         "Id": "FortifiedNet",
-        "DisplayName": "强化网子",
+        "DisplayName": "强化捕网",
         "Category": "MelvorBase:Traps",
         "Subcategory": "MelvorBase:NetTraps",
         "BaseExperience": 82,
@@ -175516,7 +175516,7 @@
       },
       {
         "Id": "RabbitOvenMitts",
-        "DisplayName": "兔毛隔热手套",
+        "DisplayName": "兔皮隔热手套",
         "Icon": "res://Assets/Items/RabbitOvenMitts.png",
         "Category": "MelvorBase:BeastConsumables",
         "Subcategory": "MelvorBase:BeastcraftingCooking",
@@ -175730,7 +175730,7 @@
       },
       {
         "Id": "DragonboneOffhandGlaive",
-        "DisplayName": "龙骨副手戟",
+        "DisplayName": "龙骨副手战刃",
         "Icon": "res://Assets/Items/DragonboneOffhandGlaive.png",
         "Category": "MelvorBase:BeastCrafts",
         "Subcategory": null,
@@ -184828,7 +184828,7 @@
       },
       {
         "Id": "MoonscaleNet",
-        "DisplayName": "月鳞网子",
+        "DisplayName": "月鳞捕网",
         "Icon": "res://Assets/Items/MoonscaleNet.png",
         "Category": "MelvorBase:BeastConsumables",
         "Subcategory": "MelvorBase:BeastcraftingHunting",
@@ -190287,7 +190287,7 @@
       },
       {
         "Id": "SushiBase",
-        "DisplayName": "寿司醋饭",
+        "DisplayName": "寿司底",
         "Category": "MelvorBase:RecipeBases",
         "Subcategory": "MelvorBase:CookingRecipeBase",
         "BaseExperience": 5,
@@ -205583,7 +205583,7 @@
       },
       {
         "Id": "SushiBase",
-        "DisplayName": "寿司醋饭",
+        "DisplayName": "寿司底",
         "Icon": "res://Assets/Items/SushiBase.png",
         "Description": "用于烹饪。",
         "Provides": {
@@ -208717,7 +208717,7 @@
       },
       {
         "Id": "BasicNet",
-        "DisplayName": "基础网子",
+        "DisplayName": "基础捕网",
         "Icon": "res://Assets/Items/BasicNet.png",
         "Description": null,
         "Provides": {
@@ -251169,7 +251169,7 @@
             }
           }
         ],
-        "CustomDescription": "你获得了在训练战斗或非战斗技能（农务与畜牧技能除外）时发现[b]光环咒语[/b]事件的能力。",
+        "CustomDescription": "你获得了在训练战斗或非战斗技能（农务与畜牧技能除外）时发现[b]极光[/b]事件的能力。",
         "Rewards": {
           "Items": [],
           "Currencies": [],
@@ -376352,8 +376352,8 @@
       },
       {
         "Id": "LongRangeAttackBonus",
-        "DisplayName": "长距离远程攻击加成",
-        "DisplayNameShort": "长距离远程",
+        "DisplayName": "长距攻击加成",
+        "DisplayNameShort": "长距",
         "Icon": "res://Assets/Icons/Ranged.png",
         "NumberFormat": "{0:N0}",
         "DisplayPriority": 800000,
@@ -376484,8 +376484,8 @@
       },
       {
         "Id": "LongRangeDefenceBonus",
-        "DisplayName": "长距离远程防御加成",
-        "DisplayNameShort": "长距离远程",
+        "DisplayName": "长距防御加成",
+        "DisplayNameShort": "长距",
         "Icon": "res://Assets/Icons/Ranged.png",
         "NumberFormat": "{0:N0}",
         "DisplayPriority": 2000000,
@@ -376818,7 +376818,7 @@
       },
       {
         "Id": "LongRange",
-        "DisplayName": "长距离远程",
+        "DisplayName": "长距",
         "Icon": "res://Assets/Icons/Ranged.png",
         "CombatStyle": "MelvorBase:Ranged",
         "EvasionStat": "MelvorBase:LongRangeDefenceBonus",
@@ -429859,7 +429859,7 @@
       },
       {
         "Id": "Stinger",
-        "DisplayName": "蛰刺者",
+        "DisplayName": "螫针",
         "Modifiers": {
           "Global": [],
           "Component": [],
@@ -473275,8 +473275,8 @@
         "Id": "Aurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "光环咒语",
-          "Plural": "光环咒语"
+          "Singular": "极光",
+          "Plural": "极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 1,
@@ -489736,8 +489736,8 @@
         "Id": "CombatAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "战斗光环咒语",
-          "Plural": "战斗光环咒语"
+          "Singular": "战斗极光",
+          "Plural": "战斗极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,
@@ -489834,8 +489834,8 @@
         "Id": "WoodcuttingAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "伐木光环咒语",
-          "Plural": "伐木光环咒语"
+          "Singular": "伐木极光",
+          "Plural": "伐木极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,
@@ -489933,8 +489933,8 @@
         "Id": "FishingAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "钓鱼光环咒语",
-          "Plural": "钓鱼光环咒语"
+          "Singular": "钓鱼极光",
+          "Plural": "钓鱼极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,
@@ -490055,8 +490055,8 @@
         "Id": "FiremakingAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "生火光环咒语",
-          "Plural": "生火光环咒语"
+          "Singular": "生火极光",
+          "Plural": "生火极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,
@@ -490152,8 +490152,8 @@
         "Id": "CookingAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "烹饪光环咒语",
-          "Plural": "烹饪光环咒语"
+          "Singular": "烹饪极光",
+          "Plural": "烹饪极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,
@@ -490249,8 +490249,8 @@
         "Id": "MiningAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "采矿光环咒语",
-          "Plural": "采矿光环咒语"
+          "Singular": "采矿极光",
+          "Plural": "采矿极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,
@@ -490348,8 +490348,8 @@
         "Id": "SmithingAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "锻造光环咒语",
-          "Plural": "锻造光环咒语"
+          "Singular": "锻造极光",
+          "Plural": "锻造极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,
@@ -490449,8 +490449,8 @@
         "Id": "CraftingAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "制造光环咒语",
-          "Plural": "制造光环咒语"
+          "Singular": "制造极光",
+          "Plural": "制造极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,
@@ -490548,8 +490548,8 @@
         "Id": "FletchingAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "弓匠光环咒语",
-          "Plural": "弓匠光环咒语"
+          "Singular": "弓匠极光",
+          "Plural": "弓匠极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,
@@ -490647,8 +490647,8 @@
         "Id": "RunecraftingAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "符文锻造光环咒语",
-          "Plural": "符文锻造光环咒语"
+          "Singular": "符文锻造极光",
+          "Plural": "符文锻造极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,
@@ -490746,8 +490746,8 @@
         "Id": "HerbloreAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "草药学光环咒语",
-          "Plural": "草药学光环咒语"
+          "Singular": "草药学极光",
+          "Plural": "草药学极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,
@@ -490843,8 +490843,8 @@
         "Id": "HuntingAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "狩猎光环咒语",
-          "Plural": "狩猎光环咒语"
+          "Singular": "狩猎极光",
+          "Plural": "狩猎极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,
@@ -491007,8 +491007,8 @@
         "Id": "BeastcraftingAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "兽工造物光环咒语",
-          "Plural": "兽工造物光环咒语"
+          "Singular": "兽工造物极光",
+          "Plural": "兽工造物极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,
@@ -491106,8 +491106,8 @@
         "Id": "ThievingAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "扒窃光环咒语",
-          "Plural": "扒窃光环咒语"
+          "Singular": "扒窃极光",
+          "Plural": "扒窃极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,
@@ -491203,8 +491203,8 @@
         "Id": "AgilityAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "灵巧光环咒语",
-          "Plural": "灵巧光环咒语"
+          "Singular": "灵巧极光",
+          "Plural": "灵巧极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,
@@ -491306,8 +491306,8 @@
         "Id": "AstrologyAurora",
         "Icon": "res://Assets/Icons/Aurora.png",
         "DisplayName": {
-          "Singular": "星象学光环咒语",
-          "Plural": "星象学光环咒语"
+          "Singular": "星象学极光",
+          "Plural": "星象学极光"
         },
         "EventType": "MelvorBase:RareEvent",
         "Chance": 0.00069,

@@ -4446,17 +4446,17 @@ msgstr "加固小型捕鸟用具"
 #. ShopPurchase.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Basic Net"
-msgstr "基础网子"
+msgstr "基础捕网"
 
 #. TRANSLATORS: ArtisanRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Reinforced Net"
-msgstr "加固网子"
+msgstr "加固捕网"
 
 #. TRANSLATORS: ArtisanRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Fortified Net"
-msgstr "强化网子"
+msgstr "强化捕网"
 
 #. TRANSLATORS: ArtisanRecipe.DisplayName
 #. ShopPurchase.DisplayName
@@ -4791,7 +4791,7 @@ msgstr "骨制外壳"
 #. TRANSLATORS: ArtisanRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Rabbit Oven Mitts"
-msgstr "兔毛隔热手套"
+msgstr "兔皮隔热手套"
 
 #. TRANSLATORS: ArtisanRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -4816,7 +4816,7 @@ msgstr "马鹿角雕刻刀"
 #. TRANSLATORS: ArtisanRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Dragonbone Offhand Glaive"
-msgstr "龙骨副手戟"
+msgstr "龙骨副手战刃"
 
 #. TRANSLATORS: ArtisanRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -5772,7 +5772,7 @@ msgstr "夜鳞长袍"
 #. TRANSLATORS: ArtisanRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Moonscale Net"
-msgstr "月鳞网子"
+msgstr "月鳞捕网"
 
 #. TRANSLATORS: ArtisanRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -7189,7 +7189,7 @@ msgstr "史莱姆"
 #. TRANSLATORS: CombatPassive.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Stinger"
-msgstr "蛰刺者"
+msgstr "螫针"
 
 #. TRANSLATORS: CombatPassive.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -7487,13 +7487,13 @@ msgstr "强力"
 #. TRANSLATORS: CombatStat.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Long-Range Attack Bonus"
-msgstr "长距离远程攻击加成"
+msgstr "长距攻击加成"
 
 #. TRANSLATORS: CombatStat.DisplayNameShort
 #. AttackStance.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Long-Range"
-msgstr "长距离远程"
+msgstr "长距"
 
 #. TRANSLATORS: CombatStat.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -7575,7 +7575,7 @@ msgstr "强力防御加成"
 #. TRANSLATORS: CombatStat.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Long-Range Defence Bonus"
-msgstr "长距离远程防御加成"
+msgstr "长距防御加成"
 
 #. TRANSLATORS: CombatStat.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -9015,7 +9015,7 @@ msgstr "星象学等级4"
 #. TRANSLATORS: MasteryGuildBonus.CustomDescription
 #: Data/Packages/MelvorBase.json
 msgid "You gain the ability to observe rare [b]Aurora[/b] events while training Combat or Non-Combat Skills, excluding Farming and Ranching."
-msgstr "你获得了在训练战斗或非战斗技能（农务与畜牧技能除外）时发现[b]光环咒语[/b]事件的能力。"
+msgstr "你获得了在训练战斗或非战斗技能（农务与畜牧技能除外）时发现[b]极光[/b]事件的能力。"
 
 #. TRANSLATORS: MasteryGuildBonus.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -10752,128 +10752,128 @@ msgstr "特殊祝祭"
 msgctxt "PluralName"
 msgid "Combat Aurora"
 msgid_plural "Combat Auroras"
-msgstr[0] "战斗光环咒语"
-msgstr[1] "战斗光环咒语"
+msgstr[0] "战斗极光"
+msgstr[1] "战斗极光"
 
 #. TRANSLATORS: RareBonusesEvent.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Woodcutting Aurora"
 msgid_plural "Woodcutting Auroras"
-msgstr[0] "伐木光环咒语"
-msgstr[1] "伐木光环咒语"
+msgstr[0] "伐木极光"
+msgstr[1] "伐木极光"
 
 #. TRANSLATORS: RareBonusesEvent.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Fishing Aurora"
 msgid_plural "Fishing Auroras"
-msgstr[0] "钓鱼光环咒语"
-msgstr[1] "钓鱼光环咒语"
+msgstr[0] "钓鱼极光"
+msgstr[1] "钓鱼极光"
 
 #. TRANSLATORS: RareBonusesEvent.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Firemaking Aurora"
 msgid_plural "Firemaking Auroras"
-msgstr[0] "生火光环咒语"
-msgstr[1] "生火光环咒语"
+msgstr[0] "生火极光"
+msgstr[1] "生火极光"
 
 #. TRANSLATORS: RareBonusesEvent.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Cooking Aurora"
 msgid_plural "Cooking Auroras"
-msgstr[0] "烹饪光环咒语"
-msgstr[1] "烹饪光环咒语"
+msgstr[0] "烹饪极光"
+msgstr[1] "烹饪极光"
 
 #. TRANSLATORS: RareBonusesEvent.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Mining Aurora"
 msgid_plural "Mining Auroras"
-msgstr[0] "采矿光环咒语"
-msgstr[1] "采矿光环咒语"
+msgstr[0] "采矿极光"
+msgstr[1] "采矿极光"
 
 #. TRANSLATORS: RareBonusesEvent.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Smithing Aurora"
 msgid_plural "Smithing Auroras"
-msgstr[0] "锻造光环咒语"
-msgstr[1] "锻造光环咒语"
+msgstr[0] "锻造极光"
+msgstr[1] "锻造极光"
 
 #. TRANSLATORS: RareBonusesEvent.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Crafting Aurora"
 msgid_plural "Crafting Auroras"
-msgstr[0] "制造光环咒语"
-msgstr[1] "制造光环咒语"
+msgstr[0] "制造极光"
+msgstr[1] "制造极光"
 
 #. TRANSLATORS: RareBonusesEvent.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Fletching Aurora"
 msgid_plural "Fletching Auroras"
-msgstr[0] "弓匠光环咒语"
-msgstr[1] "弓匠光环咒语"
+msgstr[0] "弓匠极光"
+msgstr[1] "弓匠极光"
 
 #. TRANSLATORS: RareBonusesEvent.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Runecrafting Aurora"
 msgid_plural "Runecrafting Auroras"
-msgstr[0] "符文锻造光环咒语"
-msgstr[1] "符文锻造光环咒语"
+msgstr[0] "符文锻造极光"
+msgstr[1] "符文锻造极光"
 
 #. TRANSLATORS: RareBonusesEvent.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Herblore Aurora"
 msgid_plural "Herblore Auroras"
-msgstr[0] "草药学光环咒语"
-msgstr[1] "草药学光环咒语"
+msgstr[0] "草药学极光"
+msgstr[1] "草药学极光"
 
 #. TRANSLATORS: RareBonusesEvent.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Hunting Aurora"
 msgid_plural "Hunting Auroras"
-msgstr[0] "狩猎光环咒语"
-msgstr[1] "狩猎光环咒语"
+msgstr[0] "狩猎极光"
+msgstr[1] "狩猎极光"
 
 #. TRANSLATORS: RareBonusesEvent.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Beastcrafting Aurora"
 msgid_plural "Beastcrafting Auroras"
-msgstr[0] "兽工造物光环咒语"
-msgstr[1] "兽工造物光环咒语"
+msgstr[0] "兽工造物极光"
+msgstr[1] "兽工造物极光"
 
 #. TRANSLATORS: RareBonusesEvent.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Thieving Aurora"
 msgid_plural "Thieving Auroras"
-msgstr[0] "扒窃光环咒语"
-msgstr[1] "扒窃光环咒语"
+msgstr[0] "扒窃极光"
+msgstr[1] "扒窃极光"
 
 #. TRANSLATORS: RareBonusesEvent.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Agility Aurora"
 msgid_plural "Agility Auroras"
-msgstr[0] "灵巧光环咒语"
-msgstr[1] "灵巧光环咒语"
+msgstr[0] "灵巧极光"
+msgstr[1] "灵巧极光"
 
 #. TRANSLATORS: RareBonusesEvent.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Astrology Aurora"
 msgid_plural "Astrology Auroras"
-msgstr[0] "星象学光环咒语"
-msgstr[1] "星象学光环咒语"
+msgstr[0] "星象学极光"
+msgstr[1] "星象学极光"
 
 #. TRANSLATORS: SlayerMaster.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -17042,8 +17042,8 @@ msgstr[1] "狼牙"
 msgctxt "PluralName"
 msgid "Wolf Fur"
 msgid_plural "Wolf Fur"
-msgstr[0] "狼毛"
-msgstr[1] "狼毛"
+msgstr[0] "狼皮"
+msgstr[1] "狼皮"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -17194,8 +17194,8 @@ msgstr[1] "汤底"
 msgctxt "PluralName"
 msgid "Sushi Base"
 msgid_plural "Sushi Base"
-msgstr[0] "寿司醋饭"
-msgstr[1] "寿司醋饭"
+msgstr[0] "寿司底"
+msgstr[1] "寿司底"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -17540,8 +17540,8 @@ msgstr[1] "加固小型捕鸟用具"
 msgctxt "PluralName"
 msgid "Rabbit Fur"
 msgid_plural "Rabbit Fur"
-msgstr[0] "兔毛"
-msgstr[1] "兔毛"
+msgstr[0] "兔皮"
+msgstr[1] "兔皮"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -17780,24 +17780,24 @@ msgstr[1] "强化的线"
 msgctxt "PluralName"
 msgid "Basic Net"
 msgid_plural "Basic Net"
-msgstr[0] "基础网子"
-msgstr[1] "基础网子"
+msgstr[0] "基础捕网"
+msgstr[1] "基础捕网"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Reinforced Net"
 msgid_plural "Reinforced Net"
-msgstr[0] "加固网子"
-msgstr[1] "加固网子"
+msgstr[0] "加固捕网"
+msgstr[1] "加固捕网"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
 msgctxt "PluralName"
 msgid "Fortified Net"
 msgid_plural "Fortified Net"
-msgstr[0] "强化网子"
-msgstr[1] "强化网子"
+msgstr[0] "强化捕网"
+msgstr[1] "强化捕网"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -18380,8 +18380,8 @@ msgstr[1] "骨制外壳"
 msgctxt "PluralName"
 msgid "Rabbit Oven Mitts"
 msgid_plural "Rabbit Oven Mitts"
-msgstr[0] "兔毛隔热手套"
-msgstr[1] "兔毛隔热手套"
+msgstr[0] "兔皮隔热手套"
+msgstr[1] "兔皮隔热手套"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -18420,8 +18420,8 @@ msgstr[1] "马鹿角雕刻刀"
 msgctxt "PluralName"
 msgid "Dragonbone Offhand Glaive"
 msgid_plural "Dragonbone Offhand Glaive"
-msgstr[0] "龙骨副手戟"
-msgstr[1] "龙骨副手戟"
+msgstr[0] "龙骨副手战刃"
+msgstr[1] "龙骨副手战刃"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -21490,8 +21490,8 @@ msgstr[1] "彩虹史莱姆"
 msgctxt "PluralName"
 msgid "Stinger"
 msgid_plural "Stingers"
-msgstr[0] "蛰刺者"
-msgstr[1] "蛰刺者"
+msgstr[0] "螫针"
+msgstr[1] "螫针"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -25179,8 +25179,8 @@ msgstr[1] "月鳞"
 msgctxt "PluralName"
 msgid "Shadow Fox Fur"
 msgid_plural "Shadow Fox Fur"
-msgstr[0] "暗影狐毛"
-msgstr[1] "暗影狐毛"
+msgstr[0] "暗影狐皮"
+msgstr[1] "暗影狐皮"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -25211,8 +25211,8 @@ msgstr[1] "夜鳞长袍"
 msgctxt "PluralName"
 msgid "Moonscale Net"
 msgid_plural "Moonscale Nets"
-msgstr[0] "月鳞网子"
-msgstr[1] "月鳞网子"
+msgstr[0] "月鳞捕网"
+msgstr[1] "月鳞捕网"
 
 #. TRANSLATORS: Item.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -29721,8 +29721,8 @@ msgstr[1] "血月"
 msgctxt "PluralName"
 msgid "Aurora"
 msgid_plural "Auroras"
-msgstr[0] "光环咒语"
-msgstr[1] "光环咒语"
+msgstr[0] "极光"
+msgstr[1] "极光"
 
 #. TRANSLATORS: AstrologyConstellation.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -32703,7 +32703,7 @@ msgstr "汤底"
 #. ShopPurchase.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Sushi Base"
-msgstr "寿司醋饭"
+msgstr "寿司底"
 
 #. TRANSLATORS: CookingRecipe.DisplayName
 #: Data/Packages/MelvorBase.json
@@ -57986,7 +57986,7 @@ msgid "Agility Techniques"
 msgstr "灵巧技巧"
 
 #: Entities/Agility/agility_action_view.tscn
-msgid "Level up your Agility Techniques to take on more difficult Osbtacles and gain bonuses."
+msgid "Level up your Agility Techniques to take on more difficult Obstacles and gain bonuses."
 msgstr "提升灵巧技巧等级，挑战更高难度的障碍并获得加成。"
 
 #: Entities/Agility/agility_action_view.tscn
@@ -58887,7 +58887,7 @@ msgstr ""
 
 #: Entities/Hunting/hunting_journal_animal_view.tscn
 msgid "Best Trap"
-msgstr "最佳陷阱"
+msgstr "最佳捕获"
 
 #: Entities/Hunting/hunting_journal_view.tscn
 msgid "Animal Level Bonuses"
@@ -59804,35 +59804,35 @@ msgstr "敌人的[color=#FFD16D]战斗等级[/color]为[color=#FFD16D]{MaxLevel}
 
 #: Components/Characters/Conditions/HasArmourCondition.cs.uid
 msgid "Have [color=#FFD16D]{MinArmourValue}-{MaxArmourValue} [img height=1.25em]res://Assets/Icons/Defence_64.png[/img] Armour[/color]"
-msgstr "拥有[color=#FFD16D]{MinArmourValue}-{MaxArmourValue} [img height=1.25em]res://Assets/Icons/Defence_64.png[/img]盔甲[/color]"
+msgstr "拥有[color=#FFD16D]{MinArmourValue}-{MaxArmourValue} [img height=1.25em]res://Assets/Icons/Defence_64.png[/img]护甲[/color]"
 
 #: Components/Characters/Conditions/HasArmourCondition.cs.uid
 msgid "Have [color=#FFD16D]{MinArmourValue} or higher [img height=1.25em]res://Assets/Icons/Defence_64.png[/img] Armour[/color]"
-msgstr "拥有[color=#FFD16D]{MinArmourValue}或以上的[img height=1.25em]res://Assets/Icons/Defence_64.png[/img]盔甲[/color]"
+msgstr "拥有[color=#FFD16D]{MinArmourValue}或以上的[img height=1.25em]res://Assets/Icons/Defence_64.png[/img]护甲[/color]"
 
 #: Components/Characters/Conditions/HasArmourCondition.cs.uid
 msgid "Have [color=#FFD16D]{MaxArmourValue} or lower [img height=1.25em]res://Assets/Icons/Defence_64.png[/img] Armour[/color]"
-msgstr "拥有[color=#FFD16D]{MaxArmourValue}或以下的[img height=1.25em]res://Assets/Icons/Defence_64.png[/img]盔甲[/color]"
+msgstr "拥有[color=#FFD16D]{MaxArmourValue}或以下的[img height=1.25em]res://Assets/Icons/Defence_64.png[/img]护甲[/color]"
 
 #: Components/Characters/Conditions/HasArmourCondition.cs.uid
 msgid "Have [img height=1.25em]res://Assets/Icons/Defence_64.png[/img] [color=#FFD16D]Armour[/color]"
-msgstr "拥有[img height=1.25em]res://Assets/Icons/Defence_64.png[/img] [color=#FFD16D]盔甲[/color]"
+msgstr "拥有[img height=1.25em]res://Assets/Icons/Defence_64.png[/img] [color=#FFD16D]护甲[/color]"
 
 #: Components/Characters/Conditions/HasArmourCondition.cs.uid
 msgid "Enemy has [color=#FFD16D]{MinArmourValue}-{MaxArmourValue} [img height=1.25em]res://Assets/Icons/Defence_64.png[/img] Armour[/color]"
-msgstr "敌人拥有[color=#FFD16D]{MinArmourValue}-{MaxArmourValue} [img height=1.25em]res://Assets/Icons/Defence_64.png[/img]盔甲[/color]"
+msgstr "敌人拥有[color=#FFD16D]{MinArmourValue}-{MaxArmourValue} [img height=1.25em]res://Assets/Icons/Defence_64.png[/img]护甲[/color]"
 
 #: Components/Characters/Conditions/HasArmourCondition.cs.uid
 msgid "Enemy has [color=#FFD16D]{MinArmourValue} or higher [img height=1.25em]res://Assets/Icons/Defence_64.png[/img] Armour[/color]"
-msgstr "敌人拥有[color=#FFD16D]{MinArmourValue}或以上的[img height=1.25em]res://Assets/Icons/Defence_64.png[/img]盔甲[/color]"
+msgstr "敌人拥有[color=#FFD16D]{MinArmourValue}或以上的[img height=1.25em]res://Assets/Icons/Defence_64.png[/img]护甲[/color]"
 
 #: Components/Characters/Conditions/HasArmourCondition.cs.uid
 msgid "Enemy has [color=#FFD16D]{MaxArmourValue} or lower [img height=1.25em]res://Assets/Icons/Defence_64.png[/img] Armour[/color]"
-msgstr "敌人拥有[color=#FFD16D]{MaxArmourValue}或以下的[img height=1.25em]res://Assets/Icons/Defence_64.png[/img]盔甲[/color]"
+msgstr "敌人拥有[color=#FFD16D]{MaxArmourValue}或以下的[img height=1.25em]res://Assets/Icons/Defence_64.png[/img]护甲[/color]"
 
 #: Components/Characters/Conditions/HasArmourCondition.cs.uid
 msgid "Enemy has [img height=1.25em]res://Assets/Icons/Defence_64.png[/img] [color=#FFD16D]Armour[/color]"
-msgstr "敌人拥有[img height=1.25em]res://Assets/Icons/Defence_64.png[/img] [color=#FFD16D]盔甲[/color]"
+msgstr "敌人拥有[img height=1.25em]res://Assets/Icons/Defence_64.png[/img] [color=#FFD16D]护甲[/color]"
 
 #: Components/Characters/Conditions/HasWardCondition.cs.uid
 msgid "Have [color=#FFD16D]{MinWardValue}-{MaxWardValue} maximum [img height=1.25em]res://Assets/Items/WardingShield.png[/img] Ward[/color]"
@@ -61751,11 +61751,11 @@ msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中对[color
 
 #: Entities/Combat/Goals/ActiveDamageNegatedByArmourGoal.cs.uid
 msgid "Have [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] damage be negated by an Enemy's [img height=1em]res://Assets/Icons/Defence_64.png[/img] [color=white]Armour[/color]"
-msgstr "使敌人的[img height=1em]res://Assets/Icons/Defence_64.png[/img] [color=white]盔甲[/color]抵消[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]点伤害"
+msgstr "使敌人的[img height=1em]res://Assets/Icons/Defence_64.png[/img] [color=white]护甲[/color]抵消[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]点伤害"
 
 #: Entities/Combat/Goals/ActiveDamageNegatedByArmourGoal.cs.uid
 msgid "Have [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] damage be negated by an Enemy's [img height=1em]res://Assets/Icons/Defence_64.png[/img] [color=white]Armour[/color] in [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]"
-msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中使敌人的[img height=1em]res://Assets/Icons/Defence_64.png[/img] [color=white]盔甲[/color]抵消[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]点伤害"
+msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中使敌人的[img height=1em]res://Assets/Icons/Defence_64.png[/img] [color=white]护甲[/color]抵消[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]点伤害"
 
 #: Entities/Combat/Goals/ActiveDamageNegatedByWardGoal.cs.uid
 msgid "Have [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] damage be negated by an Enemy's [img height=1em]res://Assets/Items/WardingShield.png[/img] [color=white]Ward[/color]"
@@ -61791,11 +61791,11 @@ msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中通过[co
 
 #: Entities/Combat/Goals/ActiveKillArmouredEnemyGoal.cs.uid
 msgid "Slay [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] Enemies that have [img height=1em]res://Assets/Icons/Defence_64.png[/img] [color=white]Armour[/color] while using [color=#FFD16D]{PlayerStance} stance[/color] for the entire fight"
-msgstr "全程使用[color=#FFD16D]{PlayerStance}姿态[/color]战斗，击杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个拥有[img height=1em]res://Assets/Icons/Defence_64.png[/img] [color=white]盔甲[/color]的敌人"
+msgstr "全程使用[color=#FFD16D]{PlayerStance}姿态[/color]战斗，击杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个拥有[img height=1em]res://Assets/Icons/Defence_64.png[/img] [color=white]护甲[/color]的敌人"
 
 #: Entities/Combat/Goals/ActiveKillArmouredEnemyGoal.cs.uid
 msgid "Slay [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] Enemies that have [img height=1em]res://Assets/Icons/Defence_64.png[/img] [color=white]Armour[/color] while using [color=#FFD16D]{PlayerStance} stance[/color] for the entire fight in [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]"
-msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中全程使用[color=#FFD16D]{PlayerStance}姿态[/color]战斗，击杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个拥有[img height=1em]res://Assets/Icons/Defence_64.png[/img] [color=white]盔甲[/color]的敌人"
+msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中全程使用[color=#FFD16D]{PlayerStance}姿态[/color]战斗，击杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个拥有[img height=1em]res://Assets/Icons/Defence_64.png[/img] [color=white]护甲[/color]的敌人"
 
 #: Entities/Combat/Goals/ActiveKillArmouredEnemyGoal.cs.uid
 #: Entities/Combat/Goals/ActiveKillEnemyGoal.cs.uid
@@ -61804,35 +61804,35 @@ msgstr "任意"
 
 #: Entities/Combat/Goals/ActiveKillEnemyGoal.cs.uid
 msgid "Slay [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] Enemies using [color=#FFD16D]{PlayerCombatStyleOrStance}[/color] for the entire fight"
-msgstr "全程使用[color=#FFD16D]{PlayerCombatStyleOrStance}[/color]战斗，屠杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个敌人"
+msgstr "全程使用[color=#FFD16D]{PlayerCombatStyleOrStance}[/color]战斗，击杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个敌人"
 
 #: Entities/Combat/Goals/ActiveKillEnemyGoal.cs.uid
 msgid "Slay [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] Enemies using [color=#FFD16D]{PlayerCombatStyleOrStance}[/color] for the entire fight in [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]"
-msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中全程使用[color=#FFD16D]{PlayerCombatStyleOrStance}[/color]战斗，屠杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个敌人"
+msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中全程使用[color=#FFD16D]{PlayerCombatStyleOrStance}[/color]战斗，击杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个敌人"
 
 #: Entities/Combat/Goals/ActiveKillEnemyGoal.cs.uid
 msgid "Slay [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] Enemies"
-msgstr "屠杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个敌人"
+msgstr "击杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个敌人"
 
 #: Entities/Combat/Goals/ActiveKillEnemyGoal.cs.uid
 msgid "Slay [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] Enemies in [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]"
-msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中屠杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个敌人"
+msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中击杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个敌人"
 
 #: Entities/Combat/Goals/ActiveKillEnemyGoal.cs.uid
 msgid "Slay [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [color=#FFD16D]{EnemyName}[/color] using [color=#FFD16D]{PlayerCombatStyleOrStance}[/color] for the entire fight"
-msgstr "全程使用[color=#FFD16D]{PlayerCombatStyleOrStance}[/color]战斗，屠杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个[color=#FFD16D]{EnemyName}[/color]"
+msgstr "全程使用[color=#FFD16D]{PlayerCombatStyleOrStance}[/color]战斗，击杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个[color=#FFD16D]{EnemyName}[/color]"
 
 #: Entities/Combat/Goals/ActiveKillEnemyGoal.cs.uid
 msgid "Slay [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [color=#FFD16D]{EnemyName}[/color] using [color=#FFD16D]{PlayerCombatStyleOrStance}[/color] for the entire fight in [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]"
-msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中全程使用[color=#FFD16D]{PlayerCombatStyleOrStance}[/color]战斗，屠杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个[color=#FFD16D]{EnemyName}[/color]"
+msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中全程使用[color=#FFD16D]{PlayerCombatStyleOrStance}[/color]战斗，击杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个[color=#FFD16D]{EnemyName}[/color]"
 
 #: Entities/Combat/Goals/ActiveKillEnemyGoal.cs.uid
 msgid "Slay [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [color=#FFD16D]{EnemyName}[/color]"
-msgstr "屠杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个[color=#FFD16D]{EnemyName}[/color]"
+msgstr "击杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个[color=#FFD16D]{EnemyName}[/color]"
 
 #: Entities/Combat/Goals/ActiveKillEnemyGoal.cs.uid
 msgid "Slay [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [color=#FFD16D]{EnemyName}[/color] in [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]"
-msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中屠杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个[color=#FFD16D]{EnemyName}[/color]"
+msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中击杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个[color=#FFD16D]{EnemyName}[/color]"
 
 #: Entities/Combat/Goals/ActiveKillEnemyGoal.cs.uid
 msgid "{0} Combat Style"
@@ -61844,11 +61844,11 @@ msgstr "{0}姿态"
 
 #: Entities/Combat/Goals/ActiveKillEnemyTimeGoal.cs.uid
 msgid "Slay [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [color=#FFD16D]{EnemyName}[/color] in [color=#FFD16D]{TimeMS:numbertime(ms):auto} or less[/color]"
-msgstr "屠杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个[color=#FFD16D]{EnemyName}[/color]，每次用时不超过[color=#FFD16D]{TimeMS:numbertime(ms):auto}[/color]"
+msgstr "击杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个[color=#FFD16D]{EnemyName}[/color]，每次用时不超过[color=#FFD16D]{TimeMS:numbertime(ms):auto}[/color]"
 
 #: Entities/Combat/Goals/ActiveKillEnemyTimeGoal.cs.uid
 msgid "Slay [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [color=#FFD16D]{EnemyName}[/color] in [color]{TimeMS:numbertime(ms):auto} or less[/color] in [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]"
-msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中屠杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个[color=#FFD16D]{EnemyName}[/color]，每次用时不超过[color]{TimeMS:numbertime(ms):auto}[/color]"
+msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中击杀[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]个[color=#FFD16D]{EnemyName}[/color]，每次用时不超过[color]{TimeMS:numbertime(ms):auto}[/color]"
 
 #: Entities/Combat/Goals/ActiveSingleHitDamageGoal.cs.uid
 msgid "Deal at least [color=#FFD16D]{MinDamage}[/color] damage in a single hit [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] times"
@@ -62147,11 +62147,11 @@ msgstr "在战斗中使用{SingleItemName}击杀{Current:N0} / {Max:N0}个敌人
 
 #: Entities/Combat/Statistics/EnemyArmourNegationStatistic.cs.uid
 msgid "Damage Negated by Armour"
-msgstr "盔甲抵消的伤害"
+msgstr "护甲抵消的伤害"
 
 #: Entities/Combat/Statistics/EnemyArmourNegationStatistic.cs.uid
 msgid "Have {EnemyName} negate {Current:N0} / {Max:N0} damage with armour in Combat"
-msgstr "在战斗中使{EnemyName}的盔甲抵消 {Current:N0} / {Max:N0}点伤害"
+msgstr "在战斗中使{EnemyName}的护甲抵消 {Current:N0} / {Max:N0}点伤害"
 
 #: Entities/Combat/Statistics/EnemyHitStatistic.cs.uid
 msgid "Times Hit"
@@ -62332,11 +62332,11 @@ msgstr "在战斗中累计造成{0:N0} / {1:N0}点伤害"
 
 #: Entities/Combat/Statistics/TotalDamageNegatedByArmourStatistic.cs.uid
 msgid "Total Damage Negated by Enemy Armour"
-msgstr "敌方盔甲抵消的伤害总量"
+msgstr "敌方护甲抵消的伤害总量"
 
 #: Entities/Combat/Statistics/TotalDamageNegatedByArmourStatistic.cs.uid
 msgid "Have {0:N0} / {1:N0} damage negated by enemy armour in Combat"
-msgstr "在战斗中使敌方盔甲抵消{0:N0} / {1:N0}点伤害"
+msgstr "在战斗中使敌方护甲抵消{0:N0} / {1:N0}点伤害"
 
 #: Entities/Combat/Statistics/TotalDamageNegatedByWardStatistic.cs.uid
 msgid "Total Damage Negated by Enemy Ward"
@@ -63013,7 +63013,7 @@ msgstr "捕获[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]只[
 
 #: Entities/Hunting/Goals/ActiveTrapAnimalGoal.cs.uid
 msgid "Trap [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [b]{AnimalName}[/b] without failing"
-msgstr "连续捕获[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]只[b]{AnimalName}[/b]，中途不能失败"
+msgstr "无失败捕获[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]只[b]{AnimalName}[/b]"
 
 #: Entities/Hunting/Goals/ActiveTrapAnimalGoal.cs.uid
 msgid "Trap [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [b]{AnimalName}[/b] while using Bait"
@@ -63021,7 +63021,7 @@ msgstr "使用诱饵捕获[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/co
 
 #: Entities/Hunting/Goals/ActiveTrapAnimalGoal.cs.uid
 msgid "Trap [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [b]{AnimalName}[/b] without failing while using Bait"
-msgstr "使用诱饵连续捕获[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]只[b]{AnimalName}[/b]，中途不能失败"
+msgstr "使用诱饵无失败捕获[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]只[b]{AnimalName}[/b]"
 
 #: Entities/Hunting/Goals/ActiveTrapAnimalGoal.cs.uid
 msgid "Trap [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [b]{AnimalName}[/b] in [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]"
@@ -63029,7 +63029,7 @@ msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中捕获[b]
 
 #: Entities/Hunting/Goals/ActiveTrapAnimalGoal.cs.uid
 msgid "Trap [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [b]{AnimalName}[/b] without failing in [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]"
-msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中连续捕获[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]只[b]{AnimalName}[/b]，中途不能失败"
+msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中无失败捕获[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]只[b]{AnimalName}[/b]"
 
 #: Entities/Hunting/Goals/ActiveTrapAnimalGoal.cs.uid
 msgid "Trap [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [b]{AnimalName}[/b] while using Bait in [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]"
@@ -63037,7 +63037,7 @@ msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中使用诱
 
 #: Entities/Hunting/Goals/ActiveTrapAnimalGoal.cs.uid
 msgid "Trap [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [b]{AnimalName}[/b] without failing while using Bait in [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]"
-msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中使用诱饵连续捕获[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]只[b]{AnimalName}[/b]，中途不能失败"
+msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中使用诱饵无失败捕获[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]只[b]{AnimalName}[/b]"
 
 #: Entities/Hunting/Goals/ActiveTrapAnimalLocationGoal.cs.uid
 msgid "Trap [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] Animals in [b]{LocationName}[/b]"
@@ -63315,11 +63315,11 @@ msgstr "在{2.DisplayName}中使用诱饵捕获{0:N0} / {1:N0}只动物"
 
 #: Entities/Hunting/Statistics/HuntingAnimalsTrappedWithoutFailStatistic.cs.uid
 msgid "Animals Trapped without failing"
-msgstr "连续捕获的动物数量"
+msgstr "无失败捕获的动物数量"
 
 #: Entities/Hunting/Statistics/HuntingAnimalsTrappedWithoutFailStatistic.cs.uid
 msgid "Trap {0:N0} / {1:N0} animals without failing in {2.DisplayName}"
-msgstr "在{2.DisplayName}中连续捕获{0:N0} / {1:N0}只动物，中途不能失败"
+msgstr "在{2.DisplayName}中无失败捕获{0:N0} / {1:N0}只动物"
 
 #: Entities/Hunting/Statistics/HuntingAnimalTrappedStatistic.cs.uid
 msgid "Animals trapped in {0.Entity.DisplayName}"
@@ -63339,11 +63339,11 @@ msgstr "在{EntityName}中使用诱饵捕获 {Current:N0} / {Max:N0}只{AnimalNa
 
 #: Entities/Hunting/Statistics/HuntingAnimalTrappedWithoutFailStatistic.cs.uid
 msgid "Animals trapped without failing in {0.Entity.DisplayName}"
-msgstr "在{0.Entity.DisplayName}中连续捕获的动物数量"
+msgstr "在{0.Entity.DisplayName}中无失败捕获的动物数量"
 
 #: Entities/Hunting/Statistics/HuntingAnimalTrappedWithoutFailStatistic.cs.uid
 msgid "Trap {Current:N0} / {Max:N0} {AnimalName} without failing in {EntityName}"
-msgstr "在{EntityName}中连续捕获 {Current:N0} / {Max:N0}只{AnimalName}，中途不能失败"
+msgstr "在{EntityName}中无失败捕获 {Current:N0} / {Max:N0}只{AnimalName}"
 
 #: Entities/Layout/LayoutEntity.cs.uid
 msgid "Layout"
@@ -64960,8 +64960,8 @@ msgstr "你已完成[b][color=green]{0}[/color][/b]"
 #: Notifications/SkillLevelUpAnnouncement.cs.uid
 msgid "{0:N0} new Milestone!"
 msgid_plural "{0:N0} new Milestones!"
-msgstr[0] "达成了{0:N0}个新里程碑！"
-msgstr[1] "达成了{0:N0}个新里程碑！"
+msgstr[0] "{0:N0}个新里程碑！"
+msgstr[1] "{0:N0}个新里程碑！"
 
 #: Notifications/SkillLevelUpAnnouncementConfig.cs.uid
 msgid "Level Up!"
@@ -65213,162 +65213,162 @@ msgstr "梅尔沃放置2"
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Combat Aurora"
-msgstr "战斗光环咒语"
+msgstr "战斗极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Combat Auroras"
-msgstr "战斗光环咒语"
+msgstr "战斗极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Woodcutting Aurora"
-msgstr "伐木光环咒语"
+msgstr "伐木极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Woodcutting Auroras"
-msgstr "伐木光环咒语"
+msgstr "伐木极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Fishing Aurora"
-msgstr "钓鱼光环咒语"
+msgstr "钓鱼极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Fishing Auroras"
-msgstr "钓鱼光环咒语"
+msgstr "钓鱼极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Firemaking Aurora"
-msgstr "生火光环咒语"
+msgstr "生火极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Firemaking Auroras"
-msgstr "生火光环咒语"
+msgstr "生火极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Cooking Aurora"
-msgstr "烹饪光环咒语"
+msgstr "烹饪极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Cooking Auroras"
-msgstr "烹饪光环咒语"
+msgstr "烹饪极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Mining Aurora"
-msgstr "采矿光环咒语"
+msgstr "采矿极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Mining Auroras"
-msgstr "采矿光环咒语"
+msgstr "采矿极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Smithing Aurora"
-msgstr "锻造光环咒语"
+msgstr "锻造极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Smithing Auroras"
-msgstr "锻造光环咒语"
+msgstr "锻造极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Crafting Aurora"
-msgstr "制造光环咒语"
+msgstr "制造极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Crafting Auroras"
-msgstr "制造光环咒语"
+msgstr "制造极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Fletching Aurora"
-msgstr "弓匠光环咒语"
+msgstr "弓匠极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Fletching Auroras"
-msgstr "弓匠光环咒语"
+msgstr "弓匠极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Runecrafting Aurora"
-msgstr "符文锻造光环咒语"
+msgstr "符文锻造极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Runecrafting Auroras"
-msgstr "符文锻造光环咒语"
+msgstr "符文锻造极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Herblore Aurora"
-msgstr "草药学光环咒语"
+msgstr "草药学极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Herblore Auroras"
-msgstr "草药学光环咒语"
+msgstr "草药学极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Hunting Aurora"
-msgstr "狩猎光环咒语"
+msgstr "狩猎极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Hunting Auroras"
-msgstr "狩猎光环咒语"
+msgstr "狩猎极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Beastcrafting Aurora"
-msgstr "兽工造物光环咒语"
+msgstr "兽工造物极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Beastcrafting Auroras"
-msgstr "兽工造物光环咒语"
+msgstr "兽工造物极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Thieving Aurora"
-msgstr "扒窃光环咒语"
+msgstr "扒窃极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Thieving Auroras"
-msgstr "扒窃光环咒语"
+msgstr "扒窃极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Agility Aurora"
-msgstr "灵巧光环咒语"
+msgstr "灵巧极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Agility Auroras"
-msgstr "灵巧光环咒语"
+msgstr "灵巧极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Astrology Aurora"
-msgstr "星象学光环咒语"
+msgstr "星象学极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Astrology Auroras"
-msgstr "星象学光环咒语"
+msgstr "星象学极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
@@ -68083,7 +68083,7 @@ msgstr "狼牙"
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Wolf Fur"
-msgstr "狼毛"
+msgstr "狼皮"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
@@ -68333,7 +68333,7 @@ msgstr "加固小型捕鸟用具"
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Rabbit Fur"
-msgstr "兔毛"
+msgstr "兔皮"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
@@ -69588,7 +69588,7 @@ msgstr "祝福柳木"
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Stingers"
-msgstr "蛰刺者"
+msgstr "螫针"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
@@ -71418,12 +71418,12 @@ msgstr "月鳞"
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Shadow Fox Fur"
-msgstr "暗影狐毛"
+msgstr "暗影狐皮"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Moonscale Nets"
-msgstr "月鳞网子"
+msgstr "月鳞捕网"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
@@ -72213,12 +72213,12 @@ msgstr "血月"
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Aurora"
-msgstr "光环咒语"
+msgstr "极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
 msgid "Auroras"
-msgstr "光环咒语"
+msgstr "极光"
 
 #. TRANSLATORS: AutoTranslate fallback for DisplayName.Singular (no msgctxt)
 #: Data/Packages/MelvorBase.json
@@ -72906,7 +72906,7 @@ msgstr ""
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "You gain the ability to observe rare Aurora events while training Combat or Non-Combat Skills, excluding Farming and Ranching."
-msgstr "你获得了在训练战斗或非战斗技能（农务与畜牧技能除外）时发现光环咒语事件的能力。"
+msgstr "你获得了在训练战斗或非战斗技能（农务与畜牧技能除外）时发现极光事件的能力。"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -74238,42 +74238,42 @@ msgstr "敌人的战斗等级为{MaxLevel}或以下"
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Have {MinArmourValue}-{MaxArmourValue} Armour"
-msgstr "拥有{MinArmourValue}-{MaxArmourValue} 盔甲"
+msgstr "拥有{MinArmourValue}-{MaxArmourValue} 护甲"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Have {MinArmourValue} or higher Armour"
-msgstr "拥有{MinArmourValue}或以上的盔甲"
+msgstr "拥有{MinArmourValue}或以上的护甲"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Have {MaxArmourValue} or lower Armour"
-msgstr "拥有{MaxArmourValue}或以下的盔甲"
+msgstr "拥有{MaxArmourValue}或以下的护甲"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Have Armour"
-msgstr "拥有 盔甲"
+msgstr "拥有 护甲"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Enemy has {MinArmourValue}-{MaxArmourValue} Armour"
-msgstr "敌人拥有{MinArmourValue}-{MaxArmourValue} 盔甲"
+msgstr "敌人拥有{MinArmourValue}-{MaxArmourValue} 护甲"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Enemy has {MinArmourValue} or higher Armour"
-msgstr "敌人拥有{MinArmourValue}或以上的盔甲"
+msgstr "敌人拥有{MinArmourValue}或以上的护甲"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Enemy has {MaxArmourValue} or lower Armour"
-msgstr "敌人拥有{MaxArmourValue}或以下的盔甲"
+msgstr "敌人拥有{MaxArmourValue}或以下的护甲"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Enemy has Armour"
-msgstr "敌人拥有 盔甲"
+msgstr "敌人拥有 护甲"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -75032,12 +75032,12 @@ msgstr "在 {EntityName}中对{EnemyName}造成{Current:N0} / {Max:N0}点伤害"
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Have {Current:N0} / {Max:N0} damage be negated by an Enemy's Armour"
-msgstr "使敌人的 盔甲抵消{Current:N0} / {Max:N0}点伤害"
+msgstr "使敌人的 护甲抵消{Current:N0} / {Max:N0}点伤害"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Have {Current:N0} / {Max:N0} damage be negated by an Enemy's Armour in {EntityName}"
-msgstr "在 {EntityName}中使敌人的 盔甲抵消{Current:N0} / {Max:N0}点伤害"
+msgstr "在 {EntityName}中使敌人的 护甲抵消{Current:N0} / {Max:N0}点伤害"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -75082,62 +75082,62 @@ msgstr "在 {EntityName}中通过自动进食恢复{Current:N0} / {Max:N0}点生
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Slay {Current:N0} / {Max:N0} Enemies that have Armour while using {PlayerStance} stance for the entire fight"
-msgstr "全程使用{PlayerStance}姿态战斗，击杀{Current:N0} / {Max:N0}个拥有 盔甲的敌人"
+msgstr "全程使用{PlayerStance}姿态战斗，击杀{Current:N0} / {Max:N0}个拥有 护甲的敌人"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Slay {Current:N0} / {Max:N0} Enemies that have Armour while using {PlayerStance} stance for the entire fight in {EntityName}"
-msgstr "在 {EntityName}中全程使用{PlayerStance}姿态战斗，击杀{Current:N0} / {Max:N0}个拥有 盔甲的敌人"
+msgstr "在 {EntityName}中全程使用{PlayerStance}姿态战斗，击杀{Current:N0} / {Max:N0}个拥有 护甲的敌人"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Slay {Current:N0} / {Max:N0} Enemies using {PlayerCombatStyleOrStance} for the entire fight"
-msgstr "全程使用{PlayerCombatStyleOrStance}战斗，屠杀{Current:N0} / {Max:N0}个敌人"
+msgstr "全程使用{PlayerCombatStyleOrStance}战斗，击杀{Current:N0} / {Max:N0}个敌人"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Slay {Current:N0} / {Max:N0} Enemies using {PlayerCombatStyleOrStance} for the entire fight in {EntityName}"
-msgstr "在 {EntityName}中全程使用{PlayerCombatStyleOrStance}战斗，屠杀{Current:N0} / {Max:N0}个敌人"
+msgstr "在 {EntityName}中全程使用{PlayerCombatStyleOrStance}战斗，击杀{Current:N0} / {Max:N0}个敌人"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Slay {Current:N0} / {Max:N0} Enemies"
-msgstr "屠杀{Current:N0} / {Max:N0}个敌人"
+msgstr "击杀{Current:N0} / {Max:N0}个敌人"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Slay {Current:N0} / {Max:N0} Enemies in {EntityName}"
-msgstr "在 {EntityName}中屠杀{Current:N0} / {Max:N0}个敌人"
+msgstr "在 {EntityName}中击杀{Current:N0} / {Max:N0}个敌人"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Slay {Current:N0} / {Max:N0} {EnemyName} using {PlayerCombatStyleOrStance} for the entire fight"
-msgstr "全程使用{PlayerCombatStyleOrStance}战斗，屠杀{Current:N0} / {Max:N0}个{EnemyName}"
+msgstr "全程使用{PlayerCombatStyleOrStance}战斗，击杀{Current:N0} / {Max:N0}个{EnemyName}"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Slay {Current:N0} / {Max:N0} {EnemyName} using {PlayerCombatStyleOrStance} for the entire fight in {EntityName}"
-msgstr "在 {EntityName}中全程使用{PlayerCombatStyleOrStance}战斗，屠杀{Current:N0} / {Max:N0}个{EnemyName}"
+msgstr "在 {EntityName}中全程使用{PlayerCombatStyleOrStance}战斗，击杀{Current:N0} / {Max:N0}个{EnemyName}"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Slay {Current:N0} / {Max:N0} {EnemyName}"
-msgstr "屠杀{Current:N0} / {Max:N0}个{EnemyName}"
+msgstr "击杀{Current:N0} / {Max:N0}个{EnemyName}"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Slay {Current:N0} / {Max:N0} {EnemyName} in {EntityName}"
-msgstr "在 {EntityName}中屠杀{Current:N0} / {Max:N0}个{EnemyName}"
+msgstr "在 {EntityName}中击杀{Current:N0} / {Max:N0}个{EnemyName}"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Slay {Current:N0} / {Max:N0} {EnemyName} in {TimeMS:numbertime(ms):auto} or less"
-msgstr "屠杀{Current:N0} / {Max:N0}个{EnemyName}，每次用时不超过{TimeMS:numbertime(ms):auto}"
+msgstr "击杀{Current:N0} / {Max:N0}个{EnemyName}，每次用时不超过{TimeMS:numbertime(ms):auto}"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Slay {Current:N0} / {Max:N0} {EnemyName} in {TimeMS:numbertime(ms):auto} or less in {EntityName}"
-msgstr "在 {EntityName}中屠杀{Current:N0} / {Max:N0}个{EnemyName}，每次用时不超过{TimeMS:numbertime(ms):auto}"
+msgstr "在 {EntityName}中击杀{Current:N0} / {Max:N0}个{EnemyName}，每次用时不超过{TimeMS:numbertime(ms):auto}"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -75511,7 +75511,7 @@ msgstr "捕获{Current:N0} / {Max:N0}只{AnimalName}"
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Trap {Current:N0} / {Max:N0} {AnimalName} without failing"
-msgstr "连续捕获{Current:N0} / {Max:N0}只{AnimalName}，中途不能失败"
+msgstr "无失败捕获{Current:N0} / {Max:N0}只{AnimalName}"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -75521,7 +75521,7 @@ msgstr "使用诱饵捕获{Current:N0} / {Max:N0}只{AnimalName}"
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Trap {Current:N0} / {Max:N0} {AnimalName} without failing while using Bait"
-msgstr "使用诱饵连续捕获{Current:N0} / {Max:N0}只{AnimalName}，中途不能失败"
+msgstr "使用诱饵无失败捕获{Current:N0} / {Max:N0}只{AnimalName}"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -75531,7 +75531,7 @@ msgstr "在 {EntityName}中使用诱饵捕获{Current:N0} / {Max:N0}只{AnimalNa
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
 msgid "Trap {Current:N0} / {Max:N0} {AnimalName} without failing while using Bait in {EntityName}"
-msgstr "在 {EntityName}中使用诱饵连续捕获{Current:N0} / {Max:N0}只{AnimalName}，中途不能失败"
+msgstr "在 {EntityName}中使用诱饵无失败捕获{Current:N0} / {Max:N0}只{AnimalName}"
 
 #. TRANSLATORS: AutoTranslate fallback (BBCode stripped)
 #: Data/Packages/MelvorBase.json
@@ -80158,3 +80158,53 @@ msgstr ""
 "\n"
 "如果敌人造成不低于你护甲值的伤害，\n"
 "你的护甲就会被破除。"
+
+#. live string from current game DLL (official locale extract is older)
+#: Entities/Astrology
+msgid "Observe {Current:N0} / {Max:N0} events while studying {ConstellationName} in Astrology"
+msgstr "在星象学中研究{ConstellationName}时，观测{Current:N0} / {Max:N0}次事件"
+
+#. live string from current game DLL (official locale extract is older)
+#: Entities/Astrology
+msgid "Study {ConstellationName} {Current:N0} / {Max:N0} times in Astrology"
+msgstr "在星象学中研究 {ConstellationName} {Current:N0} / {Max:N0}次"
+
+#. live string from current game DLL (official locale extract is older)
+#: Entities/Astrology
+msgid "Activate {Current:N0} / {Max:N0} {EventName} in Astrology"
+msgstr "在星象学中激活{Current:N0} / {Max:N0}次 {EventName}"
+
+#. live string from current game DLL (official locale extract is older)
+#: Entities/Astrology
+msgid "Finish {Current:N0} / {Max:N0} {EventName} in Astrology"
+msgstr "在星象学中完成{Current:N0} / {Max:N0}次 {EventName}"
+
+#. live string from current game DLL (official locale extract is older)
+#: Entities/Astrology
+msgid "Observe {Current:N0} / {Max:N0} {EventName} in Astrology"
+msgstr "在星象学中观测{Current:N0} / {Max:N0}次 {EventName}"
+
+#. live string from current game DLL (official locale extract is older)
+#: Entities/Astrology
+msgid "Skip {Current:N0} / {Max:N0} {EventName} in Astrology"
+msgstr "在星象学中跳过{Current:N0} / {Max:N0}次 {EventName}"
+
+#. live string from current game DLL (official locale extract is older)
+#: Entities/Astrology/Goals/ActiveObserveEventGoal.cs.uid
+msgid "Observe [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [b]{EventName}[/b] (Event)"
+msgstr "观测[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]次[b]{EventName}[/b]（事件）"
+
+#. live string from current game DLL (official locale extract is older)
+#: Entities/Astrology/Goals/ActiveObserveEventGoal.cs.uid
+msgid "Observe [b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b] [b]{EventName}[/b] (Event) in [img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]"
+msgstr "在[img height=1.25em]{EntityIcon}[/img] [b]{EntityName}[/b]中观测[b][color=#{ProgressColor}]{Current:N0} / {Max:N0}[/color][/b]次[b]{EventName}[/b]（事件）"
+
+#. AutoTranslate fallback (BBCode stripped)
+#: Data/Packages/MelvorBase.json
+msgid "Observe {Current:N0} / {Max:N0} {EventName} (Event)"
+msgstr "观测{Current:N0} / {Max:N0}次 {EventName}（事件）"
+
+#. AutoTranslate fallback (BBCode stripped)
+#: Data/Packages/MelvorBase.json
+msgid "Observe {Current:N0} / {Max:N0} {EventName} (Event) in {EntityName}"
+msgstr "在 {EntityName}中观测{Current:N0} / {Max:N0}次 {EventName}（事件）"
