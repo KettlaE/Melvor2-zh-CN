@@ -1,31 +1,28 @@
-# Melvor Idle 2 EA 补丁安装说明
+# Melvor Idle 2 EA 覆盖层安装说明
 
 - AppID: 3218350
-- Build: 26886380（v0.11.7-alpha；由 Demo 汉化迁移，官方目录已完整）
-- 方法: 替换 Melvor2.exe 内嵌 PCK 的 `Locale/en_GB.po`、`Data/Packages/MelvorBase.json`，以及 38 个含 FormatString 的界面场景（en_GB 通道）
-- 工具: `tools/Patch-Game.ps1` / `Manage-Patch.ps1`（纯 PowerShell，无 Python）
-- 入口: `一键汉化.cmd` / `取消汉化.cmd`（纯 ASCII，避免 cmd 代码页截断）
-- 版本锁: `prototype/manifest.json` 校验 Melvor2.exe 与 GamesByMalcs.Melvor2.dll 的 size/sha256
+- Build: 26886380（v0.11.7-alpha，Windows）
+- 当前方法: 在 `Melvor2.exe` 旁放置 `override.cfg`、`mod/zh_CN.po`、`mod/zh_CN_patch.gd`
+- 入口: `install-overlay.cmd` / `Install-Overlay.ps1`（以及对应的卸载脚本）
+- 不改写 `Melvor2.exe` 的内嵌资源；从旧的 exe 改写版升级时，安装脚本会先还原官方 exe 备份
 - 不改 DLL 内容、不改存档、不自动启动游戏
 
-## 合并策略（26886380）
+旧的「改写 Melvor2.exe 内嵌 PCK」安装方式已经淘汰。历史说明与文件见 [`legacy-exe-patch/`](../legacy-exe-patch/)，技术对照见 [`overlay-report.md`](overlay-report.md)。
 
-1. 从当前官方 EXE 提取 PCK。官方 `Locale/en.po` 已不存在；工程设置只加载 `Locale/en_GB.po`（完整英文目录）。`Locale/zh_CN.po` 为官方完整简体中文，但未写入 `internationalization/locale/translations`，游戏不会自动使用。本更新中官方 `zh_CN.po` 未变。
-2. 以官方 `en_GB.po` 的 msgid / msgid_plural / msgctxt（`PluralName`）为目录骨架，按 msgid 填入官方中文；Demo 旧译文用于补缺或覆盖「中英相同且 Demo 已有中文」的条目。
-3. 所有复数均写入 `msgstr[0]` 与 `msgstr[1]`，以匹配 en_GB 的 `nplurals=2`。当前语言包共 14199 个条目（1970 个复数）。
+## 覆盖层如何生效
 
-## 安装后
+1. Godot 会读取游戏目录里的 `override.cfg`，在官方 `Locale/en_GB.po` 之外额外载入 `res://mod/zh_CN.po`（语系 `zh_CN`），并 Autoload `mod/zh_CN_patch.gd`。
+2. 玩家在游戏的语言设置里选择「简体中文」。选 English 时就是官方原文。
+3. `zh_CN_patch.gd` 只在当前语言为简体中文时，把部分未走翻译系统的界面原文替换为中文（例如部分商店说明、闪避列表、时间单位）。
 
-`manifest.json` 的 `patched_sha256` / `known_patched_sha256` 会记录本 build 补丁后 EXE 哈希，便于在 backups/state 被删除后仍识别「已汉化」。当前已安装版本 SHA256：`bd660f06968b54bad4ae95d55fc3402df9ef55f1d23bd6c3a9759586a4a6fa44`。
+因此安装不必按 exe 哈希锁定版本。Steam 更新后覆盖层通常仍可用；新增或改动过的英文会暂时保持原文，等翻译包更新即可。
 
-官方 `Melvor2.exe`（安装前）SHA256：`4fbd4504809b2d2cf3c12ad962a632f4b1dd0934eebd2452f3766ebc313146d1`（602,186,032 字节）。
+已知的官方 `Melvor2.exe`（build 26886380）SHA256：`4fbd4504809b2d2cf3c12ad962a632f4b1dd0934eebd2452f3766ebc313146d1`（602,186,032 字节）。从旧改写版（SHA256 `bd660f06968b54bad4ae95d55fc3402df9ef55f1d23bd6c3a9759586a4a6fa44`）升级时，脚本会先还原上述官方备份。
 
-语言请保持 **en_GB**。
+## 发布包
 
-## 物品名称与界面原文（2026-11-17 / 2026-11-18 / 2026-11-25）
+使用 `tools/pack-release.ps1` 打包 `Melvor2_zh-CN_overlay_build26886380.zip`（仅英文文件名）。压缩包根目录直接包含 `override.cfg`、`mod/`、安装脚本和 README，不含旧的 exe 改写工具链。
 
-物品 DisplayName 是带上下文 PluralName 的 PluralString。银行物品面板把 ItemName.Text 设为 DisplayName.Singular（未翻译原文），再靠 Godot AutoTranslate **无上下文** 查找。因此只有同时也存在无 msgctxt 条目的物品名会显示中文。本版为所有 PluralName 条目补了无上下文回退。
+## 译文来源
 
-部分界面直接读取 LocalizedString.Message（不查语言包），因此把已译中文写回 `MelvorBase.json` 的原文。另有 38 个场景用 FormatString 显示实时数字，且关闭了自动翻译，语言包条目不会生效，故一并替换这些场景中的格式模板。
-
-另外补全了工具带装备条件等 C# 中的句式，并修正了官方 `zh_CN.po` 里「撬锁器」（原误译「小贼」）、「柠檬」「柠檬宝箱」「蒙面头套」等名称，以及「过度生长」「未充能法球」等用词。v0.11.7-alpha 新增文案包括游戏内新闻面板、银行标签图标、套装加成、新设置、灵巧印记商店技能分类，以及采矿日志相关描述。
+`mod/zh_CN.po` 由现有 0.11.7 简体中文包（历史上作为 `Locale/en_GB.po` 分发）转换而来，msgstr 与用词约定保持不变。维护时可运行 `tools/convert_en_GB_to_zh_CN_po.py`，从 `prototype/Locale/en_GB.po` 重新生成。
