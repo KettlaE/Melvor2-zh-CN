@@ -2,7 +2,7 @@
 
 日期：2026-11-25（Asia/Hong_Kong）
 
-本文件记录覆盖层安装方式的设计对照与技术说明。当前仓库中的用户文件位于仓库根目录（`override.cfg`、`mod/zh_CN.po`、`mod/zh_CN_patch.gd` 及安装脚本）。本包把安装方式从「改写 `Melvor2.exe` 内嵌 PCK」改为「在 exe 旁放置少量覆盖文件」，译文仍是我们 0.11.7 / build 26886380 的简体中文包。覆盖层做法参考 bmlee9527 / YukoCat 的繁体中文社区包，但没有使用他们的译文。
+本文件记录覆盖层安装方式的设计对照与技术说明。当前仓库中的用户文件位于仓库根目录（`override.cfg`、`mod/zh_CN.po`、`mod/zh_CN_patch.gd`）。安装方式是把这些文件直接解压到 `Melvor2.exe` 旁边，不再提供安装/卸载脚本。本包把安装方式从「改写 `Melvor2.exe` 内嵌 PCK」改为「在 exe 旁放置少量覆盖文件」，译文仍是我们 0.11.7 / build 26886380 的简体中文包。覆盖层做法参考 bmlee9527 / YukoCat 的繁体中文社区包，但没有使用他们的译文。
 
 ## 1. 从源码确认的繁体包机制
 
@@ -73,10 +73,6 @@ Mac 脚本仅作参考，本包未提供 Mac 安装器。Mac 的 `override.cfg` 
 | `override.cfg` | 676 | `820c6faa6e0a2616f874759a0a331dac837f06dd46c2a43da0b883b2624bce2d` | UTF-8 无 BOM，CRLF |
 | `mod/zh_CN.po` | 3,339,951 | `6ece38b933c72be4d644f0a161cd624d364e78ca205453531d520aa2e27f34aa` | UTF-8 无 BOM，LF，末尾换行 |
 | `mod/zh_CN_patch.gd` | 15,478 | `dcddb5f3ec3d4f80b6352c2df749df1a6b13ac427d30bafa43103713f51d8610` | UTF-8 无 BOM，LF |
-| `install-overlay.cmd` | 272 | `38eb872b93f25e00af70ff058017aac2abcee2cec76f09795b5de399db5ceb9a` | 纯 ASCII，CRLF |
-| `uninstall-overlay.cmd` | 276 | `721850c2d82c198120d004a3a57cde218799ad17a94ade35472f0779b336555d` | 纯 ASCII，CRLF |
-| `Install-Overlay.ps1` | 6,019 | `5bc3d5ec1cf18de8167783e5c70c78b65263edd55365dc66da85f81436846218` | UTF-8 BOM，CRLF |
-| `Uninstall-Overlay.ps1` | 2,161 | `aea9355f63a4e5014227b2013a98e3be245406bb16e14967b2ea0ef33a06912f` | UTF-8 BOM，CRLF |
 | `README.md` | 5,215 | `cef28cf687382c8ee1041acbf977d94ac849976b65ddf2524e7888ab26866f74` | UTF-8 无 BOM，LF |
 | `tools/convert_en_GB_to_zh_CN_po.py` | 3,696 | `b459be11449199a51d9d27ee3d9a1b3ad4f69986bb5ff7df8d9a72645f0d09cd` | UTF-8 无 BOM，LF（可复现转换；用户机不需要 Python） |
 
@@ -157,7 +153,13 @@ locale/translations=PackedStringArray("res://Locale/en_GB.po", "res://mod/zh_CN.
 
 没有把旧的 `MelvorBase.json` 或 38 个 `.scn` 打进覆盖层，以保持「只复制小文件、不改 exe」的目标。
 
-## 6. 从当前已安装的改写版 exe 迁移
+## 6. 从旧的改写版 exe 迁移
+
+安装方式后来改为：把 `override.cfg` 和 `mod` 文件夹直接解压到 `Melvor2.exe` 旁边。若当前还是旧的改写版 exe，请先用 Steam「验证游戏文件完整性」或官方备份还原官方 exe，再解压覆盖层。不要在改写版 exe 上叠放覆盖层。卸载只需删除游戏目录里的 `override.cfg` 和 `mod` 文件夹。
+
+以下记录的是 2026-11-25 当次从改写版迁移时的状态和原先用安装脚本执行的步骤，仅供存档，不再作为现行安装方式。
+
+### 6.1 当时的机器状态与脚本计划
 
 当前用户机（Kellta_Laptop，`22dde8ae-94f3-4962-9a6d-e354fecab7af`）状态，摘自 2026-11-25 安装记录：
 
@@ -184,7 +186,11 @@ locale/translations=PackedStringArray("res://Locale/en_GB.po", "res://mod/zh_CN.
 
 默认游戏路径：`E:\Games\SteamLibrary\steamapps\common\Melvor Idle 2`（可用 `-GameDir` 覆盖）。用户机没有 Python，安装只依赖 PowerShell / cmd。
 
-## 7. 建议的下一步（需父代理 / 用户确认后再做）
+## 7. 后续说明
+
+覆盖层后来已按解压方式装进用户的游戏目录，并已推送到 GitHub。安装/卸载脚本随后已从发布包中移除，玩家只需解压 `override.cfg` 和 `mod` 文件夹。本节原先建议的「再运行安装脚本」已不再适用。
+
+### 7.1 当时尚未安装时的建议（存档）
 
 覆盖层方法**可行**，并且能解决「每次改 exe 大约 600 MB、安装慢」以及「设置里切不了中英文」这两个核心问题。建议在用户确认后，再由父代理在用户机关闭游戏的前提下执行安装脚本，然后请用户启动一次，检查：
 

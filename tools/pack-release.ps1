@@ -1,5 +1,6 @@
 ﻿# Pack the shareable Melvor2 zh-CN overlay zip.
-# ASCII filename only. Zip root contains override.cfg, mod/, install scripts, README, and SHA256SUMS.txt.
+# ASCII filename only. Zip root contains override.cfg, mod/, README.md, and SHA256SUMS.txt.
+# Maintainer tooling only; players unzip the pack into the game folder.
 #Requires -Version 5.1
 $ErrorActionPreference = 'Stop'
 $repo = Split-Path -Parent $PSScriptRoot
@@ -11,10 +12,6 @@ $required = @(
     'README.md',
     'SHA256SUMS.txt',
     'override.cfg',
-    'install-overlay.cmd',
-    'Install-Overlay.ps1',
-    'uninstall-overlay.cmd',
-    'Uninstall-Overlay.ps1',
     'mod\zh_CN.po',
     'mod\zh_CN_patch.gd'
 )
