@@ -1424,7 +1424,7 @@
           "DamageType"
         ]
       },
-      "TemplateString": "{LocalContext.DamageType.ResistanceName} {Value:+0.##%;-#.##%}"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.DamageType.ResistanceName}"
     },
     {
       "Key": {
@@ -1461,7 +1461,7 @@
           "CombatStat"
         ]
       },
-      "TemplateString": "{LocalContext.CombatStat.DisplayName} {Value:+0.##%;-#.##%}"
+      "TemplateString": "{Value:+0.##%;-#.##%} {LocalContext.CombatStat.DisplayName}"
     },
     {
       "Key": {
@@ -2398,7 +2398,7 @@
           "CombatStat"
         ]
       },
-      "TemplateString": "{0:combatStatModifier:}{LocalContext.CombatStat.DisplayName}"
+      "TemplateString": "{0:combatStatModifier:} {LocalContext.CombatStat.DisplayName}"
     },
     {
       "Key": {
@@ -2669,7 +2669,7 @@
           "Effect"
         ]
       },
-      "TemplateString": "{0:combatStatModifier:}{LocalContext.CombatStat.DisplayName}"
+      "TemplateString": "{0:combatStatModifier:} {LocalContext.CombatStat.DisplayName}"
     },
     {
       "Key": {
@@ -15511,7 +15511,7 @@
           "Singular": "黎明钢头盔",
           "Plural": "黎明钢头盔"
         },
-        "Description": "套装加成（装备3件黎明钢装备，手套不计入件数）：光照 +5",
+        "Description": null,
         "Icon": "res://Assets/Items/DawnsteelHelmet.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -15656,7 +15656,7 @@
           "Singular": "黎明钢靴",
           "Plural": "黎明钢靴"
         },
-        "Description": "套装加成（装备3件黎明钢装备，手套不计入件数）：光照 +5",
+        "Description": null,
         "Icon": "res://Assets/Items/DawnsteelBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -16147,7 +16147,7 @@
           "Singular": "黎明钢胫甲",
           "Plural": "黎明钢胫甲"
         },
-        "Description": "套装加成（装备3件黎明钢装备，手套和盾牌不计入件数）：光照 +5",
+        "Description": null,
         "Icon": "res://Assets/Items/DawnsteelPlatelegs.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -16292,7 +16292,7 @@
           "Singular": "黎明钢胸甲",
           "Plural": "黎明钢胸甲"
         },
-        "Description": "套装加成（装备3件黎明钢装备，手套和盾牌不计入件数）：光照 +5",
+        "Description": null,
         "Icon": "res://Assets/Items/DawnsteelPlatebody.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -26059,7 +26059,7 @@
           "Singular": "大气巫师帽",
           "Plural": "大气巫师帽"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/AirWizardHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -26200,7 +26200,7 @@
           "Singular": "大气巫师靴",
           "Plural": "大气巫师靴"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/AirWizardBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -26336,7 +26336,7 @@
           "Singular": "大气巫师下装",
           "Plural": "大气巫师下装"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/AirWizardBottoms.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -26472,7 +26472,7 @@
           "Singular": "大气巫师长袍",
           "Plural": "大气巫师长袍"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/AirWizardRobes.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -26608,7 +26608,7 @@
           "Singular": "流水巫师帽",
           "Plural": "流水巫师帽"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/WaterWizardHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -26744,7 +26744,7 @@
           "Singular": "流水巫师靴",
           "Plural": "流水巫师靴"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/WaterWizardBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -26885,7 +26885,7 @@
           "Singular": "流水巫师下装",
           "Plural": "流水巫师下装"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/WaterWizardBottoms.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -27021,7 +27021,7 @@
           "Singular": "流水巫师长袍",
           "Plural": "流水巫师长袍"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/WaterWizardRobes.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -27162,7 +27162,7 @@
           "Singular": "大地巫师帽",
           "Plural": "大地巫师帽"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/EarthWizardHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -27303,7 +27303,7 @@
           "Singular": "大地巫师靴",
           "Plural": "大地巫师靴"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/EarthWizardBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -27444,7 +27444,7 @@
           "Singular": "大地巫师下装",
           "Plural": "大地巫师下装"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/EarthWizardBottoms.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -27580,7 +27580,7 @@
           "Singular": "大地巫师长袍",
           "Plural": "大地巫师长袍"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/EarthWizardRobes.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -27716,7 +27716,7 @@
           "Singular": "火焰巫师帽",
           "Plural": "火焰巫师帽"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/FireWizardHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -27875,7 +27875,7 @@
           "Singular": "火焰巫师靴",
           "Plural": "火焰巫师靴"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/FireWizardBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -28011,7 +28011,7 @@
           "Singular": "火焰巫师下装",
           "Plural": "火焰巫师下装"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/FireWizardBottoms.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -28147,7 +28147,7 @@
           "Singular": "火焰巫师长袍",
           "Plural": "火焰巫师长袍"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/FireWizardRobes.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -40615,7 +40615,7 @@
           "Singular": "沙尘巫师帽",
           "Plural": "沙尘巫师帽"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/DustWizardHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -40756,7 +40756,7 @@
           "Singular": "蒸汽巫师靴",
           "Plural": "蒸汽巫师靴"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SteamWizardBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -40892,7 +40892,7 @@
           "Singular": "沙尘巫师下装",
           "Plural": "沙尘巫师下装"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/DustWizardBottoms.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -41028,7 +41028,7 @@
           "Singular": "蒸汽巫师长袍",
           "Plural": "蒸汽巫师长袍"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SteamWizardRobes.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -41164,7 +41164,7 @@
           "Singular": "蒸汽巫师帽",
           "Plural": "蒸汽巫师帽"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SteamWizardHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -41300,7 +41300,7 @@
           "Singular": "沙尘巫师靴",
           "Plural": "沙尘巫师靴"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/DustWizardBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -41441,7 +41441,7 @@
           "Singular": "蒸汽巫师下装",
           "Plural": "蒸汽巫师下装"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SteamWizardBottoms.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -41577,7 +41577,7 @@
           "Singular": "沙尘巫师长袍",
           "Plural": "沙尘巫师长袍"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/DustWizardRobes.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -41718,7 +41718,7 @@
           "Singular": "泥土巫师帽",
           "Plural": "泥土巫师帽"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MudWizardHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -41864,7 +41864,7 @@
           "Singular": "烟霭巫师靴",
           "Plural": "烟霭巫师靴"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SmokeWizardBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -42005,7 +42005,7 @@
           "Singular": "泥土巫师下装",
           "Plural": "泥土巫师下装"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MudWizardBottoms.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -42146,7 +42146,7 @@
           "Singular": "烟霭巫师长袍",
           "Plural": "烟霭巫师长袍"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SmokeWizardRobes.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -42287,7 +42287,7 @@
           "Singular": "烟霭巫师帽",
           "Plural": "烟霭巫师帽"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SmokeWizardHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -42428,7 +42428,7 @@
           "Singular": "泥土巫师靴",
           "Plural": "泥土巫师靴"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MudWizardBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -42569,7 +42569,7 @@
           "Singular": "烟霭巫师下装",
           "Plural": "烟霭巫师下装"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SmokeWizardBottoms.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -42705,7 +42705,7 @@
           "Singular": "泥土巫师长袍",
           "Plural": "泥土巫师长袍"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MudWizardRobes.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -42846,7 +42846,7 @@
           "Singular": "迷雾巫师帽",
           "Plural": "迷雾巫师帽"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MistWizardHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -42982,7 +42982,7 @@
           "Singular": "岩浆巫师靴",
           "Plural": "岩浆巫师靴"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/LavaWizardBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -43118,7 +43118,7 @@
           "Singular": "迷雾巫师下装",
           "Plural": "迷雾巫师下装"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MistWizardBottoms.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -43254,7 +43254,7 @@
           "Singular": "岩浆巫师长袍",
           "Plural": "岩浆巫师长袍"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/LavaWizardRobes.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -43390,7 +43390,7 @@
           "Singular": "岩浆巫师帽",
           "Plural": "岩浆巫师帽"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/LavaWizardHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -43526,7 +43526,7 @@
           "Singular": "迷雾巫师靴",
           "Plural": "迷雾巫师靴"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MistWizardBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -43662,7 +43662,7 @@
           "Singular": "岩浆巫师下装",
           "Plural": "岩浆巫师下装"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/LavaWizardBottoms.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -43798,7 +43798,7 @@
           "Singular": "迷雾巫师长袍",
           "Plural": "迷雾巫师长袍"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MistWizardRobes.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -43939,7 +43939,7 @@
           "Singular": "元素巫师帽",
           "Plural": "元素巫师帽"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/ElementalWizardHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -44085,7 +44085,7 @@
           "Singular": "元素巫师靴",
           "Plural": "元素巫师靴"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/ElementalWizardBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -44226,7 +44226,7 @@
           "Singular": "元素巫师下装",
           "Plural": "元素巫师下装"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/ElementalWizardBottoms.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -44367,7 +44367,7 @@
           "Singular": "元素巫师长袍",
           "Plural": "元素巫师长袍"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/ElementalWizardRobes.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -51769,7 +51769,29 @@
           "MelvorBase:HuntingTrap": {
             "TrapType": "MelvorBase:Snare",
             "TrapBonuses": null,
-            "FailBonuses": null
+            "FailBonuses": [
+              {
+                "Stat": {
+                  "StatsType": "MelvorBase:HuntingAction",
+                  "Name": "FlatTrappingSuccessChance"
+                },
+                "Value": 0.02,
+                "LocalContext": {
+                  "Component": {
+                    "Entity": "MelvorBase:Hunting",
+                    "Component": "Action"
+                  },
+                  "Animal": null,
+                  "Location": null,
+                  "Tool": null,
+                  "TrapType": null,
+                  "Item": null
+                },
+                "FromContext": null,
+                "Condition": null,
+                "Scaling": null
+              }
+            ]
           }
         },
         "BankTags": [
@@ -52018,7 +52040,29 @@
           "MelvorBase:HuntingTrap": {
             "TrapType": "MelvorBase:SmallBirdCatcher",
             "TrapBonuses": null,
-            "FailBonuses": null
+            "FailBonuses": [
+              {
+                "Stat": {
+                  "StatsType": "MelvorBase:HuntingAction",
+                  "Name": "FlatTrappingSuccessChance"
+                },
+                "Value": 0.02,
+                "LocalContext": {
+                  "Component": {
+                    "Entity": "MelvorBase:Hunting",
+                    "Component": "Action"
+                  },
+                  "Animal": null,
+                  "Location": null,
+                  "Tool": null,
+                  "TrapType": null,
+                  "Item": null
+                },
+                "FromContext": null,
+                "Condition": null,
+                "Scaling": null
+              }
+            ]
           }
         },
         "BankTags": [
@@ -53498,7 +53542,29 @@
           "MelvorBase:HuntingTrap": {
             "TrapType": "MelvorBase:Net",
             "TrapBonuses": null,
-            "FailBonuses": null
+            "FailBonuses": [
+              {
+                "Stat": {
+                  "StatsType": "MelvorBase:HuntingAction",
+                  "Name": "FlatTrappingSuccessChance"
+                },
+                "Value": 0.02,
+                "LocalContext": {
+                  "Component": {
+                    "Entity": "MelvorBase:Hunting",
+                    "Component": "Action"
+                  },
+                  "Animal": null,
+                  "Location": null,
+                  "Tool": null,
+                  "TrapType": null,
+                  "Item": null
+                },
+                "FromContext": null,
+                "Condition": null,
+                "Scaling": null
+              }
+            ]
           }
         },
         "BankTags": [
@@ -53742,7 +53808,29 @@
           "MelvorBase:HuntingTrap": {
             "TrapType": "MelvorBase:LargeBirdNet",
             "TrapBonuses": null,
-            "FailBonuses": null
+            "FailBonuses": [
+              {
+                "Stat": {
+                  "StatsType": "MelvorBase:HuntingAction",
+                  "Name": "FlatTrappingSuccessChance"
+                },
+                "Value": 0.02,
+                "LocalContext": {
+                  "Component": {
+                    "Entity": "MelvorBase:Hunting",
+                    "Component": "Action"
+                  },
+                  "Animal": null,
+                  "Location": null,
+                  "Tool": null,
+                  "TrapType": null,
+                  "Item": null
+                },
+                "FromContext": null,
+                "Condition": null,
+                "Scaling": null
+              }
+            ]
           }
         },
         "BankTags": [
@@ -53991,7 +54079,29 @@
           "MelvorBase:HuntingTrap": {
             "TrapType": "MelvorBase:PitfallTrap",
             "TrapBonuses": null,
-            "FailBonuses": null
+            "FailBonuses": [
+              {
+                "Stat": {
+                  "StatsType": "MelvorBase:HuntingAction",
+                  "Name": "FlatTrappingSuccessChance"
+                },
+                "Value": 0.02,
+                "LocalContext": {
+                  "Component": {
+                    "Entity": "MelvorBase:Hunting",
+                    "Component": "Action"
+                  },
+                  "Animal": null,
+                  "Location": null,
+                  "Tool": null,
+                  "TrapType": null,
+                  "Item": null
+                },
+                "FromContext": null,
+                "Condition": null,
+                "Scaling": null
+              }
+            ]
           }
         },
         "BankTags": [
@@ -54272,7 +54382,29 @@
           "MelvorBase:HuntingTrap": {
             "TrapType": "MelvorBase:ButterflyKit",
             "TrapBonuses": null,
-            "FailBonuses": null
+            "FailBonuses": [
+              {
+                "Stat": {
+                  "StatsType": "MelvorBase:HuntingAction",
+                  "Name": "FlatTrappingSuccessChance"
+                },
+                "Value": 0.02,
+                "LocalContext": {
+                  "Component": {
+                    "Entity": "MelvorBase:Hunting",
+                    "Component": "Action"
+                  },
+                  "Animal": null,
+                  "Location": null,
+                  "Tool": null,
+                  "TrapType": null,
+                  "Item": null
+                },
+                "FromContext": null,
+                "Condition": null,
+                "Scaling": null
+              }
+            ]
           }
         },
         "BankTags": [
@@ -54521,7 +54653,29 @@
           "MelvorBase:HuntingTrap": {
             "TrapType": "MelvorBase:SpiritBox",
             "TrapBonuses": null,
-            "FailBonuses": null
+            "FailBonuses": [
+              {
+                "Stat": {
+                  "StatsType": "MelvorBase:HuntingAction",
+                  "Name": "FlatTrappingSuccessChance"
+                },
+                "Value": 0.02,
+                "LocalContext": {
+                  "Component": {
+                    "Entity": "MelvorBase:Hunting",
+                    "Component": "Action"
+                  },
+                  "Animal": null,
+                  "Location": null,
+                  "Tool": null,
+                  "TrapType": null,
+                  "Item": null
+                },
+                "FromContext": null,
+                "Condition": null,
+                "Scaling": null
+              }
+            ]
           }
         },
         "BankTags": [
@@ -86816,7 +86970,7 @@
           "Singular": "黎明钢头盔（已升级）",
           "Plural": "黎明钢头盔（已升级）"
         },
-        "Description": "套装加成（装备3件已升级黎明钢装备，手套和盾牌不计入件数）：光照 +8",
+        "Description": null,
         "Icon": "res://Assets/Items/DawnsteelHelmetUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -87123,7 +87277,7 @@
           "Singular": "黎明钢胸甲（已升级）",
           "Plural": "黎明钢胸甲（已升级）"
         },
-        "Description": "套装加成（装备3件已升级黎明钢装备，手套和盾牌不计入件数）：光照 +8",
+        "Description": null,
         "Icon": "res://Assets/Items/DawnsteelPlatebodyUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -87263,7 +87417,7 @@
           "Singular": "黎明钢胫甲（已升级）",
           "Plural": "黎明钢胫甲（已升级）"
         },
-        "Description": "套装加成（装备3件已升级黎明钢装备，手套和盾牌不计入件数）：光照 +8",
+        "Description": null,
         "Icon": "res://Assets/Items/DawnsteelPlatelegsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -87403,7 +87557,7 @@
           "Singular": "黎明钢靴（已升级）",
           "Plural": "黎明钢靴（已升级）"
         },
-        "Description": "套装加成（装备3件已升级黎明钢装备，手套和盾牌不计入件数）：光照 +8",
+        "Description": null,
         "Icon": "res://Assets/Items/DawnsteelBootsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -88387,7 +88541,7 @@
           "Singular": "鲜血靴",
           "Plural": "鲜血靴"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/BloodBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -90037,7 +90191,7 @@
           "Singular": "鲜血帽",
           "Plural": "鲜血帽"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/BloodWizardHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -90180,7 +90334,7 @@
           "Singular": "鲜血长袍",
           "Plural": "鲜血长袍"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/BloodWizardRobes.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -90323,7 +90477,7 @@
           "Singular": "鲜血下装",
           "Plural": "鲜血下装"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/BloodWizardBottoms.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -90592,7 +90746,7 @@
           "Singular": "沉沦帽",
           "Plural": "沉沦帽"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/DrownedHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -90735,7 +90889,7 @@
           "Singular": "沉沦长袍",
           "Plural": "沉沦长袍"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/DrownedRobes.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -90878,7 +91032,7 @@
           "Singular": "沉沦下装",
           "Plural": "沉沦下装"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/DrownedBottoms.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -99805,7 +99959,7 @@
           "Singular": "流水巫师帽（已升级）",
           "Plural": "流水巫师帽（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/WaterWizardHatUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -99936,7 +100090,7 @@
           "Singular": "流水巫师长袍（已升级）",
           "Plural": "流水巫师长袍（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/WaterWizardRobesUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -100067,7 +100221,7 @@
           "Singular": "流水巫师下装（已升级）",
           "Plural": "流水巫师下装（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/WaterWizardBottomsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -100198,7 +100352,7 @@
           "Singular": "流水巫师靴（已升级）",
           "Plural": "流水巫师靴（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/WaterWizardBootsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -100329,7 +100483,7 @@
           "Singular": "大地巫师帽（已升级）",
           "Plural": "大地巫师帽（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/EarthWizardHatUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -100460,7 +100614,7 @@
           "Singular": "大地巫师长袍（已升级）",
           "Plural": "大地巫师长袍（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/EarthWizardRobesUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -100591,7 +100745,7 @@
           "Singular": "大地巫师下装（已升级）",
           "Plural": "大地巫师下装（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/EarthWizardBottomsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -100722,7 +100876,7 @@
           "Singular": "大地巫师靴（已升级）",
           "Plural": "大地巫师靴（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/EarthWizardBootsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -100853,7 +101007,7 @@
           "Singular": "火焰巫师帽（已升级）",
           "Plural": "火焰巫师帽（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/FireWizardHatUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -100984,7 +101138,7 @@
           "Singular": "火焰巫师长袍（已升级）",
           "Plural": "火焰巫师长袍（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/FireWizardRobesUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -101115,7 +101269,7 @@
           "Singular": "火焰巫师下装（已升级）",
           "Plural": "火焰巫师下装（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/FireWizardBottomsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -101246,7 +101400,7 @@
           "Singular": "火焰巫师靴（已升级）",
           "Plural": "火焰巫师靴（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/FireWizardBootsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -101377,7 +101531,7 @@
           "Singular": "沙尘巫师帽（已升级）",
           "Plural": "沙尘巫师帽（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/DustWizardHatUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -101508,7 +101662,7 @@
           "Singular": "沙尘巫师长袍（已升级）",
           "Plural": "沙尘巫师长袍（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/DustWizardRobesUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -101639,7 +101793,7 @@
           "Singular": "沙尘巫师下装（已升级）",
           "Plural": "沙尘巫师下装（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/DustWizardBottomsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -101770,7 +101924,7 @@
           "Singular": "沙尘巫师靴（已升级）",
           "Plural": "沙尘巫师靴（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/DustWizardBootsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -101901,7 +102055,7 @@
           "Singular": "蒸汽巫师帽（已升级）",
           "Plural": "蒸汽巫师帽（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SteamWizardHatUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -102032,7 +102186,7 @@
           "Singular": "蒸汽巫师长袍（已升级）",
           "Plural": "蒸汽巫师长袍（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SteamWizardRobesUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -102163,7 +102317,7 @@
           "Singular": "蒸汽巫师下装（已升级）",
           "Plural": "蒸汽巫师下装（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SteamWizardBottomsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -102294,7 +102448,7 @@
           "Singular": "蒸汽巫师靴（已升级）",
           "Plural": "蒸汽巫师靴（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SteamWizardBootsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -102425,7 +102579,7 @@
           "Singular": "泥土巫师帽（已升级）",
           "Plural": "泥土巫师帽（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MudWizardHatUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -102556,7 +102710,7 @@
           "Singular": "泥土巫师长袍（已升级）",
           "Plural": "泥土巫师长袍（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MudWizardRobesUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -102687,7 +102841,7 @@
           "Singular": "泥土巫师下装（已升级）",
           "Plural": "泥土巫师下装（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MudWizardBottomsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -102818,7 +102972,7 @@
           "Singular": "泥土巫师靴（已升级）",
           "Plural": "泥土巫师靴（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MudWizardBootsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -102949,7 +103103,7 @@
           "Singular": "烟霭巫师帽（已升级）",
           "Plural": "烟霭巫师帽（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SmokeWizardHatUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -103080,7 +103234,7 @@
           "Singular": "烟霭巫师长袍（已升级）",
           "Plural": "烟霭巫师长袍（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SmokeWizardRobesUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -103211,7 +103365,7 @@
           "Singular": "烟霭巫师下装（已升级）",
           "Plural": "烟霭巫师下装（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SmokeWizardBottomsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -103342,7 +103496,7 @@
           "Singular": "烟霭巫师靴（已升级）",
           "Plural": "烟霭巫师靴（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/SmokeWizardBootsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -103473,7 +103627,7 @@
           "Singular": "迷雾巫师帽（已升级）",
           "Plural": "迷雾巫师帽（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MistWizardHatUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -103604,7 +103758,7 @@
           "Singular": "迷雾巫师长袍（已升级）",
           "Plural": "迷雾巫师长袍（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MistWizardRobesUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -103735,7 +103889,7 @@
           "Singular": "迷雾巫师下装（已升级）",
           "Plural": "迷雾巫师下装（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MistWizardBottomsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -103866,7 +104020,7 @@
           "Singular": "迷雾巫师靴（已升级）",
           "Plural": "迷雾巫师靴（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/MistWizardBootsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -103997,7 +104151,7 @@
           "Singular": "岩浆巫师帽（已升级）",
           "Plural": "岩浆巫师帽（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/LavaWizardHatUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -104128,7 +104282,7 @@
           "Singular": "岩浆巫师长袍（已升级）",
           "Plural": "岩浆巫师长袍（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/LavaWizardRobesUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -104259,7 +104413,7 @@
           "Singular": "岩浆巫师下装（已升级）",
           "Plural": "岩浆巫师下装（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/LavaWizardBottomsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -104390,7 +104544,7 @@
           "Singular": "岩浆巫师靴（已升级）",
           "Plural": "岩浆巫师靴（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/LavaWizardBootsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -107061,7 +107215,7 @@
           "Singular": "大气巫师帽（已升级）",
           "Plural": "大气巫师帽（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/AirWizardHatUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -107192,7 +107346,7 @@
           "Singular": "大气巫师长袍（已升级）",
           "Plural": "大气巫师长袍（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/AirWizardRobesUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -107323,7 +107477,7 @@
           "Singular": "大气巫师下装（已升级）",
           "Plural": "大气巫师下装（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/AirWizardBottomsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -107454,7 +107608,7 @@
           "Singular": "大气巫师靴（已升级）",
           "Plural": "大气巫师靴（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/AirWizardBootsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -107585,7 +107739,7 @@
           "Singular": "元素巫师帽（已升级）",
           "Plural": "元素巫师帽（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/ElementalWizardHatUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -107716,7 +107870,7 @@
           "Singular": "元素巫师长袍（已升级）",
           "Plural": "元素巫师长袍（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/ElementalWizardRobesUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -107847,7 +108001,7 @@
           "Singular": "元素巫师下装（已升级）",
           "Plural": "元素巫师下装（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/ElementalWizardBottomsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -107978,7 +108132,7 @@
           "Singular": "元素巫师靴（已升级）",
           "Plural": "元素巫师靴（已升级）"
         },
-        "Description": "即将推出套装加成信息（现在装备以查看）。",
+        "Description": null,
         "Icon": "res://Assets/Items/ElementalWizardBootsUpgraded.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -120985,7 +121139,7 @@
           "Singular": "轻薄帽子",
           "Plural": "轻薄帽子"
         },
-        "Description": "套装加成（装备3件轻薄装备）：灵巧间隔 -2%",
+        "Description": null,
         "Icon": "res://Assets/Items/LightHeadwear.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -121048,7 +121202,7 @@
           "Singular": "轻薄背心",
           "Plural": "轻薄背心"
         },
-        "Description": "套装加成（装备3件轻薄装备）：灵巧间隔 -2%",
+        "Description": null,
         "Icon": "res://Assets/Items/LightBody.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -121111,7 +121265,7 @@
           "Singular": "轻薄裤子",
           "Plural": "轻薄裤子"
         },
-        "Description": "套装加成（装备3件轻薄装备）：灵巧间隔 -2%",
+        "Description": null,
         "Icon": "res://Assets/Items/LightPants.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -121174,7 +121328,7 @@
           "Singular": "轻便靴",
           "Plural": "轻便靴"
         },
-        "Description": "套装加成（装备3件轻薄装备）：灵巧间隔 -2%",
+        "Description": null,
         "Icon": "res://Assets/Items/LightBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -121237,7 +121391,7 @@
           "Singular": "迅捷帽子",
           "Plural": "迅捷帽子"
         },
-        "Description": "套装加成（装备3件迅捷装备）：灵巧间隔 -4%，灵巧失败所受伤害 -2%",
+        "Description": null,
         "Icon": "res://Assets/Items/SwiftHeadwear.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -121327,7 +121481,7 @@
           "Singular": "迅捷背心",
           "Plural": "迅捷背心"
         },
-        "Description": "套装加成（装备3件迅捷装备）：灵巧间隔 -4%，灵巧失败所受伤害 -2%",
+        "Description": null,
         "Icon": "res://Assets/Items/SwiftBody.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -121417,7 +121571,7 @@
           "Singular": "迅捷裤子",
           "Plural": "迅捷裤子"
         },
-        "Description": "套装加成（装备3件迅捷装备）：灵巧间隔 -4%，灵巧失败所受伤害 -2%",
+        "Description": null,
         "Icon": "res://Assets/Items/SwiftPants.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -121507,7 +121661,7 @@
           "Singular": "迅捷靴",
           "Plural": "迅捷靴"
         },
-        "Description": "套装加成（装备3件迅捷装备）：灵巧间隔 -4%，灵巧失败所受伤害 -2%",
+        "Description": null,
         "Icon": "res://Assets/Items/SwiftBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -121597,7 +121751,7 @@
           "Singular": "优雅帽子",
           "Plural": "优雅帽子"
         },
-        "Description": "套装加成（装备3件优雅装备）：灵巧间隔 -6%，灵巧失败所受伤害 -4%",
+        "Description": null,
         "Icon": "res://Assets/Items/GracefulHeadwear.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -121687,7 +121841,7 @@
           "Singular": "优雅背心",
           "Plural": "优雅背心"
         },
-        "Description": "套装加成（装备3件优雅装备）：灵巧间隔 -6%，灵巧失败所受伤害 -4%",
+        "Description": null,
         "Icon": "res://Assets/Items/GracefulBody.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -121777,7 +121931,7 @@
           "Singular": "优雅裤子",
           "Plural": "优雅裤子"
         },
-        "Description": "套装加成（装备3件优雅装备）：灵巧间隔 -6%，灵巧失败所受伤害 -4%",
+        "Description": null,
         "Icon": "res://Assets/Items/GracefulPants.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -121867,7 +122021,7 @@
           "Singular": "优雅靴",
           "Plural": "优雅靴"
         },
-        "Description": "套装加成（装备3件优雅装备）：灵巧间隔 -6%，灵巧失败所受伤害 -4%",
+        "Description": null,
         "Icon": "res://Assets/Items/GracefulBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -124391,7 +124545,7 @@
           "Singular": "伐木入门者帽",
           "Plural": "伐木入门者帽"
         },
-        "Description": "套装加成（装备3件伐木入门者装备）：鸟/鹰巢几率 +0.025%",
+        "Description": null,
         "Icon": "res://Assets/Items/IntermediateWoodcuttingHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -124486,7 +124640,7 @@
           "Singular": "伐木入门者背心",
           "Plural": "伐木入门者背心"
         },
-        "Description": "套装加成（装备3件伐木入门者装备）：鸟/鹰巢几率 +0.025%",
+        "Description": null,
         "Icon": "res://Assets/Items/IntermediateWoodcuttingBody.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -124581,7 +124735,7 @@
           "Singular": "伐木入门者裤子",
           "Plural": "伐木入门者裤子"
         },
-        "Description": "套装加成（装备3件伐木入门者装备）：鸟/鹰巢几率 +0.025%",
+        "Description": null,
         "Icon": "res://Assets/Items/IntermediateWoodcuttingPants.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -124676,7 +124830,7 @@
           "Singular": "伐木入门者靴",
           "Plural": "伐木入门者靴"
         },
-        "Description": "套装加成（装备3件伐木入门者装备）：鸟/鹰巢几率 +0.025%",
+        "Description": null,
         "Icon": "res://Assets/Items/IntermediateWoodcuttingBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -124771,7 +124925,7 @@
           "Singular": "钓鱼入门者帽",
           "Plural": "钓鱼入门者帽"
         },
-        "Description": "套装加成（装备3件钓鱼入门者装备）：钓鱼时的特殊几率增加10%",
+        "Description": null,
         "Icon": "res://Assets/Items/IntermediateFishingHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -124863,7 +125017,7 @@
           "Singular": "钓鱼入门者背心",
           "Plural": "钓鱼入门者背心"
         },
-        "Description": "套装加成（装备3件钓鱼入门者装备）：钓鱼时的特殊几率增加10%",
+        "Description": null,
         "Icon": "res://Assets/Items/IntermediateFishingBody.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -124955,7 +125109,7 @@
           "Singular": "钓鱼入门者裤子",
           "Plural": "钓鱼入门者裤子"
         },
-        "Description": "套装加成（装备3件钓鱼入门者装备）：钓鱼时的特殊几率增加10%",
+        "Description": null,
         "Icon": "res://Assets/Items/IntermediateFishingPants.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -125047,7 +125201,7 @@
           "Singular": "钓鱼入门者靴",
           "Plural": "钓鱼入门者靴"
         },
-        "Description": "套装加成（装备3件钓鱼入门者装备）：钓鱼时的特殊几率增加10%",
+        "Description": null,
         "Icon": "res://Assets/Items/IntermediateFishingBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -125139,7 +125293,7 @@
           "Singular": "采矿入门者帽",
           "Plural": "采矿入门者帽"
         },
-        "Description": "套装加成（装备3件采矿入门者装备）：晶洞石几率增加20%",
+        "Description": null,
         "Icon": "res://Assets/Items/IntermediateMiningHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -125212,7 +125366,7 @@
           "Singular": "采矿入门者背心",
           "Plural": "采矿入门者背心"
         },
-        "Description": "套装加成（装备3件采矿入门者装备）：晶洞石几率增加20%",
+        "Description": null,
         "Icon": "res://Assets/Items/IntermediateMiningBody.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -125285,7 +125439,7 @@
           "Singular": "采矿入门者裤子",
           "Plural": "采矿入门者裤子"
         },
-        "Description": "套装加成（装备3件采矿入门者装备）：晶洞石几率增加20%",
+        "Description": null,
         "Icon": "res://Assets/Items/IntermediateMiningPants.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -125358,7 +125512,7 @@
           "Singular": "采矿入门者靴",
           "Plural": "采矿入门者靴"
         },
-        "Description": "套装加成（装备3件采矿入门者装备）：晶洞石几率增加20%",
+        "Description": null,
         "Icon": "res://Assets/Items/IntermediateMiningBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -125431,7 +125585,7 @@
           "Singular": "伐木精通者帽",
           "Plural": "伐木精通者帽"
         },
-        "Description": "套装加成（装备3件伐木精通者装备）：砍倒树木和灌木的几率 +2%",
+        "Description": null,
         "Icon": "res://Assets/Items/EliteWoodcuttingHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -125546,7 +125700,7 @@
           "Singular": "伐木精通者背心",
           "Plural": "伐木精通者背心"
         },
-        "Description": "套装加成（装备3件伐木精通者装备）：砍倒树木和灌木的几率 +2%",
+        "Description": null,
         "Icon": "res://Assets/Items/EliteWoodcuttingBody.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -125661,7 +125815,7 @@
           "Singular": "伐木精通者裤子",
           "Plural": "伐木精通者裤子"
         },
-        "Description": "套装加成（装备3件伐木精通者装备）：砍倒树木和灌木的几率 +2%",
+        "Description": null,
         "Icon": "res://Assets/Items/EliteWoodcuttingPants.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -125776,7 +125930,7 @@
           "Singular": "伐木精通者靴",
           "Plural": "伐木精通者靴"
         },
-        "Description": "套装加成（装备3件伐木精通者装备）：砍倒树木和灌木的几率 +2%",
+        "Description": null,
         "Icon": "res://Assets/Items/EliteWoodcuttingBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -125891,7 +126045,7 @@
           "Singular": "钓鱼精通者帽",
           "Plural": "钓鱼精通者帽"
         },
-        "Description": "套装加成（装备3件钓鱼精通者装备）：钓鱼时的特殊几率增加20%",
+        "Description": null,
         "Icon": "res://Assets/Items/EliteFishingHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -125983,7 +126137,7 @@
           "Singular": "钓鱼精通者背心",
           "Plural": "钓鱼精通者背心"
         },
-        "Description": "套装加成（装备3件钓鱼精通者装备）：钓鱼时的特殊几率增加20%",
+        "Description": null,
         "Icon": "res://Assets/Items/EliteFishingBody.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -126075,7 +126229,7 @@
           "Singular": "钓鱼精通者裤子",
           "Plural": "钓鱼精通者裤子"
         },
-        "Description": "套装加成（装备3件钓鱼精通者装备）：钓鱼时的特殊几率增加20%",
+        "Description": null,
         "Icon": "res://Assets/Items/EliteFishingPants.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -126167,7 +126321,7 @@
           "Singular": "钓鱼精通者靴",
           "Plural": "钓鱼精通者靴"
         },
-        "Description": "套装加成（装备3件钓鱼精通者装备）：钓鱼时的特殊几率增加20%",
+        "Description": null,
         "Icon": "res://Assets/Items/EliteFishingBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -126259,7 +126413,7 @@
           "Singular": "采矿精通者帽",
           "Plural": "采矿精通者帽"
         },
-        "Description": "套装加成（装备3件采矿精通者装备）：采矿时获得物品翻倍几率 +5%",
+        "Description": null,
         "Icon": "res://Assets/Items/EliteMiningHat.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -126351,7 +126505,7 @@
           "Singular": "采矿精通者背心",
           "Plural": "采矿精通者背心"
         },
-        "Description": "套装加成（装备3件采矿精通者装备）：采矿时获得物品翻倍几率 +5%",
+        "Description": null,
         "Icon": "res://Assets/Items/EliteMiningBody.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -126443,7 +126597,7 @@
           "Singular": "采矿精通者裤子",
           "Plural": "采矿精通者裤子"
         },
-        "Description": "套装加成（装备3件采矿精通者装备）：采矿时获得物品翻倍几率 +5%",
+        "Description": null,
         "Icon": "res://Assets/Items/EliteMiningPants.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -126535,7 +126689,7 @@
           "Singular": "采矿精通者靴",
           "Plural": "采矿精通者靴"
         },
-        "Description": "套装加成（装备3件采矿精通者装备）：采矿时获得物品翻倍几率 +5%",
+        "Description": null,
         "Icon": "res://Assets/Items/EliteMiningBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -127786,7 +127940,29 @@
           "MelvorBase:HuntingTrap": {
             "TrapType": "MelvorBase:ToragTrap",
             "TrapBonuses": null,
-            "FailBonuses": null
+            "FailBonuses": [
+              {
+                "Stat": {
+                  "StatsType": "MelvorBase:HuntingAction",
+                  "Name": "FlatTrappingSuccessChance"
+                },
+                "Value": 0.02,
+                "LocalContext": {
+                  "Component": {
+                    "Entity": "MelvorBase:Hunting",
+                    "Component": "Action"
+                  },
+                  "Animal": null,
+                  "Location": null,
+                  "Tool": null,
+                  "TrapType": null,
+                  "Item": null
+                },
+                "FromContext": null,
+                "Condition": null,
+                "Scaling": null
+              }
+            ]
           }
         },
         "BankTags": [
@@ -128698,7 +128874,7 @@
           "Singular": "陨石开采记录",
           "Plural": "陨石开采记录"
         },
-        "Description": "装备这个以开采陨石矿石",
+        "Description": "将此装备于采矿技能以开采陨石矿石",
         "Icon": "res://Assets/Items/MeteoriteSightingsLog.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -128754,7 +128930,7 @@
           "Singular": "星落开采记录",
           "Plural": "星落开采记录"
         },
-        "Description": null,
+        "Description": "将此装备于采矿技能以开采坠星",
         "Icon": "res://Assets/Items/StarfallSightingsLog.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -128810,7 +128986,7 @@
           "Singular": "金色星落开采记录",
           "Plural": "金色星落开采记录"
         },
-        "Description": null,
+        "Description": "将此装备于采矿技能以开采黄金坠星",
         "Icon": "res://Assets/Items/GoldenStarfallSightingsLog.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -141493,7 +141669,7 @@
           "Singular": "镀金迅捷帽子",
           "Plural": "镀金迅捷帽子"
         },
-        "Description": "套装加成（装备3件迅捷装备）：灵巧间隔 -4%，灵巧失败所受伤害 -4%",
+        "Description": null,
         "Icon": "res://Assets/Items/GildedSwiftHeadwear.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -141578,7 +141754,7 @@
           "Singular": "镀金迅捷背心",
           "Plural": "镀金迅捷背心"
         },
-        "Description": "套装加成（装备3件迅捷装备）：灵巧间隔 -4%，灵巧失败所受伤害 -4%",
+        "Description": null,
         "Icon": "res://Assets/Items/GildedSwiftBody.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -141663,7 +141839,7 @@
           "Singular": "镀金迅捷裤子",
           "Plural": "镀金迅捷裤子"
         },
-        "Description": "套装加成（装备3件迅捷装备）：灵巧间隔 -4%，灵巧失败所受伤害 -4%",
+        "Description": null,
         "Icon": "res://Assets/Items/GildedSwiftPants.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -141748,7 +141924,7 @@
           "Singular": "镀金迅捷靴",
           "Plural": "镀金迅捷靴"
         },
-        "Description": "套装加成（装备3件迅捷装备）：灵巧间隔 -4%，灵巧失败所受伤害 -4%",
+        "Description": null,
         "Icon": "res://Assets/Items/GildedSwiftBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -141833,7 +142009,7 @@
           "Singular": "镀金优雅帽子",
           "Plural": "镀金优雅帽子"
         },
-        "Description": "套装加成（装备3件优雅装备）：灵巧间隔 -6%，灵巧失败所受伤害 -6%",
+        "Description": null,
         "Icon": "res://Assets/Items/GildedGracefulHeadwear.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -141918,7 +142094,7 @@
           "Singular": "镀金优雅背心",
           "Plural": "镀金优雅背心"
         },
-        "Description": "套装加成（装备3件优雅装备）：灵巧间隔 -6%，灵巧失败所受伤害 -6%",
+        "Description": null,
         "Icon": "res://Assets/Items/GildedGracefulBody.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -142003,7 +142179,7 @@
           "Singular": "镀金裤子",
           "Plural": "镀金裤子"
         },
-        "Description": "套装加成（装备3件优雅装备）：灵巧间隔 -6%，灵巧失败所受伤害 -6%",
+        "Description": null,
         "Icon": "res://Assets/Items/GildedGracefulPants.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -142088,7 +142264,7 @@
           "Singular": "镀金优雅靴",
           "Plural": "镀金优雅靴"
         },
-        "Description": "套装加成（装备3件优雅装备）：灵巧间隔 -6%，灵巧失败所受伤害 -6%",
+        "Description": null,
         "Icon": "res://Assets/Items/GildedGracefulBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -143843,7 +144019,7 @@
           "Singular": "黎明钢头盔（收藏品）",
           "Plural": "黎明钢头盔（收藏品）"
         },
-        "Description": "套装加成（装备3件黎明钢收藏品，手套和盾牌不计入件数）：光照 +8",
+        "Description": null,
         "Icon": "res://Assets/Items/DawnsteelHelmet.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -143983,7 +144159,7 @@
           "Singular": "黎明钢胸甲（收藏品）",
           "Plural": "黎明钢胸甲（收藏品）"
         },
-        "Description": "套装加成（装备3件黎明钢收藏品，手套和盾牌不计入件数）：光照 +8",
+        "Description": null,
         "Icon": "res://Assets/Items/DawnsteelPlatebody.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -144123,7 +144299,7 @@
           "Singular": "黎明钢胫甲（收藏品）",
           "Plural": "黎明钢胫甲（收藏品）"
         },
-        "Description": "套装加成（装备3件黎明钢收藏品，手套和盾牌不计入件数）：光照 +8",
+        "Description": null,
         "Icon": "res://Assets/Items/DawnsteelPlatelegs.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -144263,7 +144439,7 @@
           "Singular": "黎明钢靴（收藏品）",
           "Plural": "黎明钢靴（收藏品）"
         },
-        "Description": "套装加成（装备3件黎明钢收藏品，手套和盾牌不计入件数）：光照 +8",
+        "Description": null,
         "Icon": "res://Assets/Items/DawnsteelBoots.png",
         "SellsFor": {
           "Currency": "MelvorBase:GoldPieces",
@@ -153752,12 +153928,12 @@
       },
       {
         "Id": "RunecraftingWaterWeapons",
-        "DisplayName": "水域武器",
+        "DisplayName": "流水武器",
         "Icon": "res://Assets/Items/WaterWand.png"
       },
       {
         "Id": "RunecraftingWaterWizardGear",
-        "DisplayName": "水域巫师装备",
+        "DisplayName": "流水巫师装备",
         "Icon": "res://Assets/Items/WaterWizardHat.png"
       },
       {
@@ -174097,7 +174273,7 @@
         "DisplayName": "条纹斗篷",
         "Icon": "res://Assets/Items/StripedCape.png",
         "Category": "MelvorBase:BeastCrafts",
-        "Subcategory": null,
+        "Subcategory": "MelvorBase:BeastcraftingShields",
         "BaseExperience": 234,
         "BaseInterval": 3000,
         "Products": [
@@ -188628,7 +188804,7 @@
         "Category": "MelvorBase:Quests",
         "Subcategory": null,
         "GoalCategories": [],
-        "BaseExperience": 2500,
+        "BaseExperience": 300,
         "BaseInterval": 2000,
         "Products": [
           {
@@ -188697,7 +188873,7 @@
         "Category": "MelvorBase:Quests",
         "Subcategory": null,
         "GoalCategories": [],
-        "BaseExperience": 2500,
+        "BaseExperience": 300,
         "BaseInterval": 2000,
         "Products": [
           {
@@ -199424,9 +199600,79 @@
         "Category": "MelvorBase:AgilityUpgrades"
       },
       {
-        "Id": "AgilityMarkShop",
-        "DisplayName": "马克的印记",
+        "Id": "AgilityMarkCombat",
+        "DisplayName": "战斗护符",
+        "Icon": "res://Assets/Icons/Combat.png",
+        "Description": "",
+        "Category": "MelvorBase:AgilityUpgrades"
+      },
+      {
+        "Id": "AgilityMarkAgility",
+        "DisplayName": "灵巧速查表",
         "Icon": "res://Assets/Icons/Agility.png",
+        "Description": "",
+        "Category": "MelvorBase:AgilityUpgrades"
+      },
+      {
+        "Id": "AgilityMarkWoodcutting",
+        "DisplayName": "伐木装备",
+        "Icon": "res://Assets/Icons/Woodcutting.png",
+        "Description": "",
+        "Category": "MelvorBase:AgilityUpgrades"
+      },
+      {
+        "Id": "AgilityMarkFishing",
+        "DisplayName": "钓鱼装备",
+        "Icon": "res://Assets/Icons/Fishing.png",
+        "Description": "",
+        "Category": "MelvorBase:AgilityUpgrades"
+      },
+      {
+        "Id": "AgilityMarkMining",
+        "DisplayName": "采矿装备",
+        "Icon": "res://Assets/Icons/Mining.png",
+        "Description": "",
+        "Category": "MelvorBase:AgilityUpgrades"
+      },
+      {
+        "Id": "AgilityMarkSmithing",
+        "DisplayName": "锻造装备",
+        "Icon": "res://Assets/Icons/Smithing.png",
+        "Description": "",
+        "Category": "MelvorBase:AgilityUpgrades"
+      },
+      {
+        "Id": "AgilityMarkCrafting",
+        "DisplayName": "制造装备",
+        "Icon": "res://Assets/Icons/Crafting.png",
+        "Description": "",
+        "Category": "MelvorBase:AgilityUpgrades"
+      },
+      {
+        "Id": "AgilityMarkFletching",
+        "DisplayName": "弓匠装备",
+        "Icon": "res://Assets/Icons/Fletching.png",
+        "Description": "",
+        "Category": "MelvorBase:AgilityUpgrades"
+      },
+      {
+        "Id": "AgilityMarkRunecrafting",
+        "DisplayName": "符文锻造装备",
+        "Icon": "res://Assets/Icons/Runecrafting.png",
+        "Description": "",
+        "Category": "MelvorBase:AgilityUpgrades"
+      },
+      {
+        "Id": "AgilityMarkBeastcrafting",
+        "DisplayName": "兽工造物装备",
+        "Icon": "res://Assets/Icons/Beastcrafting.png",
+        "Description": "",
+        "Category": "MelvorBase:AgilityUpgrades"
+      },
+      {
+        "Id": "AgilityMarkHerblore",
+        "DisplayName": "草药学装备",
+        "Icon": "res://Assets/Icons/Herblore.png",
         "Description": "",
         "Category": "MelvorBase:AgilityUpgrades"
       },
@@ -219529,7 +219775,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkCombat",
         "AllowBulkPurchase": true,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -219573,7 +219819,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkCombat",
         "AllowBulkPurchase": true,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -219617,7 +219863,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkCombat",
         "AllowBulkPurchase": true,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -219661,7 +219907,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkCombat",
         "AllowBulkPurchase": true,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -219705,7 +219951,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkCombat",
         "AllowBulkPurchase": true,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -219749,7 +219995,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkCombat",
         "AllowBulkPurchase": true,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -219793,7 +220039,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkCombat",
         "AllowBulkPurchase": true,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -219837,7 +220083,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkAgility",
         "AllowBulkPurchase": true,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -219881,7 +220127,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkAgility",
         "AllowBulkPurchase": true,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -219925,7 +220171,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkAgility",
         "AllowBulkPurchase": true,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -219969,7 +220215,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkAgility",
         "AllowBulkPurchase": true,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220013,7 +220259,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkAgility",
         "AllowBulkPurchase": true,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220057,7 +220303,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkWoodcutting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220101,7 +220347,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkWoodcutting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220145,7 +220391,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkWoodcutting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220189,7 +220435,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkWoodcutting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220233,7 +220479,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkFishing",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220277,7 +220523,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkFishing",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220321,7 +220567,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkFishing",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220365,7 +220611,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkFishing",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220409,7 +220655,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkMining",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220453,7 +220699,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkMining",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220497,7 +220743,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkMining",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220541,7 +220787,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkMining",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220585,7 +220831,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkWoodcutting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220629,7 +220875,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkWoodcutting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220673,7 +220919,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkWoodcutting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220717,7 +220963,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkWoodcutting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220761,7 +221007,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkFishing",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220805,7 +221051,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkFishing",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220849,7 +221095,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkFishing",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220893,7 +221139,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkFishing",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220937,7 +221183,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkMining",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -220981,7 +221227,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkMining",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221025,7 +221271,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkMining",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221069,7 +221315,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkMining",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221113,7 +221359,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkWoodcutting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221157,7 +221403,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkWoodcutting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221201,7 +221447,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkWoodcutting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221245,7 +221491,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkWoodcutting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221289,7 +221535,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkFishing",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221333,7 +221579,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkFishing",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221377,7 +221623,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkFishing",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221421,7 +221667,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkFishing",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221465,7 +221711,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkMining",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221509,7 +221755,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkMining",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221553,7 +221799,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkMining",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221597,7 +221843,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkMining",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221641,7 +221887,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkSmithing",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221685,7 +221931,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkSmithing",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221729,7 +221975,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkCrafting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221773,7 +222019,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkCrafting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221817,7 +222063,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkFletching",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221861,7 +222107,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkFletching",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221905,7 +222151,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkRunecrafting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221949,7 +222195,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkRunecrafting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -221993,7 +222239,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkBeastcrafting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -222037,7 +222283,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkBeastcrafting",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -222081,7 +222327,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkHerblore",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -222125,7 +222371,7 @@
           "Currencies": [],
           "Bonuses": null
         },
-        "Subcategory": "MelvorBase:AgilityMarkShop",
+        "Subcategory": "MelvorBase:AgilityMarkHerblore",
         "AllowBulkPurchase": false,
         "DefaultBuyLimit": 0,
         "ShowBuyLimit": false,
@@ -249475,13 +249721,33 @@
             }
           }
         ],
-        "CustomDescription": "即将推出",
+        "CustomDescription": null,
         "Rewards": {
           "Items": [],
           "Currencies": [],
           "Bonuses": {
             "Global": [],
-            "Component": [],
+            "Component": [
+              {
+                "Stat": {
+                  "StatsType": "MelvorBase:CookingAction",
+                  "Name": "FlatProficiency"
+                },
+                "Value": 30,
+                "LocalContext": {
+                  "Component": {
+                    "Entity": "MelvorBase:Cooking",
+                    "Component": "Action"
+                  },
+                  "Category": null,
+                  "Recipe": null,
+                  "Item": null
+                },
+                "FromContext": null,
+                "Condition": null,
+                "Scaling": null
+              }
+            ],
             "CombatEffect": []
           }
         }
@@ -353539,7 +353805,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 2
+              "Quantity": 1
             }
           ],
           "Currencies": []
@@ -353631,7 +353897,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 25
+              "Quantity": 17
             }
           ],
           "Currencies": []
@@ -353723,7 +353989,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 4
+              "Quantity": 3
             }
           ],
           "Currencies": []
@@ -353815,7 +354081,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 7
+              "Quantity": 5
             }
           ],
           "Currencies": []
@@ -353907,7 +354173,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 7
+              "Quantity": 5
             }
           ],
           "Currencies": []
@@ -353999,7 +354265,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 5
+              "Quantity": 3
             }
           ],
           "Currencies": []
@@ -354077,7 +354343,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 10
+              "Quantity": 7
             }
           ],
           "Currencies": []
@@ -354169,7 +354435,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 13
+              "Quantity": 9
             }
           ],
           "Currencies": []
@@ -354261,7 +354527,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 15
+              "Quantity": 10
             }
           ],
           "Currencies": []
@@ -354353,7 +354619,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 17
+              "Quantity": 11
             }
           ],
           "Currencies": []
@@ -354445,7 +354711,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 19
+              "Quantity": 13
             }
           ],
           "Currencies": []
@@ -354537,7 +354803,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 21
+              "Quantity": 14
             }
           ],
           "Currencies": []
@@ -354629,7 +354895,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 23
+              "Quantity": 15
             }
           ],
           "Currencies": []
@@ -354721,7 +354987,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 28
+              "Quantity": 19
             }
           ],
           "Currencies": []
@@ -354813,7 +355079,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 2
+              "Quantity": 1
             }
           ],
           "Currencies": []
@@ -354905,7 +355171,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 5
+              "Quantity": 3
             }
           ],
           "Currencies": []
@@ -354997,7 +355263,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 8
+              "Quantity": 5
             }
           ],
           "Currencies": []
@@ -355089,7 +355355,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 11
+              "Quantity": 7
             }
           ],
           "Currencies": []
@@ -355181,7 +355447,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 16
+              "Quantity": 11
             }
           ],
           "Currencies": []
@@ -355273,7 +355539,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 20
+              "Quantity": 13
             }
           ],
           "Currencies": []
@@ -355365,7 +355631,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 23
+              "Quantity": 15
             }
           ],
           "Currencies": []
@@ -355457,7 +355723,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 28
+              "Quantity": 19
             }
           ],
           "Currencies": []
@@ -356851,7 +357117,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 2
+              "Quantity": 1
             }
           ],
           "Currencies": []
@@ -356931,7 +357197,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 13
+              "Quantity": 9
             }
           ],
           "Currencies": []
@@ -357015,7 +357281,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 25
+              "Quantity": 17
             }
           ],
           "Currencies": []
@@ -357095,7 +357361,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 20
+              "Quantity": 13
             }
           ],
           "Currencies": []
@@ -357853,7 +358119,7 @@
           "Items": [
             {
               "Item": "MelvorBase:Wine",
-              "Quantity": 13
+              "Quantity": 9
             }
           ],
           "Currencies": []
@@ -375609,7 +375875,7 @@
       },
       {
         "Id": "WaterSpirit",
-        "DisplayName": "水域之灵",
+        "DisplayName": "流水之灵",
         "Icon": "res://Assets/Skills/Hunting/Species/WaterSpirit.png",
         "ExtraProducts": [
           {
@@ -377337,7 +377603,7 @@
       },
       {
         "Id": "Water",
-        "DisplayName": "水域",
+        "DisplayName": "流水",
         "Icon": "res://Assets/Icons/WaterElement.png"
       },
       {
@@ -417974,7 +418240,7 @@
               }
             },
             "Chance": 1,
-            "AppliesTo": "Target"
+            "AppliesTo": "Self"
           }
         ],
         "OnHitEffects": []
@@ -429609,7 +429875,7 @@
       },
       {
         "Id": "WaterVsFire",
-        "DisplayName": "水域 vs. 火焰",
+        "DisplayName": "流水 vs. 火焰",
         "PlayerElement": "MelvorBase:Water",
         "EnemyElement": "MelvorBase:Fire",
         "IsPositiveForPlayer": true,
@@ -429645,7 +429911,7 @@
       },
       {
         "Id": "WaterVsEarth",
-        "DisplayName": "水域 vs. 大地",
+        "DisplayName": "流水 vs. 大地",
         "PlayerElement": "MelvorBase:Water",
         "EnemyElement": "MelvorBase:Earth",
         "IsPositiveForPlayer": false,
@@ -429681,7 +429947,7 @@
       },
       {
         "Id": "EarthVsWater",
-        "DisplayName": "大地 vs. 水域",
+        "DisplayName": "大地 vs. 流水",
         "PlayerElement": "MelvorBase:Earth",
         "EnemyElement": "MelvorBase:Water",
         "IsPositiveForPlayer": true,
@@ -429789,7 +430055,7 @@
       },
       {
         "Id": "FireVsWater",
-        "DisplayName": "火焰 vs. 水域",
+        "DisplayName": "火焰 vs. 流水",
         "PlayerElement": "MelvorBase:Fire",
         "EnemyElement": "MelvorBase:Water",
         "IsPositiveForPlayer": false,
@@ -439804,7 +440070,7 @@
           }
         ],
         "DisplayRequirements": null,
-        "Description": "",
+        "Description": "Tough courses with speed-based rewards.",
         "IsTechniqueLocation": false,
         "StepAudio": null,
         "OnlyShowWhenRecipesAvailable": false,
@@ -444738,6 +445004,7 @@
         "AvailableDistractions": [
           "MelvorBase:BakedGoods",
           "MelvorBase:BlockedPassage",
+          "MelvorBase:CoalMiner",
           "MelvorBase:RarePickaxe"
         ],
         "StepAudio": null,
@@ -456222,7 +456489,7 @@
           {
             "Type": "MelvorBase:ItemStatistic",
             "Data": {
-              "Value": 11000,
+              "Value": 20000,
               "Statistic": "MelvorBase:HerbloreItemGained",
               "Item": "MelvorBase:SuperRunecraftingPotionP1A",
               "IsOr": false
@@ -469202,13 +469469,11 @@
         ],
         "Requirements": [
           {
-            "Type": "MelvorBase:Level",
+            "Type": "MelvorBase:ItemStatistic",
             "Data": {
-              "Component": {
-                "Entity": "MelvorBase:Mining",
-                "Component": "Experience"
-              },
-              "Level": 69,
+              "Value": 20000,
+              "Statistic": "MelvorBase:MiningItemGained",
+              "Item": "MelvorBase:Coal",
               "IsOr": false
             }
           }
@@ -472199,6 +472464,17 @@
                 "Component": "Player"
               },
               "Stance": "MelvorBase:LongRange"
+            }
+          },
+          {
+            "Type": "MelvorBase:CharacterUsingStance",
+            "Data": {
+              "IsOr": true,
+              "Component": {
+                "Entity": "MelvorBase:Combat",
+                "Component": "Player"
+              },
+              "Stance": "MelvorBase:Defensive"
             }
           }
         ]
@@ -489511,7 +489787,8 @@
         "AllowedCategories": [
           "MelvorBase:BeastWeapons",
           "MelvorBase:BeastArmour"
-        ]
+        ],
+        "DisallowedCategories": null
       }
     ],
     "SacrificialAnvilRewardMode": [
@@ -489658,7 +489935,10 @@
             "Weight": 1
           }
         ],
-        "AllowedCategories": null
+        "AllowedCategories": null,
+        "DisallowedCategories": [
+          "MelvorBase:Quests"
+        ]
       }
     ],
     "OvergrowthEffect": [
@@ -500204,7 +500484,47 @@
         },
         {
           "Priority": 0,
-          "Id": "MelvorBase:AgilityMarkShop"
+          "Id": "MelvorBase:AgilityMarkCombat"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:AgilityMarkAgility"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:AgilityMarkWoodcutting"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:AgilityMarkFishing"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:AgilityMarkMining"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:AgilityMarkSmithing"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:AgilityMarkCrafting"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:AgilityMarkFletching"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:AgilityMarkRunecrafting"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:AgilityMarkBeastcrafting"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:AgilityMarkHerblore"
         },
         {
           "Priority": 0,
@@ -500515,6 +500835,10 @@
         {
           "Priority": 0,
           "Id": "MelvorBase:BankSpaceCombat11"
+        },
+        {
+          "Priority": 0,
+          "Id": "MelvorBase:BankSpaceCombat12"
         },
         {
           "Priority": 0,
