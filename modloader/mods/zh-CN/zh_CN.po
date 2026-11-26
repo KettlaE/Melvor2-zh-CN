@@ -1799,8 +1799,8 @@ msgid ""
 "successfully pickpocketing {LocalContext.RecipeType.DisplayName} (No damage "
 "is taken upon a failed attempt)."
 msgstr ""
-"成功扒窃{LocalContext.RecipeType.DisplayName}时，{Value:+0.##%;-#.##%}将同一地点内所有未上锁的"
-"{LocalContext.RecipeType.DisplayName}一并带走（扒窃失败时不会受到伤害）。"
+"成功扒窃{LocalContext.RecipeType.DisplayName}时，有{Value:+0.##%;-#.##%}几率同时扒窃同一地点内所有已解锁的"
+"{LocalContext.RecipeType.DisplayName}（失败时不会受到伤害）。"
 
 #. TRANSLATORS: ComponentModifierDescription.TemplateString
 #: Data/Packages/MelvorBase.json
@@ -6201,7 +6201,7 @@ msgstr "远程连锁"
 #. TRANSLATORS: AttackCountingEffect.DisplayName
 #: Data/Packages/MelvorBase.json
 msgid "Protected"
-msgstr "已庇佑"
+msgstr "被庇佑"
 
 #. TRANSLATORS: DamageOverTimeEffect.DisplayName
 #: Data/Packages/MelvorBase.json

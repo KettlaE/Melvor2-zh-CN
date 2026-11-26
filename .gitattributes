@@ -1,10 +1,11 @@
-# Keep published overlay payload bytes stable across Windows/macOS checkouts
-# so SHA256SUMS.txt remains valid.
-override.cfg text eol=crlf
-tools/pack-release.ps1 text eol=crlf
-mod/zh_CN.po text eol=lf
-mod/zh_CN_patch.gd text eol=lf
-tools/convert_en_GB_to_zh_CN_po.py text eol=lf
-SHA256SUMS.txt text eol=lf
+# Keep text line endings stable across Windows/macOS checkouts
+overlay/override.cfg text eol=crlf
+overlay/mod/zh_CN.po text eol=lf
+overlay/mod/zh_CN_patch.gd text eol=lf
+modloader/mods/zh-CN/zh_CN.po text eol=lf
+modloader/mods/zh-CN/zh_CN_patch.gd text eol=lf
+modloader/mods/zh-CN/mod.json text eol=lf
+modloader/mods/zh-CN/README.md text eol=lf
+modloader/README.md text eol=lf
+*.dll binary
 *.zip binary
-*.sha256.txt text eol=lf
